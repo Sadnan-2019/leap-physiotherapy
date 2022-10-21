@@ -1,0 +1,113 @@
+.landing {
+     background-image:  linear-gradient(
+          to left,
+          rgba(800, 238, 234,  0),
+          rgba(230, 242, 244, 0.837)
+        ),
+       url("https://doctorguideonline.com/wp-content/uploads/2021/08/Labaid-Gulshan-Gynaecologist-Doctor-List.jpg");
+   
+     background-repeat: no-repeat;
+     background-size: cover;
+   
+     height: auto;
+     background-position: center;
+     /* background-attachment: fixed; */
+   }
+
+
+   /* @media only screen and (max-width: 375px) {
+     .landing {
+       width: 100%;
+       background-image: linear-gradient(
+           to left,
+           rgba(243, 238, 234, 0),
+           rgba(230, 242, 244, 0.837)
+         ),
+         url("https://doctorguideonline.com/wp-content/uploads/2021/08/Labaid-Gulshan-Gynaecologist-Doctor-List.jpg");
+       height: auto;
+   
+       background-size: contain;
+       background-size: cover;
+   
+       background-size: 100% 75%;
+   
+       background-repeat: no-repeat;
+     }
+   } */
+   /* @media only screen and (min-width: 380px) and (max-width: 540px) {
+     .landing {
+       width: 100%;
+       background-image: linear-gradient(
+           to left,
+           rgba(243, 238, 234, 0),
+           rgba(230, 242, 244, 0.837)
+         ),
+         url("https://doctorguideonline.com/wp-content/uploads/2021/08/Labaid-Gulshan-Gynaecologist-Doctor-List.jpg");
+       height: auto;
+   
+       background-size: contain;
+       background-size: cover;
+   
+       background-size: auto 90%;
+   
+       background-repeat: no-repeat;
+     }
+   } */
+   /* @media only screen and (min-width: 447px) and (max-width: 767px) {
+     .landing {
+       width: 100%;
+       background-image: linear-gradient( 
+           to left,
+           rgba(243, 238, 234, 0),
+           rgba(230, 242, 244, 0.837)
+         ),
+         url("https://doctorguideonline.com/wp-content/uploads/2021/08/Labaid-Gulshan-Gynaecologist-Doctor-List.jpg");
+       height: auto;
+   
+       background-size: contain;
+       background-size: cover;
+   
+       background-size: auto 100%;
+   
+       background-repeat: no-repeat;
+     }
+   }
+   
+   @media only screen and (min-width: 540px) and (max-width: 725px) {
+     .landing {
+       width: 100%;
+       background-image: linear-gradient(
+           to left,
+           rgba(243, 238, 234, 0),
+           rgba(230, 242, 244, 0.837)
+         ),
+         url("https://doctorguideonline.com/wp-content/uploads/2021/08/Labaid-Gulshan-Gynaecologist-Doctor-List.jpg");
+       height: auto;
+   
+       background-size: contain;
+       background-size: cover;
+   
+       background-size: auto 100%;
+   
+       background-repeat: no-repeat;
+     }
+   }
+   @media only screen and (min-width: 725px) and (max-width: 1000px) {
+     .landing {
+       width: 100%;
+       background-image: linear-gradient(
+           to left,
+           rgba(243, 238, 234, 0),
+           rgba(230, 242, 244, 0.837)
+         ),
+         url("https://doctorguideonline.com/wp-content/uploads/2021/08/Labaid-Gulshan-Gynaecologist-Doctor-List.jpg");
+       height: auto;
+   
+       background-size: contain;
+       background-size: cover;
+   
+       background-size: 100% 90%;
+   
+       background-repeat: no-repeat;
+     }
+   } */
