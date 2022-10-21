@@ -163,15 +163,16 @@ const Nav = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow   w-52"
             >
               {navItem}
             </ul>
+            
           </div>
           <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal p-0">{navItem}</ul>
+          <ul className="  menu-horizontal p-0">{navItem}</ul>
         </div>
         <div className="navbar-end">
           <a className="btn">Get started</a>
