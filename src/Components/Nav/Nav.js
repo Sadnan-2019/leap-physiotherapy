@@ -26,6 +26,16 @@ const Nav = () => {
           Physiotherapy
         </NavLink>
       </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/rehabilitation
+          "
+        >
+          Rehabilitation
+
+        </NavLink>
+      </li>
       <li className="nav-item p-2 	">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
