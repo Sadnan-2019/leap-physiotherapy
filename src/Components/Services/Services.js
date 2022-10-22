@@ -20,13 +20,14 @@ const Services = () => {
               backgroundColor: "white",
               borderRadius: "25px",
               color: "#CB052F",
+              height:"200px"
             }}
           >
             <div>
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Neuro.png "
-                className="w-72 h-36 "
+                className="w-62 h-36 "
                 alt=""
               />{" "}
             </div>
@@ -53,13 +54,14 @@ const Services = () => {
               backgroundColor: "white",
               borderRadius: "25px",
               color: "#CB052F",
+              height:"200px"
             }}
           >
             <div>
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Respiratory.png "
-                className="w-72 h-36 "
+                className="w-62 h-36  "
                 alt=""
               />{" "}
             </div>
@@ -85,21 +87,21 @@ const Services = () => {
               backgroundColor: "white",
               borderRadius: "25px",
               color: "#CB052F",
+              height:"200px"
             }}
           >
             <div>
               {" "}
               <img
-                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Respiratory.png "
-                className="w-72 h-36 "
+                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Sports-Injuries.png "
+                className="w-62 h-36 "
                 alt=""
               />{" "}
             </div>
             <div className=" ">
-              <h2 className="text-2xl font-bold ">Chest Physio</h2>
+              <h2 className="text-2xl font-bold ">Sporting Injuries & Pain</h2>
               <p className="text-[15px]">
-                Respiratory physiotherapy helps treat, educate and advise people
-                who have problems with their lungs and heart.
+              Restoring normal function post-injury and pain management of acute or chronic conditions
               </p>
               <div className="  mt-5">
                 <button
@@ -112,26 +114,26 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className="        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
               color: "#CB052F",
+              height:"200px"
             }}
           >
             <div>
               {" "}
               <img
-                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Respiratory.png "
-                className="w-72 h-36 "
+                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Oncology.png "
+                className="w-62 h-36 "
                 alt=""
               />{" "}
             </div>
             <div className=" ">
-              <h2 className="text-2xl font-bold ">Chest Physio</h2>
+              <h2 className="text-2xl font-bold ">Oncology</h2>
               <p className="text-[15px]">
-                Respiratory physiotherapy helps treat, educate and advise people
-                who have problems with their lungs and heart.
+              Cancer and its treatment can take its toll on a person’s health, function and wellbeing, causing physical symptoms.
               </p>
               <div className="  mt-5">
                 <button
@@ -144,26 +146,90 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
               color: "#CB052F",
+              height:"200px"
             }}
           >
             <div>
               {" "}
               <img
-                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Respiratory.png "
-                className="w-72 h-36 "
+                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Orthopaedic.png "
+                className="w-62 h-36 "
                 alt=""
               />{" "}
             </div>
             <div className=" ">
-              <h2 className="text-2xl font-bold ">Chest Physio</h2>
+              <h2 className="text-2xl font-bold ">Pre & Post Surgery</h2>
               <p className="text-[15px]">
-                Respiratory physiotherapy helps treat, educate and advise people
-                who have problems with their lungs and heart.
+              A plan to prepare for surgery, optimise strength, function and mobility afterwards
+              </p>
+              <div className="  mt-5">
+                <button
+                  className="btn  "
+                  style={{ backgroundColor: "#CB052F" }}
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            style={{
+              backgroundColor: "white",
+              borderRadius: "25px",
+              color: "#CB052F",
+              height:"200px"
+            }}
+          >
+            <div>
+              {" "}
+              <img
+                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Orthopaedic.png "
+                className="w-62 h-36 "
+                alt=""
+              />{" "}
+            </div>
+            <div className=" ">
+              <h2 className="text-2xl font-bold ">Pre & Post Surgery</h2>
+              <p className="text-[15px]">
+              A plan to prepare for surgery, optimise strength, function and mobility afterwards
+              </p>
+              <div className="  mt-5">
+                <button
+                  className="btn  "
+                  style={{ backgroundColor: "#CB052F" }}
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            style={{
+              backgroundColor: "white",
+              borderRadius: "25px",
+              color: "#CB052F",
+              height:"200px"
+            }}
+          >
+            <div>
+              {" "}
+              <img
+                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Orthopaedic.png "
+                className="w-62 h-36 "
+                alt=""
+              />{" "}
+            </div>
+            <div className=" ">
+              <h2 className="text-2xl font-bold ">Pre & Post Surgery</h2>
+              <p className="text-[15px]">
+              A plan to prepare for surgery, optimise strength, function and mobility afterwards
               </p>
               <div className="  mt-5">
                 <button
