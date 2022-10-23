@@ -19,10 +19,10 @@ const Services = () => {
             className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
 
             
-            data-aos="fade-up-right"
-            data-aos-offset="300"
-            data-aos-delay="5000"
-            data-aos-duration="3000"
+            // data-aos="fade-up-right"
+            // data-aos-offset="300"
+            // data-aos-delay="5000"
+            // data-aos-duration="3000"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
