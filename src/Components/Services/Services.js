@@ -17,6 +17,12 @@ const Services = () => {
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  mx-10 gap-10    py-[25px]">
           <div
             className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+
+            
+            data-aos="fade-up-right"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -24,11 +30,11 @@ const Services = () => {
               height: "200px",
             }}
           >
-            <div>
+            <div className="">
               {" "}
               <img src={physio} className="w-62 h-36 " alt="" />{" "}
             </div>
-            <div className=" ">
+            <div className=" "   >
               <h2 className="text-2xl font-bold "> Physiotherapy </h2>
               <p className="text-[15px]">
                 Experience the best physiotherapy services at LEAP to improve

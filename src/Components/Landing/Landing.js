@@ -76,7 +76,7 @@ const Landing = () => {
                   </p>
                 </div> */}
                 <p
-                  data-aos="fade-up"
+                  data-aos="fade-right"
                   data-aos-duration="1000"
                   className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
                   style={{ lineHeight: "120%", color: "#001E36" }}
@@ -85,7 +85,7 @@ const Landing = () => {
                 </p>
 
                 <p
-                  data-aos="fade-up"
+                  data-aos="fade-right"
                   data-aos-duration="2000"
                   className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t    "
                   style={{ lineHeight: "120%", color: "#001E36" }}
