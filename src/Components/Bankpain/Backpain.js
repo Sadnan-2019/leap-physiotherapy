@@ -9,7 +9,8 @@ const Backpain = () => {
          
             <img src={pain} alt="Album" />
            
-          <div className="card-body">
+          <div className="card-body" data-aos="fade-right"
+                  data-aos-duration="1000">
             <h2 className="card-title font-bold">
               PRIVATE BACK & SPINE TREATMENTS & SURGERY
             </h2>
