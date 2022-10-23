@@ -59,7 +59,7 @@ const Landing = () => {
     </section>       */}
 
       <div className="   landing">
-        <div className="hero-overlay bg-opacity-60"></div>
+        <div className=" "></div>
         <div className="   text-neutral-content">
           <div className=" ">
             <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
@@ -79,18 +79,20 @@ const Landing = () => {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                   className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
-                  style={{ lineHeight: "120%", color: "#CB052F" }}
+                  style={{ lineHeight: "120%", color: "#001E36" }}
                 >
-                  Welcome to The Physiotherapy and Rehabilitation Clinic Ltd
+                  Welcome to The LEAP Physiotherapy
                 </p>
 
                 <p
                   data-aos="fade-up"
                   data-aos-duration="2000"
                   className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t    "
-                  style={{ lineHeight: "120%", color: "#CB052F" }}
+                  style={{ lineHeight: "120%", color: "#001E36" }}
                 >
-                  Be seen by a Consultant expert in as little as 24 hours
+                  Be seen by a Consultant expert in our physiotherapy center & get the best physiotherapy in the country.
+                  We have state of the art equipments & qualified professionals to
+                  heal your pain & suffering.
                 </p>
 
                 {/* <div className="flex items-center mt-2 font-bold">
@@ -115,7 +117,7 @@ const Landing = () => {
                   <Link
                     className="hidden  md:inline-flex items-center   md:px-8 md:py-3  border   rounded hover:bg-transparent active:text-primary focus:outline-none focus:ring transition ease-in-out delay-150  text-white hover:text-black"
                     to="/"
-                    style={{ backgroundColor: "#CB052F", color: "white" }}
+                    style={{ backgroundColor: "#3E84DC", color: "white" }}
                   >
                     <span className="text-sm font-medium"> More</span>
                     <BsArrowRight className="text-lg ml-2" />

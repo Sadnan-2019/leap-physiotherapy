@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+// import logo from "../../assets/logo.png"
+
 
 const Nav = () => {
   const active =
@@ -49,7 +51,7 @@ const Nav = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/nursing"
         >
-          Pre & Post Operative Rehabilitation
+       Operative Rehabilitation
         </NavLink>
       </li>
       {/* <li className="nav-item p-2">
@@ -152,7 +154,7 @@ const Nav = () => {
   );
   return (
     <div>
-      <div className="navbar  " style={{ backgroundColor: "#CB052F" }}>
+      <div className="navbar  " style={{ backgroundColor: "#3E84DC" }}>
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -179,7 +181,7 @@ const Nav = () => {
             </ul>
             
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          {/* <a className=" normal-case text-xl"><img className="w-24"  src={logo} alt=""/></a> */}
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="  menu-horizontal p-0">{navItem}</ul>
