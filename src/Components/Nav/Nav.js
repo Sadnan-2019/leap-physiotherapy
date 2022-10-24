@@ -32,7 +32,9 @@ const Nav = () => {
           className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
           style={{ backgroundColor: "#3E84DC" }}
         >
-          <li className="nav-item p-2">
+          <li className="dropdown dropdown-hover hover:border-none ">
+          <div>
+            <li className="nav-item p-2   ">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -42,14 +44,21 @@ const Nav = () => {
               Physiotherapy
             </NavLink>
           </li>
+          
+          </div>
+          <ul
+          tabIndex={0}
+          className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
+          style={{ backgroundColor: "#3E84DC" }}
+        >
           <li className="nav-item p-2">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
               }
-              to="/about"
+              to="/back-pain"
             >
-              About
+              Back Pain
             </NavLink>
           </li>
           <li className="nav-item p-2">
@@ -57,11 +66,55 @@ const Nav = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
               }
-              to="/contact"
+              to="/neck-pain"
             >
-              Contact
+              Neck Pain
             </NavLink>
           </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/shoulder-pain"
+            >
+              Shoulder Pain
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/elbow-pain"
+            >
+              Elbow Pain
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/knee-pain"
+            >
+              Knee Pain
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/sports-injury"
+            >
+              Sports Injury
+            </NavLink>
+          </li>
+        </ul>
+
+          </li>
+           
         </ul>
       </li>
       <li className="dropdown dropdown-hover hover:border-none      ">
@@ -151,9 +204,9 @@ const Nav = () => {
       <li className="nav-item p-2 	">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/about"
+          to="/testimonials"
         >
-          About
+          Testimonials
         </NavLink>
       </li>
       <li className=" nav-item  p-2   	">
@@ -162,6 +215,23 @@ const Nav = () => {
           to="/blog"
         >
           Blog
+        </NavLink>
+      </li>
+      <li className="nav-item p-2 	">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/about"
+        >
+          About
+        </NavLink>
+      </li>
+
+      <li className="nav-item p-2 	">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/contact"
+        >
+          Contacts
         </NavLink>
       </li>
     </>
