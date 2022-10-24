@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-// import logo from "../../assets/logo.png"h
+import logo from "../../assets/logo.png"
 
 const Nav = () => {
   const active =
@@ -264,14 +264,14 @@ const Nav = () => {
               {navItem}
             </ul>
           </div>
-          {/* <a className=" normal-case text-xl"><img className="w-24"  src={logo} alt=""/></a> */}
+          {/* <a className=" normal-case text-xl"><img className="w-44 border-double border-4 border-red-600"  src="https://i.ibb.co/S552qph/309431358-609797167604057-6640845708845447113-n.jpg" alt=""/></a> */}
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="  menu-horizontal p-0">{navItem}</ul>
         </div>
-        <div className="navbar-end">
+        {/* <div className="navbar-end">
           <a className="btn">Get started</a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

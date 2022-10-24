@@ -150,40 +150,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div
-            className="        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
-            style={{
-              backgroundColor: "white",
-              borderRadius: "25px",
-              color: "#3E84DC",
-              height: "200px",
-            }}
-          >
-            <div>
-              {" "}
-              <img
-                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Oncology.png "
-                className="w-62 h-36 "
-                alt=""
-              />{" "}
-            </div>
-            <div className=" ">
-              <h2 className="text-2xl font-bold ">Oncology</h2>
-              <p className="text-[15px]">
-                Cancer and its treatment can take its toll on a person’s health,
-                function and wellbeing, causing physical symptoms.Physiotherapy
-                offers treatment that will improve movement & pain.
-              </p>
-              <div className="card-actions justify-end   mt-5">
-                <button
-                  className="btn  "
-                  style={{ backgroundColor: "#3E84DC" }}
-                >
-                  Details
-                </button>
-              </div>
-            </div>
-          </div>
+           
           <div
             className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{

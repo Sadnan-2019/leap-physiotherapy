@@ -13,7 +13,10 @@
      background-position: center;
      /* background-attachment: fixed; */
    }
-
+   .slick-prev:before,
+   .slick-next:before {
+     color: rgb(108, 69, 222);
+   }
 
    /* @media only screen and (max-width: 375px) {
      .landing {
