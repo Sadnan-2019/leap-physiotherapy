@@ -1,7 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 // import logo from "../../assets/logo.png"h
-
 
 const Nav = () => {
   const active =
@@ -19,137 +18,152 @@ const Nav = () => {
           Home
         </NavLink>
       </li>
-
-      <li className="nav-item p-2">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/physiotherapy"
-        >
-          Physiotherapy
-        </NavLink>
-      </li>
-      <li className="nav-item p-2">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/rehabilitation
-          "
-        >
-          Rehabilitation
-
-        </NavLink>
-      </li>
-      <li className="nav-item p-2 	">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/spinal-pain"
-        >
-          Spinal Pain
-        </NavLink>
-      </li>
-      <li className="nav-item p-2 	">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/nursing"
-        >
-       Operative Rehabilitation
-        </NavLink>
-      </li>
-      {/* <li className="nav-item p-2">
-              <NavLink
-                className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-                to="/medical-assistant"
-              >
-                Medical Assistant
-              </NavLink>
-            </li>
-            <li className="nav-item p-2">
-              <NavLink
-                className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-                to="/medical-caregiver"
-              >
-                Medical Caregiver
-              </NavLink>
-            </li>
-            <li className="nav-item p-2">
-              <NavLink
-                className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-                to="/caregiver"
-              >
-                Caregiver
-              </NavLink>
-            </li>
-            
-            <li className="nav-item p-2">
-              <NavLink
-                className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-                to="/nanycare"
-              >
-                Nanycare
-              </NavLink>
-            </li>
-            <li className="nav-item p-2">
-              <NavLink
-                className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-                to="/companion"
-              >
-                Companionship 
-              </NavLink>
-            </li>
-            <li className="nav-item p-2">
-              <NavLink
-                className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-                to="/medical-equipment"
-              >
-                Medical Equipment
-              </NavLink>
-            </li> */}
-
-      {/* <li className="dropdown dropdown-hover hover:border-none" style={{ backgroundColor: "#453364" }} > 
-             
-        <div className="flex items-center">
-        <label tabIndex={0} className="m-1 text-white" style={{ backgroundColor: "#453364" }}>More</label>
-        <svg
-                  class="fill-current h-4 w-4 text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{" "}
-                </svg>
+      <li className="dropdown dropdown-hover hover:border-none      ">
+        <div className=" ">
+          <li tabIndex={0} className="nav-item p-2   text-white ">
+            <NavLink className="mx-1 text-white-600 font-medium font-bold focus:text-white   lg:text-white ">
+              Services
+            </NavLink>
+          </li>
         </div>
-        
-        
-        
-        <ul tabIndex={0} className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52" style={{ backgroundColor: "#453364" }}>
-        <li className="nav-item p-2">
-              <NavLink
-                className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-                to="/blog"
-              >
-                Blog
-              </NavLink>
-            </li>
-            <li className="nav-item p-2">
-              <NavLink
-                className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-                to="/about"
-              >
-                About
-              </NavLink>
-            </li>
-            <li className="nav-item p-2">
-              <NavLink
-                className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-                to="/contact"
-              >
-                Contact
-              </NavLink>
-            </li>
+
+        <ul
+          tabIndex={0}
+          className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
+          style={{ backgroundColor: "#3E84DC" }}
+        >
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/blog"
+            >
+              Physiotherapy
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/about"
+            >
+              About
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/contact"
+            >
+              Contact
+            </NavLink>
+          </li>
         </ul>
-       
-      
-      
-            </li>
-       */}
+      </li>
+      <li className="dropdown dropdown-hover hover:border-none      ">
+        <div className=" ">
+          <li tabIndex={0} className="nav-item p-2   text-white ">
+            <NavLink className="mx-1 text-white-600 font-medium font-bold focus:text-white   lg:text-white ">
+              Conditions
+            </NavLink>
+          </li>
+        </div>
+
+        <ul
+          tabIndex={0}
+          className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
+          style={{ backgroundColor: "#3E84DC" }}
+        >
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/back-pain"
+            >
+              Back Pain
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/neck-pain"
+            >
+              Neck Pain
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/shoulder-pain"
+            >
+              Shoulder Pain
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/elbow-pain"
+            >
+              Elbow Pain
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/knee-pain"
+            >
+              Knee Pain
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/sports-injury"
+            >
+              Sports Injury
+            </NavLink>
+          </li>
+        </ul>
+      </li>
+      <li className="nav-item p-2 	">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/team"
+        >
+          Meet The Team
+        </NavLink>
+      </li>
+      <li className="nav-item p-2 	">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/about"
+        >
+          About
+        </NavLink>
+      </li>
+      <li className=" nav-item  p-2   	">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/blog"
+        >
+          Blog
+        </NavLink>
+      </li>
     </>
   );
   return (
@@ -179,7 +193,6 @@ const Nav = () => {
             >
               {navItem}
             </ul>
-            
           </div>
           {/* <a className=" normal-case text-xl"><img className="w-24"  src={logo} alt=""/></a> */}
         </div>
