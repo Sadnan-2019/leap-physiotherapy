@@ -1,6 +1,10 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import logo from "../../assets/logo.png"
+import { FaFacebookSquare } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
+import { TiSocialTwitter } from "react-icons/ti";
+import { TiSocialInstagram } from "react-icons/ti";
 
 const Nav = () => {
   const active =
@@ -264,7 +268,12 @@ const Nav = () => {
               {navItem}
             </ul>
           </div>
-          {/* <a className=" normal-case text-xl"><img className="w-44 border-double border-4 border-red-600"  src="https://i.ibb.co/S552qph/309431358-609797167604057-6640845708845447113-n.jpg" alt=""/></a> */}
+          <div className="flex justify-items-center items-center gap-2 ">
+          <FaFacebookSquare className="text-lg ml-2 text-white" />
+          <BsLinkedin className="text-lg ml-2 text-white" />
+          <TiSocialTwitter className="text-lg ml-2 text-white" />
+          <TiSocialInstagram className="text-lg ml-2 text-white" />
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="  menu-horizontal p-0">{navItem}</ul>
