@@ -14,9 +14,9 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  mx-10 gap-10    py-[25px]">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-12 gap-10    py-[25px] items-center justify-items-center">
           <div
-            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className="      w-5/6 flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
 
             
             // data-aos="fade-up-right"
@@ -51,7 +51,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className="   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -85,7 +85,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className="   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -118,7 +118,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className="  w-5/6      flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -152,7 +152,7 @@ const Services = () => {
           </div>
            
           <div
-            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            className="   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -185,7 +185,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            className="   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -218,7 +218,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            className=" w-5/6       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
