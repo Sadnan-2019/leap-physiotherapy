@@ -4,6 +4,7 @@ import Backpain from '../Bankpain/Backpain';
 import Landing from '../Landing/Landing';
 import Landingnew from '../Landing/Landingnew';
 import MedicalConditions from '../MedicalConditions/MedicalConditions';
+import Review from '../Review/Review';
 import Services from '../Services/Services';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
            <Landingnew/> 
            <MedicalConditions></MedicalConditions>
            <Services/>
+           <Review></Review>
            {/* <Backpain/> */}
           </div>
      );

@@ -6,7 +6,7 @@ const MedicalConditions = () => {
         <div>
             <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
         <h2 className="text-xl text-center   font-bold poppins-b lg:text-4xl  " style={{ color: "#3E84DC" }}>
-        We Treat the following Medical Conditions:        </h2>
+        We Treat the following Medical Conditions        </h2>
         {/* <h1
             className="  w-64 h-1 rounded-lg mt-2 mb-4 mx-auto"
             style={{ backgroundColor: "#453364" }}
@@ -88,24 +88,27 @@ const MedicalConditions = () => {
         </div>
         <div className=" 	 mx-10     ">
           <img
-           src="https://cdn-icons-png.flaticon.com/512/4200/4200743.png"
+           src="https://walterroadchiropractic.com.au/wp-content/uploads/2020/03/chiropractic-1024x681-696x463-1.jpg"
             alt="Shoes"
-            className=" w-52       "
+            className=" w-52  rounded-full       "
           />
+           <p className='text-center font-bold text-xl py-2'>Referred Pain</p>
         </div>
         <div className=" 	 mx-10     ">
           <img
-           src="https://cdn-icons-png.flaticon.com/512/4200/4200743.png"
+           src="https://blogs.nottingham.ac.uk/msk/files/2020/03/Hand-OA-2-e1583155339224.jpg"
             alt="Shoes"
-            className=" w-52       "
+            className=" w-52  rounded-full         "
           />
+                     <p className='text-center font-bold text-xl py-2'>Osteoarthritis</p>
         </div>
         <div className=" 	 mx-10     ">
           <img
-           src="https://cdn-icons-png.flaticon.com/512/4200/4200743.png"
+           src="https://www.homage.sg/wp-content/uploads/2020/11/bigstock-Knee-Injuries-Sport-Woman-Wit-354877691-e1609312492149.jpg"
             alt="Shoes"
-            className=" w-52       "
+            className=" w-52 rounded-full         "
           />
+          <p className='text-center font-bold text-xl py-2'>Any Sports Injury</p>
         </div>
         
        
