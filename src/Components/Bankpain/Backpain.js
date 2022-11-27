@@ -6,27 +6,52 @@ const Backpain = () => {
     <div>
       <div className="py-10 px-10">
         <div className=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2  bg-base-100 shadow-xl">
-         
-            <img src={pain} alt="Album" />
-           
-          <div className="card-body" data-aos="fade-right"
-                  data-aos-duration="1000">
+          {/* <img src={pain} alt="Album" /> */}
+          <div className="sm:h-80  sm:w-5/6 lg:w-5/6 h-96">
+            {/* <img src="https://idiary.in/Images/snap2.jpg" alt="Album" /> */}
+
+            {/* <iframe
+              src="https://youtu.be/vQgG_TKtpU0"
+              title="Corporate Video Production Marketing Videos - How To Make Great Marketing Videos"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="sm:h-80 sm:w-5/6 lg:w-5/6 h-96 "
+            ></iframe> */}
+            <iframe
+              width="546"
+              height="307"
+              src="https://www.youtube.com/embed/vQgG_TKtpU0"
+              title="London Physiotherapy & Wellness Clinic"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div
+            className="card-body"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <h2 className="card-title font-bold">Physiotherapy</h2>
             <h2 className="card-title font-bold">
-              PRIVATE BACK & SPINE TREATMENTS & SURGERY
+              In Clinic, At Home, Virtual
             </h2>
             <p>
-              Back pain is extremely common and may affect you at any time in
-              your life. It may happen when you lift objects or fall – or simply
-              for no reason at all. Although most episodes will be short, some
-              don’t go away. When this happens, getting the right help as
-              quickly as possible allows you to get on with living again. If you
-              have a bad back, our team of back pain experts in London can
-              diagnose your condition, explain your options and help you to
-              recover quickly. We have everything under one roof at our back
-              pain clinic. Working as a team, we have one aim – your recovery.
+              Our highly qualified and experienced teams use the most up-to-date
+              techniques to swiftly and smoothly repair your body, with the goal
+              of long-term wellness. They will help you identify any potential
+              underlying causes such as diet, exercise, and posture. Book a
+              session with our physio today and bounce back better.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn  " style={{ backgroundColor: "#3E84DC", color: "white" }}>Contact us</button>
+              <button
+                className="btn  "
+                style={{ backgroundColor: "#3E84DC", color: "white" }}
+              >
+                Contact us
+              </button>
             </div>
           </div>
         </div>

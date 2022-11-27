@@ -14,7 +14,7 @@ const Home = () => {
            <MedicalConditions></MedicalConditions>
            <Services/>
            <Review></Review>
-           {/* <Backpain/> */}
+           <Backpain/>
           </div>
      );
 };
