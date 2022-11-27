@@ -61,7 +61,7 @@ const Landingnew = () => {
    <div
          className="hero min-h-screen"
          style={{
-           backgroundImage: `url("https://doctorguideonline.com/wp-content/uploads/2021/08/Labaid-Gulshan-Gynaecologist-Doctor-List.jpg")`,
+           backgroundImage: `url("https://t4.ftcdn.net/jpg/02/57/00/79/360_F_257007919_4J2jQTuOlxXBxCu4gj1at3BS3PHdb9LV.jpg")`,
          }}
        >
          <div className="hero-overlay bg-opacity-60"></div>
