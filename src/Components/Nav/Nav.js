@@ -62,7 +62,7 @@ const Nav = () => {
               }
               to="/back-pain"
             >
-              Back Pain
+              Electrotherapy
             </NavLink>
           </li>
           <li className="nav-item p-2">
@@ -72,7 +72,7 @@ const Nav = () => {
               }
               to="/neck-pain"
             >
-              Neck Pain
+              Manual Therapy
             </NavLink>
           </li>
           <li className="nav-item p-2">
@@ -82,7 +82,7 @@ const Nav = () => {
               }
               to="/shoulder-pain"
             >
-              Shoulder Pain
+              Sports Injuries
             </NavLink>
           </li>
           <li className="nav-item p-2">
@@ -92,7 +92,7 @@ const Nav = () => {
               }
               to="/elbow-pain"
             >
-              Elbow Pain
+              Rehabilitation
             </NavLink>
           </li>
           <li className="nav-item p-2">
@@ -102,7 +102,7 @@ const Nav = () => {
               }
               to="/knee-pain"
             >
-              Knee Pain
+              Therapeutic exercise
             </NavLink>
           </li>
           <li className="nav-item p-2">
@@ -112,7 +112,17 @@ const Nav = () => {
               }
               to="/sports-injury"
             >
-              Sports Injury
+              Kinesio Taping
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${normal}`
+              }
+              to="/dryneedling-acupuncture"
+            >
+             Dry <br></br>needling/Acupuncture
             </NavLink>
           </li>
         </ul>
