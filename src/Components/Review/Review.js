@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import { AiFillStar } from "react-icons/ai";
 
 const Review = () => {
     var settings = {
@@ -69,7 +70,17 @@ const Review = () => {
                     </div>
                 </figcaption>
             </figure>
+            <div className="flex items-center justify-center gap-2  ">
+              <p className="text-white text-sm lg:text-2xl font-bold	">4.8 </p>
+              <AiFillStar className="text-black" />
+              <AiFillStar className="text-black" />
+              <AiFillStar className="text-black" />
+              <AiFillStar className="text-black" />
+              <AiFillStar className="text-black" />
+               
+            </div>
         </div>
+        
       </section>
 
 
