@@ -32,7 +32,7 @@ const Services = () => {
           >
             <div className="">
               {" "}
-              <img src="https://cdn-icons-png.flaticon.com/512/5038/5038012.png" className="w-62 h-36 " alt="" />{" "}
+              <img src={physio} className="w-62 h-36 " alt="" />{" "}
             </div>
             <div className=" text-white"   >
               <h2 className="text-2xl font-bold "> Physiotherapy </h2>
