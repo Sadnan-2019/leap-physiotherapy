@@ -16,7 +16,7 @@ const Services = () => {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-12 gap-10    py-[25px] items-center justify-items-center">
           <div
-            className="      w-5/6 flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499]    w-5/6 flex items-center justify-center	 gap-5      shadow-2xl shadow-white-1000/50 border    p-10"
 
             
             // data-aos="fade-up-right"
@@ -24,7 +24,7 @@ const Services = () => {
             // data-aos-delay="5000"
             // data-aos-duration="3000"
             style={{
-              backgroundColor: "white",
+              
               borderRadius: "25px",
               color: "#3E84DC",
               height: "200px",
@@ -34,7 +34,7 @@ const Services = () => {
               {" "}
               <img src={physio} className="w-62 h-36 " alt="" />{" "}
             </div>
-            <div className=" "   >
+            <div className=" text-white"   >
               <h2 className="text-2xl font-bold "> Physiotherapy </h2>
               <p className="text-[15px]">
                 Experience the best physiotherapy services at LEAP to improve
@@ -85,7 +85,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -101,7 +101,7 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className=" ">
+            <div className=" text-white">
               <h2 className="text-2xl font-bold ">Chest Physio</h2>
               <p className="text-[15px]">
                 Respiratory physiotherapy helps treat, educate and advise people

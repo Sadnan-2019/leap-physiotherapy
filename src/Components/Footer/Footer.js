@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png"
 const Footer = () => {
      return (
           <div className=' '>
-            <footer className="footer p-10    text-white" style={{ backgroundColor: "#3E84DC" }}>
+            <footer className="footer p-10 bg-gradient-to-r from-[#034ca7]  to-[#5f7499]    text-white"  >
   <div>
     <span className="footer-title">Services</span> 
     <a className="link link-hover">Branding</a> 
@@ -25,7 +25,7 @@ const Footer = () => {
     <a className="link link-hover">Cookie policy</a>
   </div>
 </footer> 
-<footer className="footer px-10 py-4 border-t   text-white " style={{ backgroundColor: "#3E84DC" }}>
+<footer className="footer px-10 py-4 border-t   text-white bg-gradient-to-r from-[#034ca7]  to-[#5f7499]"  >
   <div className="items-center grid-flow-col">
     <img className='w-32' src={logo}/>
     <p className='font-bold text-xl'>LEAP Physiotherapy </p>
