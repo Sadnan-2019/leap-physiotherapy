@@ -1,5 +1,5 @@
 import React from "react";
-import physio from "../../assets/servicephysio.jpg";
+import physio from "../../assets/servicephysio.png";
 
 const Services = () => {
   return (
@@ -26,13 +26,13 @@ const Services = () => {
             style={{
               
               borderRadius: "25px",
-              color: "#3E84DC",
+              color: "white",
               height: "200px",
             }}
           >
             <div className="">
               {" "}
-              <img src={physio} className="w-62 h-36 " alt="" />{" "}
+              <img src="https://cdn-icons-png.flaticon.com/512/5038/5038012.png" className="w-62 h-36 " alt="" />{" "}
             </div>
             <div className=" text-white"   >
               <h2 className="text-2xl font-bold "> Physiotherapy </h2>
@@ -51,11 +51,11 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
-              color: "#3E84DC",
+            
               height: "200px",
             }}
           >
@@ -67,7 +67,7 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className=" ">
+            <div className="text-white ">
               <h2 className="text-2xl font-bold ">Rehabilitation</h2>
               <p className="text-[15px]">
                 Rehabilitation   aims to improve function, reduce symptoms
@@ -118,11 +118,11 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="  w-5/6      flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  w-5/6      flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
-              color: "#3E84DC",
+              
               height: "200px",
             }}
           >
@@ -134,7 +134,7 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className=" ">
+            <div className="text-white ">
               <h2 className="text-2xl font-bold ">Sporting Injuries & Pain</h2>
               <p className="text-[15px]">
                 Restoring normal function post-injury and pain management of
@@ -152,11 +152,11 @@ const Services = () => {
           </div>
            
           <div
-            className="   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
-              color: "#3E84DC",
+             
               height: "200px",
             }}
           >
@@ -168,7 +168,7 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className=" ">
+            <div className="text-white ">
               <h2 className="text-2xl font-bold ">Pre & Post Surgery</h2>
               <p className="text-[15px]">
                 A plan to prepare for surgery, optimize strength, function and
@@ -185,11 +185,11 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            className="bg-gradient-to-r from-[#034ca7]  to-[#5f7499]    w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
-              color: "#3E84DC",
+              
               height: "200px",
             }}
           >
@@ -201,7 +201,7 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className=" ">
+            <div className=" text-white">
               <h2 className="text-2xl font-bold ">Paediatrics</h2>
               <p className="text-[15px]">
                 Life enrichment activity program team of paediatric therapists
@@ -218,11 +218,11 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" w-5/6       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            className=" w-5/6  bg-gradient-to-r from-[#034ca7]  to-[#5f7499]      flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
-              color: "#3E84DC",
+              
               height: "200px",
             }}
           >
@@ -234,7 +234,7 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className=" ">
+            <div className="text-white ">
               <h2 className="text-2xl font-bold ">Other Therapies</h2>
               <p className="text-[15px]">
                 Learn more about Music Therapy, Speech and Language Therapy,
