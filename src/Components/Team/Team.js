@@ -2,14 +2,14 @@ import React from "react";
 
 const Team = () => {
   return (
-    <div className=" bg-[#3E84DC]">
+    <div className="  mb-10   bg-gradient-to-r from-[#034ca7]  to-[#5f7499]">
       <div className=" md:mx-16 lg:mx-24 mx-8  ">
         <h2 className="text-3xl text-center py-4  font-bold poppins-b sm:text-4xl text-white">
           Meet Our Experts
         </h2>
       </div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5 px-8 py-5  ">
-        <div class="flex     bg-gradient-to-br py-5">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5 px-8    ">
+        <div class="flex     bg-gradient-to-br  ">
           <div class="overflow-hidden   aspect-video h-96 cursor-pointer rounded-xl relative group">
             <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
               <div>
@@ -33,7 +33,7 @@ const Team = () => {
             />
           </div>
         </div>
-        <div class="flex     bg-gradient-to-br py-5">
+        <div class="flex     bg-gradient-to-br  ">
           <div class="overflow-hidden   aspect-video h-96 cursor-pointer rounded-xl relative group">
             <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
               <div>
@@ -57,7 +57,7 @@ const Team = () => {
             />
           </div>
         </div>
-        <div class="flex     bg-gradient-to-br py-5">
+        <div class="flex     bg-gradient-to-br  ">
           <div class="overflow-hidden   aspect-video h-96 cursor-pointer rounded-xl relative group">
             <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
               <div>

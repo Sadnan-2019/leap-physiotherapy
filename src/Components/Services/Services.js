@@ -42,7 +42,7 @@ const Services = () => {
               </p>
               <div className="card-actions justify-end  mt-5">
                 <button
-                  className="btn  "
+                  className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
@@ -75,8 +75,8 @@ const Services = () => {
                 conditions affecting the brain and nervous system.
               </p>
               <div className="card-actions justify-end  mt-5">
-                <button
-                  className="btn  "
+              <button
+                  className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
@@ -108,8 +108,8 @@ const Services = () => {
                 who have problems with their lungs and heart.
               </p>
               <div className=" card-actions justify-end  mt-5">
-                <button
-                  className="btn  "
+              <button
+                  className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
@@ -141,8 +141,8 @@ const Services = () => {
                 acute or chronic conditions
               </p>
               <div className="card-actions justify-end   mt-5">
-                <button
-                  className="btn  "
+              <button
+                  className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
@@ -175,8 +175,8 @@ const Services = () => {
                 mobility afterwards.
               </p>
               <div className="card-actions justify-end   mt-5">
-                <button
-                  className="btn  "
+              <button
+                  className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
@@ -208,8 +208,8 @@ const Services = () => {
                 are here to support babies, children and teenagers aged 0 – 19.
               </p>
               <div className="card-actions justify-end   mt-5">
-                <button
-                  className="btn  "
+              <button
+                  className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
@@ -241,8 +241,8 @@ const Services = () => {
                 Neuropsychology and Occupational Therapy
               </p>
               <div className="card-actions justify-end   mt-5">
-                <button
-                  className="btn  "
+              <button
+                  className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details

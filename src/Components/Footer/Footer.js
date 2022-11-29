@@ -2,7 +2,7 @@ import React from 'react';
 import logo from "../../assets/logo.png"
 const Footer = () => {
      return (
-          <div className='py-10'>
+          <div className=' '>
             <footer className="footer p-10    text-white" style={{ backgroundColor: "#3E84DC" }}>
   <div>
     <span className="footer-title">Services</span> 

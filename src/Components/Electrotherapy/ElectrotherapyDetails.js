@@ -27,8 +27,11 @@ const ElectrotherapyDetails = () => {
           <AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight>
           <AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight>
         </div>
-        <div className="">
-          <p>
+        <div className=" ">
+       <ul>
+        <li>
+
+        <p className=" ">
             Fully computerized both Lumber/Pelvic and Cervical traction unit
             from MINATO, Japan
           </p>
@@ -68,6 +71,8 @@ const ElectrotherapyDetails = () => {
           LESER therapy unit from Metron, Australia
 
           </p>
+        </li>
+       </ul>
         </div>
       </div>
      </div>
