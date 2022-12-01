@@ -9,8 +9,7 @@ const Physiotherapy = () => {
     return (
         <div>
           <PhysiotherapyLanding></PhysiotherapyLanding>  
-          {/* <ElectrotherapyDetails></ElectrotherapyDetails>
-           */}
+          
            <PhysiotherapyDetails></PhysiotherapyDetails>
            <Review></Review>
            <Team></Team>

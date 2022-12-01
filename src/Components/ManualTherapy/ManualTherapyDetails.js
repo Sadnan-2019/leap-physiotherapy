@@ -4,37 +4,68 @@ import electrotwo from "../../assets/electrotwo.jpg";
 import electrothree from "../../assets/electrothree.jpg";
 import electrofour from "../../assets/electro4.jpg";
 import { AiFillStar, AiOutlineCaretRight } from "react-icons/ai";
-const PhysiotherapyDetails = () => {
+
+const ManualTherapyDetails = () => {
   return (
     <div>
       <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12 mt-[50px]  py-6 text-xl font-semibold">
-        <p className="text-justify font-medium ">
-          Physiotherapists are highly qualified health professionals who work in
-          partnership with their patients to help people get better and stay
-          well. Physiotherapists also work closely with GPs and other health
-          clinicians to plan and manage treatment. Using advanced techniques and
-          evidence-based care, physiotherapists assess, diagnose, treat and
-          prevent a wide range of health conditions and movement disorders.
-          Physiotherapy helps repair damage, reduce stiffness and pain, increase
-          mobility and improve quality of life. Physiotherapy extends from
-          health promotion to injury prevention, acute care, rehabilitation,
-          maintenance of functional mobility, chronic disease management,
-          patient and carer education and occupational health.
+        <p className="text-justify  ">
+          <span className="text-blue-800 font-bold">Manual therapy, or manipulative therapy,</span> 
+          
+          
+          is a physical treatment
+          primarily used by physiotherapistst and manual therapist treat
+          musculoskeletal pain and disability; it most commonly includes
+          kneading and manipulation of muscles, joint mobilization and joint
+          manipulation. The three most notable forms of manual therapy are
+          manipulation, mobilization and massage. Manipulation is the artful
+          introduction of a rapid rotational, shear or distraction force into an
+          articulation. Manipulation is often associated with an audible popping
+          sound caused by the instantaneous breakdown of gas bubbles that form
+          during joint cavitation.[citation needed] Mobilization is a slower,
+          more controlled process of articular and soft-tissue (myofascial)
+          stretching intended to improve bio-mechanical elasticity. Massage is
+          typically the repetitive rubbing, stripping or kneading of myofascial
+          tissues to principally improve interstitial fluid dynamics.
         </p>
       </div>
+
       <div className="grid sm:grid-cols-1 lg:grid-cols-2      gap-12  px-10 mt-[50px] ">
         <div className="justify-center items-center">
           <p className="text-2xl font-medium text-justify py-2 ml-3">
-            Why Physiotherapy needs for-
+          We have Qualified and skilled Manual Therapist who assessment you carefully and treat you softly accurately. Our Manual therapy service are-
+
+
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Pain – manages or prevents pain and its impact on function in
-            patients using a psychologically informed and interdisciplinary
-            approach. Physiotherapists work with other health and social-care
-            professionals to manage pain at the acute stage of an injury or
-            condition, including through identifying psychosocial risk factors
-            that may lead to chronicity.
+
+       <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-xl font-medium text-justify py-2 ml-3">
+           Manipulation
+
           </p>
+       </div>
+      <div className="bg-red-400 ml-12">
+      <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-md font-medium text-justify py-2 ml-3">
+          Joint Manipulation
+
+
+          </p>
+       </div>
+       <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-md font-medium text-justify py-2 ml-3">
+          Visceral Manipulation
+
+
+          </p>
+       </div>
+      </div>
           <p className="text-sm font-medium text-justify py-2 ml-3">
             Musculoskeletal – prevents and treats clients with musculoskeletal
             conditions such as neck and back pain. Techniques include addressing
@@ -106,8 +137,10 @@ const PhysiotherapyDetails = () => {
           <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
         </div>
       </div>
+
+
     </div>
   );
 };
 
-export default PhysiotherapyDetails;
+export default ManualTherapyDetails;

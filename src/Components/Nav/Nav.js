@@ -70,7 +70,7 @@ const Nav = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
               }
-              to="/neck-pain"
+              to="/manualtherapy"
             >
               Manual Therapy
             </NavLink>

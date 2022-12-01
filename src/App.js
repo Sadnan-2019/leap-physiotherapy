@@ -6,6 +6,7 @@ import Footer from './Components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Electrotherapy from './Components/Electrotherapy/Electrotherapy';
 import Physiotherapy from './Components/Physiotherapy/Physiotherapy';
+import ManualTherapy from './Components/ManualTherapy/ManualTherapy';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/electrothyrapy" element={<Electrotherapy />}></Route>
         <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
+        <Route path="/manualtherapy" element={<ManualTherapy />}></Route>
          
         {/* <Route path="login" element={<Login />}></Route> */}
         {/* <Route path="/*" element={<FourZeroFour />} />  */}
