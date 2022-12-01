@@ -14,7 +14,7 @@ const SportsInjuriesLanding = () => {
         <div className="  "></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Manualtherapy</h1>
+            <h1 className="mb-5 text-5xl font-bold">Sports Therapy</h1>
             <p className="mb-5 text-xl">
               Sports injuries are injuries that occur in athletic activities or
               exercising. They can result from accidents, poor training
