@@ -43,7 +43,7 @@ const Nav = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
               }
-              to="/blog"
+              to="/physiotherapy"
             >
               Physiotherapy
             </NavLink>

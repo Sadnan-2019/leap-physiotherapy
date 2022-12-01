@@ -1,0 +1,20 @@
+.physiotherapy{
+
+
+    background-image: 
+  
+    
+       url("https://adamsptservices.com/wp-content/uploads/2016/09/knee-pain-therapy-1437x627-1.jpg");
+   
+     background-repeat: no-repeat;
+     background-size: cover;
+   
+     
+     
+    min-height: 500px;
+    color: #fff;
+    /* background-position: 50% 50%; */
+    /* background-size: cover; */
+     background-position: center;
+     /* background-attachment: fixed; */
+   }

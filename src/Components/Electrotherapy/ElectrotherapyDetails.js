@@ -10,7 +10,7 @@ const ElectrotherapyDetails = () => {
       {/* <p className="text-2xl  mt-6 ml-6 text-center">Our Equipment</p>   */}
       <div className="grid sm:grid-cols-1 lg:grid-cols-2      gap-5   px-5 mt-[100px] ">
      <div className="justify-center items-center">
-        <p className="text-2xl font-medium text-justify py-5 ml-3">Electrotherapy gives good result for acute and chronic pain by modifying the impulse which leads to relief of pain.</p>
+        <p className="text-2xl font-medium text-justify py-5 ml-3">Electrotherapy gives good results for acute and chronic pain by modifying the impulse, leading to pain relief.</p>
 
      <div className="flex justify-center items-center gap-2  ">
         
