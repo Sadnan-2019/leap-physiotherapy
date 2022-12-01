@@ -46,7 +46,7 @@ const ManualTherapyDetails = () => {
 
           </p>
        </div>
-      <div className="bg-red-400 ml-12">
+      <div className="  ml-12">
       <div className="flex items-center justify-start"> 
        
        <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
