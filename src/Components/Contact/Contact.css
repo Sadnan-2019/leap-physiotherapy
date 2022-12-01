@@ -1,0 +1,9 @@
+.contact{
+
+    background: hsla(0, 0%, 100%, 0.55);
+    backdrop-filter: blur(30px)
+}
+.map-container {
+    height: 400px;
+    z-index: -1;
+  }

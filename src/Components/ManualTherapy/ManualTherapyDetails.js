@@ -66,65 +66,96 @@ const ManualTherapyDetails = () => {
           </p>
        </div>
       </div>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Musculoskeletal – prevents and treats clients with musculoskeletal
-            conditions such as neck and back pain. Techniques include addressing
-            underlying problems, preventing strain and injury, and prescribing
-            exercises and other interventions to promote mobility.
+
+      <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-xl font-medium text-justify py-2 ml-3">
+          Mobilization
+
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Orthopaedic – helps patients prevent or manage acute or chronic
-            orthopaedic conditions such as osteoarthritis, rheumatoid arthritis
-            and amputations. Physiotherapists also help patients prepare for or
-            rehabilitate from orthopaedic surgery, or another orthopaedic
-            hospital admissions.
+       </div>
+       <div className="  ml-12">
+      <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-md font-medium text-justify py-2 ml-3">
+          Joint Mobilization
+
+
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Occupational health – supports the health and wellbeing of workers,
-            reduces safety risks in the workplace, prevents and manages injuries
-            and diseases, and support workers in returning to work.
+       </div>
+       <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-md font-medium text-justify py-2 ml-3">
+          Muscular Mobilization
+
+
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Cardiorespiratory – prevents, rehabilitates and supports people
-            living with, or at risk of diseases and injuries affecting the heart
-            and lungs, such as heart disease or asthma. Physiotherapists help
-            patients prepare for or recover from surgery, and prescribe
-            exercises and other interventions to improve quality of life.
+       </div>
+       <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-md font-medium text-justify py-2 ml-3">
+          Visceral Mobilization
+
+
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Cancer, palliative care and lymphoedema – addresses a range of
-            patient needs, including treating, managing or preventing fatigue,
-            pain, muscle and joint stiffness, and deconditioning.
+       </div>
+      </div>
+      <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-xl font-medium text-justify py-2 ml-3">
+          Myofacial Release
+
+
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Continence and women’s health – manages and prevents incontinence
-            and pelvic floor dysfunction in men, women and children.
-            Physiotherapists work in areas including pregnancy, birth,
-            post-partum care, breastfeeding, menopause, bedwetting, prolapse,
-            loss of bladder or bowel control, and with men living with or
-            recovering from prostate cancer.
+       </div>
+      <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-xl font-medium text-justify py-2 ml-3">
+          Therapeutic Massage
+
+
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Neurology – promotes movement and quality of life in patients who
-            have had severe brain or spinal cord damage from trauma, or who
-            suffer from neurological diseases such as stroke, Parkinson’s
-            disease and multiple sclerosis.
+       </div>
+      <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-xl font-medium text-justify py-2 ml-3">
+          Positional Release
+
+
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Paediatric (supporting infants and children) – aims to prevent
-            conditions such as plagiocephally (misshapen head) or support a
-            child’s development such as addressing milestone delays with sitting
-            and walking, clumsiness, or hyperactivity.
+       </div>
+      <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-xl font-medium text-justify py-2 ml-3">
+          DTFM(Deep Transverse Friction Massage)
+
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Sports – prevents, diagnoses and treats musculoskeletal and sporting
-            injuries among all types of people, from professional athletes.
+       </div>
+      <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-xl font-medium text-justify py-2 ml-3">
+          Trigger point Release
+
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
-            Acupuncture and dry needling – which helps to manage both chronic
-            and acute conditions such as sprains and strains, spinal
-            dysfunction, arthritis and neurological conditions.
+       </div>
+      <div className="flex items-center justify-start"> 
+       
+       <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
+          <p className="text-xl font-medium text-justify py-2 ml-3">
+          Postural Training
+
+
           </p>
+       </div>
         </div>
 
         <div className=" grid grid-cols-2 gap-8 mt-[50px] ">
@@ -134,7 +165,7 @@ const ManualTherapyDetails = () => {
           <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
           <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
           <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
-          <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
+          {/* <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" /> */}
         </div>
       </div>
 

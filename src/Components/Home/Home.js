@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Backpain from '../Bankpain/Backpain';
+import Contact from '../Contact/Contact';
 // import Landing from '../Landing/Landing';
 import Landingnew from '../Landing/Landingnew';
 import MedicalConditions from '../MedicalConditions/MedicalConditions';
@@ -17,6 +18,7 @@ const Home = () => {
            <Review></Review>
            <Backpain/>
            <Team></Team>
+           <Contact></Contact>
 
           </div>
      );
