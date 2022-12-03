@@ -100,7 +100,7 @@ const Nav = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
               }
-              to="/knee-pain"
+              to="/therapeutic-exercise"
             >
               Therapeutic exercise
             </NavLink>
