@@ -9,13 +9,13 @@ import electrofour from "../../assets/electro4.jpg";
 const KinesioTapingDetails = () => {
   return (
     <div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2  justify-center items-center    gap-12  px-10  ">
-        <div className="justify-center items-center">
-          <p className="text-2xl font-medium text-justify py-2 ml-3">
+
+        <div className="grid grid-cols-1 px-10 font-medium  ">
+        <p className="text-2xl font-medium text-justify   ml-3 py-6">
           Kinesio Taping
  -
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
+          <p className=" font-medium text-justify py-2 ml-3  ">
             Kinesiology tape is a thin, stretchy, elastic cotton strip with an
             acrylic adhesive. Therapeutic kinesiology tape that can benefit a
             wide variety of musculoskeletal and sports injuries, plus
@@ -25,6 +25,13 @@ const KinesioTapingDetails = () => {
             movement. Kinesiology tape is an that is used for treating athletic
             injuries and a variety of physical disorders..
           </p>
+
+
+
+        </div>
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2  justify-center items-center    gap-12  px-10  ">
+        <div className="justify-center items-center">
+          
           <p className="text-2xl font-medium text-justify py-2 ml-3">
           Kinesio Tape May Help:
           </p>
@@ -131,7 +138,7 @@ const KinesioTapingDetails = () => {
           </div>
         </div>
 
-        <div className=" grid grid-cols-2 gap-8 mt-[50px] py-6 ">
+        <div className=" grid grid-cols-2 gap-8   py-6 ">
           <img src={electrone} className="w-64 h-44 rounded-lg" alt="" />
           <img src={electrotwo} className="w-64 h-44  rounded-lg" alt="" />
           <img src={electrothree} className="w-64  h-44  rounded-lg" alt="" />
