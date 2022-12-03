@@ -1,0 +1,19 @@
+.rehabilitation{
+
+
+    background-image: 
+  
+    
+    url("https://sportsclubpt.com/wp-content/uploads/2020/11/Sports-Rehab-2.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+  
+ min-height: 500px;
+ color: #fff;
+ /* background-position: 50% 50%; */
+ /* background-size: cover; */
+  background-position: center;
+}

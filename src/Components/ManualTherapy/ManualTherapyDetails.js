@@ -8,7 +8,7 @@ import { AiFillStar, AiOutlineCaretRight } from "react-icons/ai";
 const ManualTherapyDetails = () => {
   return (
     <div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12 mt-[50px]  py-6 text-xl font-semibold">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12    py-6 text-xl font-semibold">
         <p className="text-justify  ">
           <span className="text-blue-800 font-bold">Manual therapy, or manipulative therapy,</span> 
           
@@ -30,9 +30,9 @@ const ManualTherapyDetails = () => {
         </p>
       </div>
 
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2      gap-12  px-10 mt-[50px] ">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2 justify-center items-center       gap-12  px-12  py-6 ">
         <div className="justify-center items-center">
-          <p className="text-2xl font-medium text-justify py-2 ml-3">
+          <p className="text-2xl font-medium text-justify py-2 ">
           We have Qualified and skilled Manual Therapist who assessment you carefully and treat you softly accurately. Our Manual therapy service are-
 
 
@@ -158,7 +158,7 @@ const ManualTherapyDetails = () => {
        </div>
         </div>
 
-        <div className=" grid grid-cols-2 gap-8 mt-[50px] ">
+        <div className=" grid grid-cols-2 gap-8   ">
           <img src={electrone} className="w-64 h-44 rounded-lg" alt="" />
           <img src={electrotwo} className="w-64 h-44  rounded-lg" alt="" />
           <img src={electrothree} className="w-64  h-44  rounded-lg" alt="" />

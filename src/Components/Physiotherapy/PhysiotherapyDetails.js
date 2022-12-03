@@ -22,7 +22,7 @@ const PhysiotherapyDetails = () => {
           patient and carer education and occupational health.
         </p>
       </div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2      gap-12  px-10 mt-[50px] ">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2  items-center justify-center    gap-12  px-10  ">
         <div className="justify-center items-center">
           <p className="text-2xl font-medium text-justify py-2 ml-3">
             Why Physiotherapy needs for-
@@ -96,7 +96,7 @@ const PhysiotherapyDetails = () => {
           </p>
         </div>
 
-        <div className=" grid grid-cols-2 gap-8 mt-[50px] ">
+        <div className=" grid grid-cols-2 gap-8  ">
           <img src={electrone} className="w-64 h-44 rounded-lg" alt="" />
           <img src={electrotwo} className="w-64 h-44  rounded-lg" alt="" />
           <img src={electrothree} className="w-64  h-44  rounded-lg" alt="" />
