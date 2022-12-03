@@ -8,7 +8,7 @@ import { AiFillStar, AiOutlineCaretRight } from "react-icons/ai";
 const ManualTherapyDetails = () => {
   return (
     <div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12    py-6 text-xl font-semibold">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12    mt-[50px]  py-6 text-xl font-semibold">
         <p className="text-justify  ">
           <span className="text-blue-800 font-bold">Manual therapy, or manipulative therapy,</span> 
           

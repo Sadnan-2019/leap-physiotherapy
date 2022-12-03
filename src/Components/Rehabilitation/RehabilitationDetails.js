@@ -6,7 +6,7 @@ import electrofour from "../../assets/electro4.jpg";
 const RehabilitationDetails = () => {
   return (
     <div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12 mt-[50px]  py-6 text-xl font-semibold">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12    py-6 text-xl font-semibold">
         <p className="text-justify font-medium ">
           Rehabilitation describes specialized healthcare dedicated to
           improving, maintaining or restoring physical strength, cognition and
@@ -19,7 +19,7 @@ const RehabilitationDetails = () => {
           individual to optimal health, functioning, and well-being.
         </p>
       </div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2  justify-center items-center    gap-12  px-10 mt-[50px] ">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2  justify-center items-center    gap-12  px-10  ">
         <div className="justify-center items-center">
           <p className="text-2xl font-medium text-justify py-2 ml-3">
             Physiotherapy Rehabilitation-
