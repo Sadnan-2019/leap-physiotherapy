@@ -9,7 +9,8 @@ import Physiotherapy from './Components/Physiotherapy/Physiotherapy';
 import ManualTherapy from './Components/ManualTherapy/ManualTherapy';
 import SportsInjuries from './Components/SportsInjuries/SportsInjuries';
 import Rehabilitation from './Components/Rehabilitation/Rehabilitation';
-import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.js';
+import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise';
+import KinesioTaping from './Components/KinesioTaping/KinesioTaping';
 // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/sports-injuries" element={<SportsInjuries/>}></Route>
         <Route path="/rehabilitation" element={<Rehabilitation/>}></Route>
         <Route path="/therapeutic-exercise" element={<TherapeuticExercise></TherapeuticExercise>}></Route>
+        <Route path="/kinesio-taping-therapy" element={<KinesioTaping/>}></Route>
         {/* <Route path="/therapeutic-exercise" element={<TherapeuticExercise/>}></Route> */}
          
         {/* <Route path="login" element={<Login />}></Route> */}

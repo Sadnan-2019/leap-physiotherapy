@@ -88,7 +88,7 @@ const SportsInjuriesDetails = () => {
            
         </div>
 
-        <div className=" grid grid-cols-2 gap-8  justify-center items-center ">
+        <div className=" grid sm:grid-cols-2 lg:grid-cols-2 gap-8  justify-center items-center py-12  ">
           <img src={electrone} className="w-64 h-44 rounded-lg" alt="" />
           <img src={electrotwo} className="w-64 h-44  rounded-lg" alt="" />
           <img src={electrothree} className="w-64  h-44  rounded-lg" alt="" />

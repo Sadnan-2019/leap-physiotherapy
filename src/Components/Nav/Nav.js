@@ -110,9 +110,9 @@ const Nav = () => {
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
               }
-              to="/sports-injury"
+              to="/kinesio-taping-therapy"
             >
-              Kinesio Taping
+              Kinesio Taping Therapy
             </NavLink>
           </li>
           <li className="nav-item p-2">
