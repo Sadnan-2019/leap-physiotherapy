@@ -7,8 +7,8 @@ import { AiFillStar, AiOutlineCaretRight } from "react-icons/ai";
 const PhysiotherapyDetails = () => {
   return (
     <div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12 mt-[50px]  py-6 text-xl font-semibold">
-        <p className="text-justify font-medium ">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12 mt-[50px]  py-6 ">
+        <p className="font-medium text-justify ">
           Physiotherapists are highly qualified health professionals who work in
           partnership with their patients to help people get better and stay
           well. Physiotherapists also work closely with GPs and other health

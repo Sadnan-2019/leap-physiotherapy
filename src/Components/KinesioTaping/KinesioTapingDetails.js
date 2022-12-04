@@ -10,10 +10,10 @@ const KinesioTapingDetails = () => {
   return (
     <div>
 
-        <div className="grid grid-cols-1 px-10 font-medium  ">
+        <div className="grid grid-cols-1 px-10   ">
         <p className="text-2xl font-medium text-justify   ml-3 py-6">
           Kinesio Taping
- -
+ 
           </p>
           <p className=" font-medium text-justify py-2 ml-3  ">
             Kinesiology tape is a thin, stretchy, elastic cotton strip with an
@@ -33,7 +33,7 @@ const KinesioTapingDetails = () => {
         <div className="justify-center items-center">
           
           <p className="text-2xl font-medium text-justify py-2 ml-3">
-          Kinesio Tape May Help:
+          Kinesio Tape May Help
           </p>
           <div className="flex items-center justify-start">
             <span>

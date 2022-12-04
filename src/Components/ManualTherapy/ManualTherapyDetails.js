@@ -8,8 +8,8 @@ import { AiFillStar, AiOutlineCaretRight } from "react-icons/ai";
 const ManualTherapyDetails = () => {
   return (
     <div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12    mt-[50px]  py-6 text-xl font-semibold">
-        <p className="text-justify  ">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12    mt-[50px]  py-6  ">
+        <p className="text-justify font-medium  ">
           <span className="text-blue-800 font-bold">Manual therapy, or manipulative therapy,</span> 
           
           
@@ -32,7 +32,7 @@ const ManualTherapyDetails = () => {
 
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 justify-center items-center       gap-12  px-12  py-6 ">
         <div className="justify-center items-center">
-          <p className="text-2xl font-medium text-justify py-2 ">
+          <p className="text-2xl font-medium text-justify py-2  ">
           We have Qualified and skilled Manual Therapist who assessment you carefully and treat you softly accurately. Our Manual therapy service are-
 
 
