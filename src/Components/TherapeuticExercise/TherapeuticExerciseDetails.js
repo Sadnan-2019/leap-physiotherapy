@@ -7,12 +7,12 @@ import { AiOutlineCaretRight } from "react-icons/ai";
 const TherapeuticExerciseDetails = () => {
   return (
     <div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2  justify-center items-center    gap-12  px-10  ">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2      gap-12  px-10  ">
         <div className="justify-center items-center">
-          <p className="text-2xl font-medium text-justify py-2 ml-3">
+          <p className="text-2xl font-medium text-justify mt-12 ml-3">
             Therapeutic exercise -
           </p>
-          <p className="text-sm font-medium text-justify py-2 ml-3">
+          <p className="  font-medium text-justify py-2 ml-3">
             Therapeutic exercises refers to a wide range of physical activities
             that focuses on restoring and maintaining strength, endurance,
             flexiblity, stability and balance. The goal of therapeutic exercises
