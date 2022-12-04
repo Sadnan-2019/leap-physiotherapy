@@ -25,7 +25,7 @@ const Nav = () => {
       <li className="dropdown dropdown-hover hover:border-none      ">
         <div className=" ">
           <li tabIndex={0} className="nav-item p-2   text-white ">
-            <NavLink className="mx-1 text-white-600 font-medium font-bold focus:text-white   lg:text-white ">
+            <NavLink className="mx-1 text-white-600  font-bold focus:text-white   lg:text-white ">
               Services
             </NavLink>
           </li>
@@ -252,7 +252,7 @@ const Nav = () => {
   );
   return (
     <div>
-      <div className="navbar  " style={{ backgroundColor: "#3E84DC" }}>
+      <div className="navbar bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  " >
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

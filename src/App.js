@@ -11,6 +11,7 @@ import SportsInjuries from './Components/SportsInjuries/SportsInjuries';
 import Rehabilitation from './Components/Rehabilitation/Rehabilitation';
 import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise';
 import KinesioTaping from './Components/KinesioTaping/KinesioTaping';
+import DryneedlingAcupuncture from './Components/DryneedlingAcupuncture/DryneedlingAcupuncture';
 // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/rehabilitation" element={<Rehabilitation/>}></Route>
         <Route path="/therapeutic-exercise" element={<TherapeuticExercise></TherapeuticExercise>}></Route>
         <Route path="/kinesio-taping-therapy" element={<KinesioTaping/>}></Route>
+        <Route path="/dryneedling-acupuncture" element={<DryneedlingAcupuncture/>}></Route>
         {/* <Route path="/therapeutic-exercise" element={<TherapeuticExercise/>}></Route> */}
          
         {/* <Route path="login" element={<Login />}></Route> */}

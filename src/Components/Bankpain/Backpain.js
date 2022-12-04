@@ -34,9 +34,9 @@ const Backpain = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
           >
-            <h2 className="card-title font-bold">Physiotherapy</h2>
-            <h2 className="card-title font-bold">
-              In Clinic, At Home, Virtual
+            <h2 className="card-title font-bold text-[#536E9B]">Physiotherapy</h2>
+            <h2 className="card-title font-bold text-[#536E9B]">
+              In Clinic, At Home
             </h2>
             <p>
               Our highly qualified and experienced teams use the most up-to-date

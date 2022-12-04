@@ -5,7 +5,7 @@ const MedicalConditions = () => {
     return (
         <div>
             <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
-        <h2 className="text-xl text-center   font-bold poppins-b lg:text-4xl  " style={{ color: "#3E84DC" }}>
+        <h2 className="text-xl text-center   font-bold poppins-b lg:text-4xl  " style={{ color: "#536E9B" }}>
         We Treat the following Medical Conditions        </h2>
         {/* <h1
             className="  w-64 h-1 rounded-lg mt-2 mb-4 mx-auto"

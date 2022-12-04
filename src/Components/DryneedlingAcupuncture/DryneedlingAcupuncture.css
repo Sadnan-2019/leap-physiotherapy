@@ -1,0 +1,17 @@
+.dryneedling{
+background-image: 
+    url("https://pivotalmotion.physio/wp-content/uploads/2018/03/Dry-Needling-2000x980-smaller.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+  
+ min-height: 500px;
+ color: #fff;
+ /* background-position: 50% 50%; */
+ /* background-size: cover; */
+  background-position: center;
+
+
+}

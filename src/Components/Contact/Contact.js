@@ -72,7 +72,7 @@ const Contact = () => {
                 
                 <div class="md:mt-12 lg:mt-0 mb-12 lg:mb-0">
                   <div class="block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-14">
-                    <h2 class="text-3xl font-bold mb-12">Contact us</h2>
+                    <h2 class="text-3xl font-bold mb-12 text-[#536E9B]">Contact us</h2>
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 mb-12 ">
         <div class="mb-12 lg:mb-0 text-center mx-auto">
           <svg
