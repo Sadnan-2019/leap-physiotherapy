@@ -278,12 +278,7 @@ const Nav = () => {
               {navItem}
             </ul>
           </div>
-          <div className="flex justify-items-center items-center gap-2 ">
-          <FaFacebookSquare className="text-lg ml-2 text-white" />
-          <BsLinkedin className="text-lg ml-2 text-white" />
-          <TiSocialTwitter className="text-lg ml-2 text-white" />
-          <TiSocialInstagram className="text-lg ml-2 text-white" />
-          </div>
+         
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="  menu-horizontal p-0">{navItem}</ul>

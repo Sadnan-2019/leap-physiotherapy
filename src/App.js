@@ -12,11 +12,13 @@ import Rehabilitation from './Components/Rehabilitation/Rehabilitation';
 import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise';
 import KinesioTaping from './Components/KinesioTaping/KinesioTaping';
 import DryneedlingAcupuncture from './Components/DryneedlingAcupuncture/DryneedlingAcupuncture';
+import Topnav from './Components/Topnav/Topnav';
 // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
   return (
     <div className=" ">
+      <Topnav></Topnav>
       <Nav/>
       {/* <Home/> */}
       <Routes>
