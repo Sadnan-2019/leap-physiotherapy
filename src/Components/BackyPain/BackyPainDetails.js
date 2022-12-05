@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineCaretRight } from "react-icons/ai";
-import electrone from "../../assets/electroone.jpg";
-import electrotwo from "../../assets/electrotwo.jpg";
+import electrone from "../../assets/backpainone.jpg";
+import electrotwo from "../../assets/backpain2.jpg";
 import electrothree from "../../assets/electrothree.jpg";
 import electrofour from "../../assets/electro4.jpg";
 
@@ -10,7 +10,7 @@ const BackyPainDetails = () => {
     <div>
       <div className="grid grid-cols-1 px-10   ">
         <p className="text-2xl font-medium text-justify   ml-3 py-6">
-          Kinesio Taping
+          Back Pain
         </p>
         <p className=" font-medium text-justify py-2 ml-3  ">
           Our qualified physiotherapist designs programs to Treatment a

@@ -1,4 +1,6 @@
 import React from 'react';
+import Review from '../Review/Review';
+import Team from '../Team/Team';
 import BackyPainDetails from './BackyPainDetails';
 import BackyPainLanding from './BackyPainLanding';
 
@@ -7,6 +9,8 @@ const BackyPain = () => {
         <div>
             <BackyPainLanding></BackyPainLanding>
             <BackyPainDetails></BackyPainDetails>
+            <Review></Review>
+            <Team></Team>
         </div>
     );
 };
