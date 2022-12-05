@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { useSpring,animated } from 'react-spring';
+import "./Success.css";
 
 const Success = () => {
 
@@ -34,16 +35,16 @@ const Success = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <div className="stats ">
+          <div className="stats success text-white">
             <div className="stat">
-              <div className="stat-figure  " style={{ color: "#453364" }}>
-               <p>bangladesh</p>
+              <div className="stat-figure  "  >
+               {/* <p>bangladesh</p> */}
               </div>
-              <div className="stat-value  " style={{ color: "#453364" }}>
+              <div className="stat-value flex  "  >
                 
-                <Number n={500}/>
+                <Number n={500} /><span>+</span>
               </div>
-              <div className="text-[18px] font-bold" style={{ color: "#453364" }}>
+              <div className="text-[18px] font-bold"  >
                 Successful recovery stories
               </div>
               
@@ -52,14 +53,14 @@ const Success = () => {
               </div> */}
             </div>
             <div className="stat">
-              <div className="stat-figure  " style={{ color: "#453364" }}>
+              <div className="stat-figure  "  >
                
               </div>
-              <div className="stat-value  " style={{ color: "#453364" }}>
+              <div className="stat-value  "  >
                 2000+
               </div>
-              <div className="text-[18px] font-bold" style={{ color: "#453364" }}>
-              HealthCare related man power in our platform
+              <div className="text-[18px] font-bold"  >
+             Life Enrichment Activity Program  related man power in our platform
               </div>
               
               {/* <div className="stat-desc text-1xl font-bold">
@@ -87,52 +88,52 @@ const Success = () => {
             </div> */}
           
             <div className="stat">
-              <div className="stat-figure  " style={{ color: "#453364" }}>
+              <div className="stat-figure  "  >
                
               </div>
-              <div className="stat-value  " style={{ color: "#453364" }}>
+              <div className="stat-value  "  >
                 3000+
               </div>
-              <div className="text-[18px] font-bold" style={{ color: "#453364" }}>
+              <div className="text-[18px] font-bold"  >
                 Medical assistant
               </div>
               
             
             </div>
             <div className="stat">
-              <div className="stat-figure  " style={{ color: "#453364" }}>
+              <div className="stat-figure  " >
                
               </div>
-              <div className="stat-value  " style={{ color: "#453364" }}>
+              <div className="stat-value  "  >
                 150+
               </div>
-              <div className="text-[18px] font-bold" style={{ color: "#453364" }}>
+              <div className="text-[18px] font-bold"  >
                 Physiotherapists
               </div>
               
             
             </div>
             <div className="stat">
-              <div className="stat-figure  " style={{ color: "#453364" }}>
+              <div className="stat-figure  "  >
                
               </div>
-              <div className="stat-value  " style={{ color: "#453364" }}>
+              <div className="stat-value  "  >
                 200+
               </div>
-              <div className="text-[18px] font-bold" style={{ color: "#453364" }}>
+              <div className="text-[18px] font-bold"  >
   Nurses
               </div>
               
             
             </div>
             <div className="stat">
-              <div className="stat-figure  " style={{ color: "#453364" }}>
+              <div className="stat-figure  "  >
                
               </div>
-              <div className="stat-value  " style={{ color: "#453364" }}>
+              <div className="stat-value  "  >
                 250+
               </div>
-              <div className="text-[18px] font-bold" style={{ color: "#453364" }}>
+              <div className="text-[18px] font-bold"  >
                 Caregivers
               </div>
               
