@@ -26,7 +26,7 @@ const Topnav = () => {
             style={{ color: "white" }}
           >
             <div>
-              <MdOutlinePhonelinkRing className="text-[10px] lg:text-2xl  text-[#38639F]    " />
+              <MdOutlinePhonelinkRing className="text-[10px] animate-bounce lg:text-2xl  text-[#38639F]    " />
             </div>
             <div className='text-[#38639F]  '>
               <p className="text-[10px] lg:text-xs 	">
@@ -40,7 +40,7 @@ const Topnav = () => {
             style={{ color: "white" }}
           >
             <div>
-              <HiOutlineMailOpen className="text-[10px] lg:text-2xl  	text-[#38639F]  " />
+              <HiOutlineMailOpen className="text-[10px] lg:text-2xl  animate-bounce	text-[#38639F]  " />
             </div>
             <div className='text-[#38639F]'>
               <p className="text-[10px] lg:text-xs     	">

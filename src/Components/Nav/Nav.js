@@ -1,10 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import logo from "../../assets/logo.png"
-import { FaFacebookSquare } from "react-icons/fa";
-import { BsLinkedin } from "react-icons/bs";
-import { TiSocialTwitter } from "react-icons/ti";
-import { TiSocialInstagram } from "react-icons/ti";
+
+import { BsWhatsapp } from "react-icons/bs";
 
 const Nav = () => {
   const active =
@@ -37,98 +34,95 @@ const Nav = () => {
           style={{ backgroundColor: "#3E84DC" }}
         >
           <li className="dropdown dropdown-hover hover:border-none ">
-          <div>
-            <li className="nav-item p-2   ">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/physiotherapy"
+            <div>
+              <li className="nav-item p-2   ">
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? `${active}` : `${normal}`
+                  }
+                  to="/physiotherapy"
+                >
+                  Physiotherapy
+                </NavLink>
+              </li>
+            </div>
+            <ul
+              tabIndex={0}
+              className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
+              style={{ backgroundColor: "#3E84DC" }}
             >
-              Physiotherapy
-            </NavLink>
+              <li className="nav-item p-2">
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? `${active}` : `${normal}`
+                  }
+                  to="/electrothyrapy"
+                >
+                  Electrotherapy
+                </NavLink>
+              </li>
+              <li className="nav-item p-2">
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? `${active}` : `${normal}`
+                  }
+                  to="/manualtherapy"
+                >
+                  Manual Therapy
+                </NavLink>
+              </li>
+              <li className="nav-item p-2">
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? `${active}` : `${normal}`
+                  }
+                  to="/sports-injuries"
+                >
+                  Sports Injuries
+                </NavLink>
+              </li>
+              <li className="nav-item p-2">
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? `${active}` : `${normal}`
+                  }
+                  to="/rehabilitation"
+                >
+                  Rehabilitation
+                </NavLink>
+              </li>
+              <li className="nav-item p-2">
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? `${active}` : `${normal}`
+                  }
+                  to="/therapeutic-exercise"
+                >
+                  Therapeutic exercise
+                </NavLink>
+              </li>
+              <li className="nav-item p-2">
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? `${active}` : `${normal}`
+                  }
+                  to="/kinesio-taping-therapy"
+                >
+                  Kinesio Taping Therapy
+                </NavLink>
+              </li>
+              <li className="nav-item p-2">
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? `${active}` : `${normal}`
+                  }
+                  to="/dryneedling-acupuncture"
+                >
+                  Dry <br></br>needling/Acupuncture
+                </NavLink>
+              </li>
+            </ul>
           </li>
-          
-          </div>
-          <ul
-          tabIndex={0}
-          className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
-          style={{ backgroundColor: "#3E84DC" }}
-        >
-          <li className="nav-item p-2">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/electrothyrapy"
-            >
-              Electrotherapy
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/manualtherapy"
-            >
-              Manual Therapy
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/sports-injuries"
-            >
-              Sports Injuries
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/rehabilitation"
-            >
-              Rehabilitation
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/therapeutic-exercise"
-            >
-              Therapeutic exercise
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/kinesio-taping-therapy"
-            >
-              Kinesio Taping Therapy
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/dryneedling-acupuncture"
-            >
-             Dry <br></br>needling/Acupuncture
-            </NavLink>
-          </li>
-        </ul>
-
-          </li>
-           
         </ul>
       </li>
       <li className="dropdown dropdown-hover hover:border-none      ">
@@ -252,7 +246,7 @@ const Nav = () => {
   );
   return (
     <div>
-      <div className="navbar bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  " >
+      <div className="navbar bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -278,14 +272,18 @@ const Nav = () => {
               {navItem}
             </ul>
           </div>
-         
+          {/* <div className="navbar-end">
+          <a className="btn">Get started</a>
+        </div> */}
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="  menu-horizontal p-0">{navItem}</ul>
         </div>
-        {/* <div className="navbar-end">
-          <a className="btn">Get started</a>
-        </div> */}
+        <div className="navbar-end">
+          <a href="https://api.whatsapp.com/send?phone=01892409715" className="btn btn-sm bg-green-500 animate-pulse    rounded-full   ">
+            <BsWhatsapp></BsWhatsapp>
+          </a>
+        </div>
       </div>
     </div>
   );
