@@ -60,7 +60,7 @@ const Success = () => {
                 2000+
               </div>
               <div className="text-[18px] font-bold"  >
-             Life Enrichment Activity Program  related man power in our platform
+             LEAP related man power in our platform
               </div>
               
               {/* <div className="stat-desc text-1xl font-bold">
