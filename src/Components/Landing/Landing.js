@@ -2,132 +2,98 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { FaPhoneVolume } from "react-icons/fa";
-import "./Landing.css";
+// import "./Landing.css";
 
 const Landing = () => {
   return (
     <div>
-      {/* <section className="   h-auto landing  "  >
-      <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
-        <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
-          <div className="hidden lg:flex items-center gap-2   lg:bg-gray-100 w-fit px-3 rounded-full py-2 border-[1px]  lg:border-gray-200 mb-5">
-            <p className="hidden lg:block px-2 py-[2px] text-white lg:rounded-full  " style={{backgroundColor: "#453364" }}>
-              $
-            </p>
-            <p className='hidden lg:block text-sm '>Discover the easiest way to get our service!</p>
-          </div>
-          <p
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
-            style={{ lineHeight: "120%",color:"#453364" }}
-          >
-            HealthCare At Home Bangladesh
-          </p>
+     <div
+  id="carouselDarkVariant"
+  class="carousel slide carousel-fade carousel-dark relative"
+  data-bs-ride="carousel"
+>
+ 
+  <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+    <button
+      data-bs-target="#carouselDarkVariant"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      data-bs-target="#carouselDarkVariant"
+      data-bs-slide-to="1"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      data-bs-target="#carouselDarkVariant"
+      data-bs-slide-to="2"
+      aria-label="Slide 1"
+    ></button>
+  </div>
 
-          <p
-            data-aos="fade-up"
-            data-aos-duration="2000"
-            className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t    "
-            style={{ lineHeight: "120%",color:"#453364" }}>
-            First ever one stop high quality healthcare solution at your home in bangladesh.
-          </p>
-          
-          <div className='flex items-center mt-2 font-bold'>
-          < FaPhoneVolume  className="lg:text-2xl text-[20px] " style={{  color:"#453364" }}/>
-          <span className="lg:text-2xl text-[20px] "style={{ color:"#453364" }} > Call Now: 01619848555</span>
-        </div>
+ 
+  <div class="carousel-inner relative w-full overflow-hidden">
+ 
+    <div class="carousel-item active relative float-left w-full">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
+        class="block w-full"
+        alt="Motorbike Smoke"
+      />
+      <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
 
-          <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            className="flex  gap-4 mt-10 text-center"
-          >
-            <Link
-              className="hidden  md:inline-flex items-center   md:px-8 md:py-3  border   rounded hover:bg-transparent active:text-primary focus:outline-none focus:ring transition ease-in-out delay-150  text-white hover:text-black"
-              to="/" style={{backgroundColor: "#453364" }}
-            >
-              <span className="text-sm font-medium"> Get Started </span>
-              <BsArrowRight className="text-lg ml-2" />
-            </Link>
-
-          
-          </div>
-        </div>
     
+    <div class="carousel-item relative float-left w-full">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp"
+        class="block w-full"
+        alt="Mountaintop"
+      />
+      <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
       </div>
-    </section>       */}
+    </div>
 
-      <div className="   landing">
-        <div className=" "></div>
-        <div className="   text-neutral-content">
-          <div className=" ">
-            <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
-              <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
-                {/* <div className="hidden lg:flex items-center gap-2   lg:bg-gray-100 w-fit px-3 rounded-full py-2 border-[1px]  lg:border-gray-200 mb-5">
-                  <p
-                    className="hidden lg:block px-2 py-[2px] text-white lg:rounded-full  "
-                    style={{ backgroundColor: "#453364" }}
-                  >
-                    $
-                  </p>
-                  <p className="hidden lg:block text-sm ">
-                    Discover the easiest way to get our service!
-                  </p>
-                </div> */}
-                <p
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                  className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
-                  style={{ lineHeight: "120%", color: "#001E36" }}
-                >
-                  Welcome to The LEAP Physiotherapy
-                </p>
-
-                <p
-                  data-aos="fade-right"
-                  data-aos-duration="2000"
-                  className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t    "
-                  style={{ lineHeight: "120%", color: "#001E36" }}
-                >
-                  Be seen by a Consultant expert in our physiotherapy center & get the best physiotherapy in the country.
-                  We have state of the art equipments & qualified professionals to
-                  heal your pain & suffering.
-                </p>
-
-                {/* <div className="flex items-center mt-2 font-bold">
-                  <FaPhoneVolume
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "#CB052F" }}
-                  />
-                  <span
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "#CB052F" }}
-                  >
-                    {" "}
-                    Call Now: 01619848555
-                  </span>
-                </div> */}
-
-                <div
-                  data-aos="fade-up"
-                  data-aos-duration="3000"
-                  className="flex  gap-4 mt-10 text-center"
-                >
-                  <Link
-                    className="hidden  md:inline-flex items-center   md:px-8 md:py-3  border   rounded hover:bg-transparent active:text-primary focus:outline-none focus:ring transition ease-in-out delay-150  text-white hover:text-black"
-                    to="/"
-                    style={{ backgroundColor: "#3E84DC", color: "white" }}
-                  >
-                    <span className="text-sm font-medium"> More</span>
-                    <BsArrowRight className="text-lg ml-2" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    
+    <div class="carousel-item relative float-left w-full">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp"
+        class="block w-full"
+        alt="Woman Reading a Book"
+      />
+      <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
       </div>
+    </div>
+  </div>
+   
+  <button
+    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+    type="button"
+    data-bs-target="#carouselDarkVariant"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+    type="button"
+    data-bs-target="#carouselDarkVariant"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     </div>
   );
 };
