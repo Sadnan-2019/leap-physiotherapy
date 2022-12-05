@@ -30,11 +30,17 @@ const Services = () => {
               height: "200px",
             }}
           >
-            <div className="">
+            <div className=""  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               {" "}
               <img src={physio} className="w-62 h-36 " alt="" />{" "}
             </div>
-            <div className=" text-white"   >
+            <div className=" text-white"  data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000" >
               <h2 className="text-2xl font-bold "> Physiotherapy </h2>
               <p className="text-[15px]">
                 Experience the best physiotherapy services at LEAP to improve
@@ -59,7 +65,10 @@ const Services = () => {
               height: "200px",
             }}
           >
-            <div>
+            <div  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Neuro.png   "
@@ -67,7 +76,10 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className="text-white ">
+            <div className="text-white "  data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               <h2 className="text-2xl font-bold ">Rehabilitation</h2>
               <p className="text-[15px]">
                 Rehabilitation   aims to improve function, reduce symptoms
@@ -87,13 +99,16 @@ const Services = () => {
           <div
             className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
-              backgroundColor: "white",
+              
               borderRadius: "25px",
-              color: "#3E84DC",
+               
               height: "200px",
             }}
           >
-            <div>
+            <div  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000" >
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Respiratory.png "
@@ -101,7 +116,10 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className=" text-white">
+            <div className=" text-white"  data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               <h2 className="text-2xl font-bold ">Chest Physio</h2>
               <p className="text-[15px]">
                 Respiratory physiotherapy helps treat, educate and advise people
@@ -120,13 +138,16 @@ const Services = () => {
           <div
             className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  w-5/6      flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
-              backgroundColor: "white",
+               
               borderRadius: "25px",
               
               height: "200px",
             }}
           >
-            <div>
+            <div  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Sports-Injuries.png "
@@ -134,7 +155,10 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className="text-white ">
+            <div className="text-white "  data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               <h2 className="text-2xl font-bold ">Sporting Injuries & Pain</h2>
               <p className="text-[15px]">
                 Restoring normal function post-injury and pain management of
@@ -154,13 +178,16 @@ const Services = () => {
           <div
             className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
-              backgroundColor: "white",
+              
               borderRadius: "25px",
              
               height: "200px",
             }}
           >
-            <div>
+            <div  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Orthopaedic.png "
@@ -168,7 +195,10 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className="text-white ">
+            <div className="text-white "  data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               <h2 className="text-2xl font-bold ">Pre & Post Surgery</h2>
               <p className="text-[15px]">
                 A plan to prepare for surgery, optimize strength, function and
@@ -187,13 +217,16 @@ const Services = () => {
           <div
             className="bg-gradient-to-r from-[#034ca7]  to-[#5f7499]    w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
-              backgroundColor: "white",
+              
               borderRadius: "25px",
               
               height: "200px",
             }}
           >
-            <div>
+            <div  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2020/09/Paediatrics-Icon.png "
@@ -201,7 +234,10 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className=" text-white">
+            <div className=" text-white"  data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               <h2 className="text-2xl font-bold ">Paediatrics</h2>
               <p className="text-[15px]">
                 Life enrichment activity program team of paediatric therapists
@@ -220,13 +256,16 @@ const Services = () => {
           <div
             className=" w-5/6  bg-gradient-to-r from-[#034ca7]  to-[#5f7499]      flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
-              backgroundColor: "white",
+              
               borderRadius: "25px",
               
               height: "200px",
             }}
           >
-            <div>
+            <div  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2020/01/OtherTherapies.png "
@@ -234,7 +273,10 @@ const Services = () => {
                 alt=""
               />{" "}
             </div>
-            <div className="text-white ">
+            <div className="text-white "  data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000">
               <h2 className="text-2xl font-bold ">Other Therapies</h2>
               <p className="text-[15px]">
                 Learn more about Music Therapy, Speech and Language Therapy,
