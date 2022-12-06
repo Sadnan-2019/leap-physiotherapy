@@ -30,9 +30,9 @@ const Topnav = () => {
             </div>
             <div className='text-[#38639F]  '>
               <p className="text-[10px] lg:text-xs 	">
-                01619848555  
+              +8801318588777  
               </p>
-              <p className="text-[10px] lg:text-xs  	 	">01619848555  </p>
+              <p className="text-[10px] lg:text-xs  	 	">+8802222281712  </p>
             </div>
           </div>
           <div
@@ -46,7 +46,7 @@ const Topnav = () => {
               <p className="text-[10px] lg:text-xs     	">
                 Email us
               </p>
-              <p className="text-[10px] lg:text-xs	 	">info@leap.com.bd</p>
+              <p className="text-[10px] lg:text-xs	 	">info@leap.mrg.com.bd</p>
             </div>
           </div>
           <div

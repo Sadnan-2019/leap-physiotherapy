@@ -92,10 +92,10 @@ const Success = () => {
                
               </div>
               <div className="stat-value  "  >
-                3000+
+                150+
               </div>
               <div className="text-[18px] font-bold"  >
-                Medical assistant
+              Equipments
               </div>
               
             
@@ -121,12 +121,12 @@ const Success = () => {
                 200+
               </div>
               <div className="text-[18px] font-bold"  >
-  Nurses
+              Physician
               </div>
               
             
             </div>
-            <div className="stat">
+            {/* <div className="stat">
               <div className="stat-figure  "  >
                
               </div>
@@ -138,7 +138,7 @@ const Success = () => {
               </div>
               
             
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
