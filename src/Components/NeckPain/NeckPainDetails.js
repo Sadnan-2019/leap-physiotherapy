@@ -1,9 +1,9 @@
 import React from "react";
 import { AiOutlineCaretRight } from "react-icons/ai";
-import electrone from "../../assets/backpainone.jpg";
-import electrotwo from "../../assets/backpain2.jpg";
-import electrothree from "../../assets/electrothree.jpg";
-import electrofour from "../../assets/electro4.jpg";
+import electrone from "../../assets/neck1.jpg";
+import electrotwo from "../../assets/neck2.png";
+import electrothree from "../../assets/neck3.png";
+import electrofour from "../../assets/neck4.jpg";
 const NeckPainDetails = () => {
   return (
     <div>

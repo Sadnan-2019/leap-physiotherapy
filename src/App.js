@@ -15,6 +15,7 @@ import DryneedlingAcupuncture from './Components/DryneedlingAcupuncture/Dryneedl
 import Topnav from './Components/Topnav/Topnav';
 import BackyPain from './Components/BackyPain/BackyPain';
 import NeckPain from './Components/NeckPain/NeckPain';
+import ShoulderPain from './Components/ShoulderPain/ShoulderPain';
 // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path="/dryneedling-acupuncture" element={<DryneedlingAcupuncture/>}></Route>
         <Route path="/back-pain" element={<BackyPain/>}></Route>
         <Route path="/neck-pain" element={<NeckPain/>}></Route>
+        <Route path="/shoulder-pain" element={<ShoulderPain/>}></Route>
         {/* <Route path="/therapeutic-exercise" element={<TherapeuticExercise/>}></Route> */}
          
         {/* <Route path="login" element={<Login />}></Route> */}

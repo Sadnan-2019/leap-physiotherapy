@@ -44,7 +44,8 @@ const Review = () => {
       <div>
         <div className=" ">
           <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
-            <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-[#536E9B]">
+            <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-[#536E9B]" data-aos="fade-up"
+            data-aos-duration="1000">
               Check Our Recent Reviews!
             </h2>
           </div>

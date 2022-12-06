@@ -7,8 +7,9 @@ const Services = () => {
       <div className="py-10">
         <div className=" ">
           <h2
-            className="text-3xl text-center  py-10 font-bold poppins-b sm:text-4xl"
-            style={{ color: "#536E9B" }}
+            className="text-3xl text-center  py-8 font-bold poppins-b sm:text-4xl"
+            style={{ color: "#536E9B" }} data-aos="fade-up"
+            data-aos-duration="1000"
           >
             Our Services
           </h2>
