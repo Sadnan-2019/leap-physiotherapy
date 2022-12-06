@@ -245,7 +245,7 @@ const Nav = () => {
     </>
   );
   return (
-    <div>
+    <div className="sticky top-0 z-50">
       <div className="navbar bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  ">
         <div className="navbar-start">
           <div className="dropdown">

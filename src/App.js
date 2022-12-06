@@ -14,6 +14,7 @@ import KinesioTaping from './Components/KinesioTaping/KinesioTaping';
 import DryneedlingAcupuncture from './Components/DryneedlingAcupuncture/DryneedlingAcupuncture';
 import Topnav from './Components/Topnav/Topnav';
 import BackyPain from './Components/BackyPain/BackyPain';
+import NeckPain from './Components/NeckPain/NeckPain';
 // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path="/kinesio-taping-therapy" element={<KinesioTaping/>}></Route>
         <Route path="/dryneedling-acupuncture" element={<DryneedlingAcupuncture/>}></Route>
         <Route path="/back-pain" element={<BackyPain/>}></Route>
+        <Route path="/neck-pain" element={<NeckPain/>}></Route>
         {/* <Route path="/therapeutic-exercise" element={<TherapeuticExercise/>}></Route> */}
          
         {/* <Route path="login" element={<Login />}></Route> */}

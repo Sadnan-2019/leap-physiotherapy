@@ -7,7 +7,9 @@ const Backpain = () => {
       <div className="py-10 px-10">
         <div className=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2  bg-base-100 shadow-xl">
           {/* <img src={pain} alt="Album" /> */}
-          <div className="sm:h-80  sm:w-5/6 lg:w-5/6 h-96">
+          <div className="sm:h-80  sm:w-5/6 lg:w-5/6 h-96" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             {/* <img src="https://idiary.in/Images/snap2.jpg" alt="Album" /> */}
 
             {/* <iframe

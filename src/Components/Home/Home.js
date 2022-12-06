@@ -1,5 +1,6 @@
 
 import React from 'react';
+import About from '../About/About';
 import Backpain from '../Bankpain/Backpain';
 import Contact from '../Contact/Contact';
 import Landing from '../Landing/Landing';
@@ -20,6 +21,7 @@ const Home = () => {
            <Services/>
            <Review></Review>
            <Backpain/>
+           {/* <About></About> */}
            <Success></Success>
            <Team></Team>
            <Contact></Contact>
