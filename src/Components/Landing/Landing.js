@@ -7,93 +7,45 @@ import { FaPhoneVolume } from "react-icons/fa";
 const Landing = () => {
   return (
     <div>
-     <div
-  id="carouselDarkVariant"
-  class="carousel slide carousel-fade carousel-dark relative"
-  data-bs-ride="carousel"
->
- 
-  <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-    <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="1"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="2"
-      aria-label="Slide 1"
-    ></button>
+  
+
+
+<body>
+  <div class="sliderAx h-auto">
+      <div id="slider-1" class="container mx-auto">
+        <div class="bg-cover bg-center  h-auto text-white py-24 px-10 object-fill" 
+         style={{ backgroundImage: `url("https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80")` }}
+        >
+       <div class="md:w-1/2">
+        <p class="font-bold text-sm uppercase">Services</p>
+        <p class="text-3xl font-bold">Hello world</p>
+        <p class="text-2xl mb-10 leading-none">Carousel with TailwindCSS and jQuery</p>
+        <a href="#" class="bg-purple-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Contact us</a>
+        </div>  
+    </div> 
+      <br/>
+      </div>
+
+      <div id="slider-2" class="container mx-auto">
+        <div class="bg-cover bg-top  h-auto text-white py-24 px-10 object-fill" 
+        style={{ backgroundImage: `url("https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80")` }}
+        >
+       
+  <p class="font-bold text-sm uppercase">Services</p>
+        <p class="text-3xl font-bold">Hello world</p>
+        <p class="text-2xl mb-10 leading-none">Carousel with TailwindCSS and jQuery</p>
+        <a href="#" class="bg-purple-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Contact us</a>
+         
+    </div>  
+      <br/>
+      </div>
+    </div>
+ <div  class="flex justify-between w-12 mx-auto pb-2">
+        <button id="sButton1" onclick="sliderButton1()" class="bg-purple-400 rounded-full w-4 pb-2 " ></button>
+    <button id="sButton2" onclick="sliderButton2() " class="bg-purple-400 rounded-full w-4 p-2"></button>
   </div>
 
- 
-  <div class="carousel-inner relative w-full overflow-hidden">
- 
-    <div class="carousel-item active relative float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
-        class="block w-full"
-        alt="Motorbike Smoke"
-      />
-      <div class="carousel-caption hidden md:block absolute text-center">
-        <h5 class="text-xl">First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-
-    
-    <div class="carousel-item relative float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp"
-        class="block w-full"
-        alt="Mountaintop"
-      />
-      <div class="carousel-caption hidden md:block absolute text-center">
-        <h5 class="text-xl">Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-
-    
-    <div class="carousel-item relative float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp"
-        class="block w-full"
-        alt="Woman Reading a Book"
-      />
-      <div class="carousel-caption hidden md:block absolute text-center">
-        <h5 class="text-xl">Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-   
-  <button
-    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-    type="button"
-    data-bs-target="#carouselDarkVariant"
-    data-bs-slide="prev"
-  >
-    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-    type="button"
-    data-bs-target="#carouselDarkVariant"
-    data-bs-slide="next"
-  >
-    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+</body>
     </div>
   );
 };
