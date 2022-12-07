@@ -58,7 +58,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  sm:w-5/6  lg:w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -73,7 +73,7 @@ const Services = () => {
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Neuro.png   "
-                className="w-62 h-36 "
+                className="  lg:w-62 h-36 "
                 alt=""
               />{" "}
             </div>
@@ -81,8 +81,8 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-2xl font-bold ">Rehabilitation</h2>
-              <p className="text-[15px]">
+              <h2 className="text-lg lg:text-2xl font-bold ">Rehabilitation</h2>
+              <p className=" text-xs lg:text-[15px]">
                 Rehabilitation   aims to improve function, reduce symptoms
                 and ascertain the wellbeing of people with complex injuries and
                 conditions affecting the brain and nervous system.

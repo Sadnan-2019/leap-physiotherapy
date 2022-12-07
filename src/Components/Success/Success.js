@@ -22,6 +22,22 @@ const Success = () => {
         })
         return <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>
     }
+    function Number2({n}) {
+
+
+
+        const [flip, set] = useState(false)
+        const { number } = useSpring({
+          reset: true,
+          reverse: flip,
+          from: { number: 0 },
+          number: n,
+          delay: 1000,
+          config:  { mass: 1, tension: 20,  friction: 10},
+          onRest: () => set(!flip),
+        })
+        return <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>
+    }
 
 
 
@@ -53,13 +69,13 @@ const Success = () => {
               </div> */}
             </div>
             <div className="stat">
-              <div className="stat-figure  "  >
+              {/* <div className="stat-figure  "  >
                
+              </div> */}
+              <div className="sm:text-sm  lg:stat-value flex  "  >
+              <Number n={2000}  /><span>+</span>
               </div>
-              <div className="stat-value  "  >
-                2000+
-              </div>
-              <div className="text-[18px] font-bold"  >
+              <div className=" sm:text-sm lg:text-[18px] font-bold"  >
              LEAP related man power in our platform
               </div>
               
