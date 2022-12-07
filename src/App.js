@@ -18,6 +18,7 @@ import NeckPain from './Components/NeckPain/NeckPain';
 import ShoulderPain from './Components/ShoulderPain/ShoulderPain';
 import ElbowPain from './Components/ElbowPain/ElbowPain';
 import KneePain from './Components/KneePain/KneePain';
+import MessengerCustomerChat from 'react-messenger-customer-chat/lib/MessengerCustomerChat';
 // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
 
 
       <Footer/>
+      <MessengerCustomerChat pageId="105187501050744" appId="500779031558701" />
     </div>
   );
 }
