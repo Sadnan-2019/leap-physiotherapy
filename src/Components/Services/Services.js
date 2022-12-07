@@ -73,7 +73,7 @@ const Services = () => {
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Neuro.png   "
-                className="  lg:w-62 h-36 "
+                className="w-96   lg:h-36 "
                 alt=""
               />{" "}
             </div>
