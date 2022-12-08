@@ -15,7 +15,7 @@ import Team from '../Team/Team';
 const Home = () => {
      return (
           <div>
-           <Landingnew/> 
+           {/* <Landingnew/>  */}
            {/* <Landing></Landing> */}
            <MedicalConditions></MedicalConditions>
            <Services/>
@@ -23,7 +23,7 @@ const Home = () => {
            <Backpain/>
            <About></About>
            <Success></Success>
-           <Team></Team>
+           {/* <Team></Team> */}
            <Contact></Contact>
 
           </div>
