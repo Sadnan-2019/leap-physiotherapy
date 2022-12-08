@@ -17,7 +17,7 @@ const Services = () => {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-12 gap-10    py-[25px] items-center justify-items-center">
           <div
-            className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499]    w-5/6 flex items-center justify-center	 gap-5      shadow-2xl shadow-white-1000/50 border    p-10"
+            className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499]    sm:w-5/6  lg:w-5/6  flex items-center justify-center	 gap-5      shadow-2xl shadow-white-1000/50 border    p-10"
 
             
             // data-aos="fade-up-right"
@@ -36,14 +36,14 @@ const Services = () => {
             data-aos-delay="5000"
             data-aos-duration="3000">
               {" "}
-              <img src={physio} className="w-62 h-36 " alt="" />{" "}
+              <img src={physio} className="w-96   lg:h-36 " alt="" />{" "}
             </div>
             <div className=" text-white"  data-aos="fade-down"
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000" >
-              <h2 className="text-2xl font-bold "> Physiotherapy </h2>
-              <p className="text-[15px]">
+              <h2 className="text-md lg:text-2xl font-bold "> Physiotherapy </h2>
+              <p className="text-xs lg:text-[15px]">
                 Experience the best physiotherapy services at LEAP to improve
                 function,reduce symptoms & prevent future complications.
               </p>
@@ -81,7 +81,7 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-lg lg:text-2xl font-bold ">Rehabilitation</h2>
+              <h2 className="text-md lg:text-2xl font-bold ">Rehabilitation</h2>
               <p className=" text-xs lg:text-[15px]">
                 Rehabilitation   aims to improve function, reduce symptoms
                 and ascertain the wellbeing of people with complex injuries and
@@ -98,7 +98,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]    sm:w-5/6  lg:w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               
               borderRadius: "25px",
@@ -113,7 +113,7 @@ const Services = () => {
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Respiratory.png "
-                className="w-62 h-36  "
+                className="w-96   lg:h-36 "
                 alt=""
               />{" "}
             </div>
@@ -121,8 +121,8 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-2xl font-bold ">Chest Physio</h2>
-              <p className="text-[15px]">
+              <h2 className="text-md lg:text-2xl font-bold">Chest Physio</h2>
+              <p className="text-xs lg:text-[15px]">
                 Respiratory physiotherapy helps treat, educate and advise people
                 who have problems with their lungs and heart.
               </p>
@@ -137,7 +137,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  w-5/6      flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   sm:w-5/6  lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
                
               borderRadius: "25px",
@@ -152,7 +152,7 @@ const Services = () => {
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Sports-Injuries.png "
-                className="w-62 h-36 "
+                className="w-96   lg:h-36  "
                 alt=""
               />{" "}
             </div>
@@ -160,8 +160,8 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-2xl font-bold ">Sporting Injuries & Pain</h2>
-              <p className="text-[15px]">
+              <h2 className="text-md lg:text-2xl font-bold">Sporting Injuries & Pain</h2>
+              <p className="text-xs lg:text-[15px]">
                 Restoring normal function post-injury and pain management of
                 acute or chronic conditions
               </p>
@@ -177,7 +177,7 @@ const Services = () => {
           </div>
            
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   sm:w-5/6  lg:w-5/6      flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
               
               borderRadius: "25px",
@@ -192,7 +192,7 @@ const Services = () => {
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Orthopaedic.png "
-                className="w-62 h-36 "
+                className="w-96   lg:h-36  "
                 alt=""
               />{" "}
             </div>
@@ -200,8 +200,8 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-2xl font-bold ">Pre & Post Surgery</h2>
-              <p className="text-[15px]">
+              <h2 className="text-md lg:text-2xl font-bold ">Pre & Post Surgery</h2>
+              <p className="text-xs lg:text-[15px]">
                 A plan to prepare for surgery, optimize strength, function and
                 mobility afterwards.
               </p>
