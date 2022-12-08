@@ -28,7 +28,7 @@ const Services = () => {
               
               borderRadius: "25px",
               color: "white",
-              height: "200px",
+              height: "230px",
             }}
           >
             <div className=""  data-aos="fade-right"
@@ -42,7 +42,7 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000" >
-              <h2 className="text-md lg:text-2xl font-bold "> Physiotherapy </h2>
+              <h2 className="tex-sm lg:text-2xl font-bold "> Physiotherapy </h2>
               <p className="text-xs lg:text-[15px]">
                 Experience the best physiotherapy services at LEAP to improve
                 function,reduce symptoms & prevent future complications.
@@ -63,7 +63,7 @@ const Services = () => {
               backgroundColor: "white",
               borderRadius: "25px",
             
-              height: "200px",
+              height: "230px",
             }}
           >
             <div  data-aos="fade-right"
@@ -81,7 +81,7 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-md lg:text-2xl font-bold ">Rehabilitation</h2>
+              <h2 className="tex-sm lg:text-2xl font-bold ">Rehabilitation</h2>
               <p className=" text-xs lg:text-[15px]">
                 Rehabilitation   aims to improve function, reduce symptoms
                 and ascertain the wellbeing of people with complex injuries and
@@ -103,7 +103,7 @@ const Services = () => {
               
               borderRadius: "25px",
                
-              height: "200px",
+              height: "230px",
             }}
           >
             <div  data-aos="fade-right"
@@ -121,7 +121,7 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-md lg:text-2xl font-bold">Chest Physio</h2>
+              <h2 className="tex-sm lg:text-2xl font-bold">Chest Physio</h2>
               <p className="text-xs lg:text-[15px]">
                 Respiratory physiotherapy helps treat, educate and advise people
                 who have problems with their lungs and heart.
@@ -142,7 +142,7 @@ const Services = () => {
                
               borderRadius: "25px",
               
-              height: "200px",
+              height: "230px",
             }}
           >
             <div  data-aos="fade-right"
@@ -160,7 +160,7 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-md lg:text-2xl font-bold">Sporting Injuries & Pain</h2>
+              <h2 className="tex-sm lg:text-2xl font-bold">Sporting Injuries & Pain</h2>
               <p className="text-xs lg:text-[15px]">
                 Restoring normal function post-injury and pain management of
                 acute or chronic conditions
@@ -182,7 +182,7 @@ const Services = () => {
               
               borderRadius: "25px",
              
-              height: "200px",
+              height: "230px",
             }}
           >
             <div  data-aos="fade-right"
@@ -200,7 +200,7 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-md lg:text-2xl font-bold ">Pre & Post Surgery</h2>
+              <h2 className="tex-sm lg:text-2xl font-bold ">Pre & Post Surgery</h2>
               <p className="text-xs lg:text-[15px]">
                 A plan to prepare for surgery, optimize strength, function and
                 mobility afterwards.
@@ -221,7 +221,7 @@ const Services = () => {
               
               borderRadius: "25px",
               
-              height: "200px",
+              height: "230px",
             }}
           >
             <div  data-aos="fade-right"
@@ -239,7 +239,7 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-md lg:text-2xl font-bold">Paediatrics</h2>
+              <h2 className="tex-sm lg:text-2xl font-bold">Paediatrics</h2>
               <p className="text-xs lg:text-[15px]">
                 Life enrichment activity program team of paediatric therapists
                 are here to support babies, children and teenagers aged 0 – 19.
@@ -260,7 +260,7 @@ const Services = () => {
               
               borderRadius: "25px",
               
-              height: "200px",
+              height: "230px",
             }}
           >
             <div  data-aos="fade-right"
@@ -278,7 +278,7 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-md lg:text-2xl font-bold ">Other Therapies</h2>
+              <h2 className="tex-sm lg:text-2xl font-bold ">Other Therapies</h2>
               <p className="text-xs lg:text-[15px]">
                 Learn more about Music Therapy, Speech and Language Therapy,
                 Neuropsychology and Occupational Therapy
