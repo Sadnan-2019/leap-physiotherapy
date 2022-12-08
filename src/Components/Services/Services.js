@@ -216,7 +216,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="bg-gradient-to-r from-[#034ca7]  to-[#5f7499]    w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            className="bg-gradient-to-r from-[#034ca7]  to-[#5f7499]    sm:w-5/6  lg:w-5/6      flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
               
               borderRadius: "25px",
@@ -231,7 +231,7 @@ const Services = () => {
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2020/09/Paediatrics-Icon.png "
-                className="w-62 h-36 "
+                className="w-96   lg:h-36  "
                 alt=""
               />{" "}
             </div>
@@ -239,8 +239,8 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-2xl font-bold ">Paediatrics</h2>
-              <p className="text-[15px]">
+              <h2 className="text-md lg:text-2xl font-bold">Paediatrics</h2>
+              <p className="text-xs lg:text-[15px]">
                 Life enrichment activity program team of paediatric therapists
                 are here to support babies, children and teenagers aged 0 – 19.
               </p>
@@ -255,7 +255,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" w-5/6  bg-gradient-to-r from-[#034ca7]  to-[#5f7499]      flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
+            className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  sm:w-5/6  lg:w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   px-10"
             style={{
               
               borderRadius: "25px",
@@ -270,7 +270,7 @@ const Services = () => {
               {" "}
               <img
                 src="https://www.rehabphysiolondon.com/wp-content/uploads/2020/01/OtherTherapies.png "
-                className="w-62 h-36 "
+                className="w-96   lg:h-36  "
                 alt=""
               />{" "}
             </div>
@@ -278,8 +278,8 @@ const Services = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000">
-              <h2 className="text-2xl font-bold ">Other Therapies</h2>
-              <p className="text-[15px]">
+              <h2 className="text-md lg:text-2xl font-bold ">Other Therapies</h2>
+              <p className="text-xs lg:text-[15px]">
                 Learn more about Music Therapy, Speech and Language Therapy,
                 Neuropsychology and Occupational Therapy
               </p>
