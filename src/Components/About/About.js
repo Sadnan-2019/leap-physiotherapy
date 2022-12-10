@@ -4,6 +4,7 @@ import Supervision from "../../assets/Supervission.jpg";
 import Comforthome from "../../assets/Comfort of home.jpg";
 import Personalized from "../../assets/personilized.jpg";
 import increase  from "../../assets/increase scope of treatment.jpg";
+import cost  from "../../assets/Cost effectiveness.jpg";
 const About = () => {
   return (
     <div className="py-10">
@@ -35,7 +36,7 @@ const About = () => {
               >
                 <figure className="">
                   <img
-                    src="http://www.dhakaspecializedhomephysiotherapy.com/img/about/Cost%20effectiveness.jpg"
+                    src={cost}
                     alt="Shoes"
                     className="  p-4  "
                     style={{ height: "250px", borderRadius: "25px" }}

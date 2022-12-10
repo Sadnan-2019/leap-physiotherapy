@@ -45,7 +45,7 @@ const Services = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
             >
-              <h2 className="tex-sm   lg:text-2xl font-bold ">
+              <h2 className="text-xs   lg:text-2xl font-bold ">
                 {" "}
                 Physiotherapy{" "}
               </h2>
@@ -90,7 +90,7 @@ const Services = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
             >
-              <h2 className="tex-sm lg:text-2xl font-bold ">Rehabilitation</h2>
+              <h2 className="text-xs lg:text-2xl font-bold ">Rehabilitation</h2>
               <p className=" text-xs lg:text-[15px]">
                 Rehabilitation aims to improve function, reduce symptoms and
                 ascertain the wellbeing of people with complex injuries and
@@ -132,7 +132,7 @@ const Services = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
             >
-              <h2 className="tex-sm lg:text-2xl font-bold">Chest Physio</h2>
+              <h2 className="text-xs lg:text-2xl font-bold">Chest Physio</h2>
               <p className="text-xs lg:text-[15px]">
                 Respiratory physiotherapy helps treat, educate and advise people
                 who have problems with their lungs and heart.
@@ -174,9 +174,9 @@ const Services = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
             >
-              <h2 className="tex-sm lg:text-2xl font-bold">
+              <span className="text-xs lg:text-2xl font-bold">
                 Sporting Injuries & Pain
-              </h2>
+              </span>
               <p className="text-xs lg:text-[15px]">
                 Restoring normal function post-injury and pain management of
                 acute or chronic conditions
@@ -217,7 +217,7 @@ const Services = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
             >
-              <h2 className="tex-sm lg:text-2xl font-bold">
+              <h2 className="text-xs lg:text-2xl font-bold">
                 Pre & Post Surgery
               </h2>
               <p className="text-xs lg:text-[15px]">
@@ -260,7 +260,7 @@ const Services = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
             >
-              <h2 className="tex-sm lg:text-2xl font-bold">Paediatrics</h2>
+              <h2 className="text-xs lg:text-2xl font-bold">Paediatrics</h2>
               <p className="text-xs lg:text-[15px]">
                 Life enrichment activity program team of paediatric therapists
                 are here to support babies, children and teenagers aged 0 – 19.
@@ -301,7 +301,7 @@ const Services = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
             >
-              <h2 className="tex-sm lg:text-2xl font-bold">Other Therapies
+              <h2 className="text-xs lg:text-2xl font-bold">Other Therapies
 </h2>
               <p className="text-xs lg:text-[15px]">
               Learn more about Music Therapy, Speech and Language Therapy, Neuropsychology and Occupational Therapy
