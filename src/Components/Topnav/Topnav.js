@@ -54,10 +54,10 @@ const Topnav = () => {
             style={{ color: "white" }}
           >
              <div className="flex justify-items-center items-center gap-2  text-[#38639F]">
-          <FaFacebookSquare className="text-lg ml-2  " />
-          <BsLinkedin className="text-lg ml-2  " />
-          <TiSocialTwitter className="text-lg ml-2  " />
-          <TiSocialInstagram className="text-lg ml-2  " />
+          <FaFacebookSquare className="sm:text-xs lg:text-lg ml-2  " />
+          <BsLinkedin className="sm:text-xs lg:text-lg ml-2  " />
+          <TiSocialTwitter className="sm:text-xs lg:text-lg ml-2  " />
+          <TiSocialInstagram className="sm:text-xs lg:text-lg ml-2  " />
           </div>
           </div>
         </div>
