@@ -70,8 +70,7 @@ const Contact = () => {
 
 
                 
-                <div class="md:mt-12 lg:mt-0 mb-12 lg:mb-0" data-aos="fade-left"
-            data-aos-duration="1000">
+                <div class="md:mt-12 lg:mt-0 mb-12 lg:mb-0"  >
                   <div class="block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-14">
                     <h2 class="text-3xl font-bold mb-12 text-[#536E9B]">Contact us</h2>
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 mb-12 ">
@@ -153,8 +152,7 @@ const Contact = () => {
                     </form>
                   </div>
                 </div>
-                <div class="md:mb-12 lg:mb-0 " data-aos="fade-right"
-            data-aos-duration="1000">
+                <div class="md:mb-12 lg:mb-0 "  >
                   <div class="map-container relative shadow-lg rounded-lg">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14603.042712100108!2d90.4186963!3d23.7915351!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa5998bedeec72a77!2sHealthCare%20At%20Home%20Bangladesh!5e0!3m2!1sen!2sbd!4v1666516296223!5m2!1sen!2sbd"

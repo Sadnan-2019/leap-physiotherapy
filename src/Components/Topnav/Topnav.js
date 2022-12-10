@@ -40,7 +40,7 @@ const Topnav = () => {
             style={{ color: "white" }}
           >
             <div>
-              <HiOutlineMailOpen className="text-[10px] lg:text-2xl  animate-bounce	text-[#38639F]  " />
+              <HiOutlineMailOpen className="ml-2 lg:ml-0 text-[10px] lg:text-2xl  animate-bounce	text-[#38639F]  " />
             </div>
             <div className='text-[#38639F]'>
               <p className="text-[10px] lg:text-xs     	">
@@ -50,14 +50,14 @@ const Topnav = () => {
             </div>
           </div>
           <div
-            className="   lg:flex items-center font-bold    gap-2"
+            className="  sm:ml-7  lg:ml-0 bg-yellow-500"
             style={{ color: "white" }}
           >
-             <div className="flex justify-items-center items-center gap-2  text-[#38639F]">
-          <FaFacebookSquare className="text-xs lg:text-lg ml-2  " />
-          <BsLinkedin className="text-xs lg:text-lg ml-2  " />
-          <TiSocialTwitter className="text-xs lg:text-lg ml-2  " />
-          <TiSocialInstagram className="text-xs lg:text-lg ml-2  " />
+             <div className="flex  justify-items-center items-center gap-2  text-[#38639F]">
+          <FaFacebookSquare className="text-[10px] lg:text-lg ml-2  " />
+          <BsLinkedin className="text-[10px] lg:text-lg ml-2  " />
+          <TiSocialTwitter className="text-[10px] lg:text-lg ml-2  " />
+          <TiSocialInstagram className=" text-[10px] lg:text-lg ml-2  " />
           </div>
           </div>
         </div>
