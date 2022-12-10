@@ -49,9 +49,9 @@ const Services = () => {
                 {" "}
                 Physiotherapy{" "}
               </h2>
-              <p className="text-xs lg:text-[15px]">
+              <p className="text-xs lg:text-[15px] text-justify">
                 Experience the best physiotherapy services at LEAP to improve
-                function,reduce symptoms & prevent future complications.
+                function, reduce symptoms & prevent future complications.
               </p>
               <div className="card-actions justify-end  mt-5">
                 <button
@@ -91,7 +91,7 @@ const Services = () => {
               data-aos-duration="3000"
             >
               <h2 className="text-xs lg:text-2xl font-bold ">Rehabilitation</h2>
-              <p className=" text-xs lg:text-[15px]">
+              <p className=" text-xs lg:text-[15px] text-justify">
                 Rehabilitation aims to improve function, reduce symptoms and
                 ascertain the wellbeing of people with complex injuries and
                 conditions affecting the brain and nervous system.
@@ -133,7 +133,7 @@ const Services = () => {
               data-aos-duration="3000"
             >
               <h2 className="text-xs lg:text-2xl font-bold">Chest Physio</h2>
-              <p className="text-xs lg:text-[15px]">
+              <p className="text-xs lg:text-[15px] text-justify">
                 Respiratory physiotherapy helps treat, educate and advise people
                 who have problems with their lungs and heart.
               </p>
@@ -177,7 +177,7 @@ const Services = () => {
               <span className="text-xs lg:text-2xl font-bold">
                 Sporting Injuries & Pain
               </span>
-              <p className="text-xs lg:text-[15px]">
+              <p className="text-xs lg:text-[15px] text-justify">
                 Restoring normal function post-injury and pain management of
                 acute or chronic conditions
               </p>
@@ -220,7 +220,7 @@ const Services = () => {
               <h2 className="text-xs lg:text-2xl font-bold">
                 Pre & Post Surgery
               </h2>
-              <p className="text-xs lg:text-[15px]">
+              <p className="text-xs lg:text-[15px] text-justify">
                 A plan to prepare for surgery, optimize strength, function and
                 mobility afterwards.
               </p>
@@ -261,7 +261,7 @@ const Services = () => {
               data-aos-duration="3000"
             >
               <h2 className="text-xs lg:text-2xl font-bold">Paediatrics</h2>
-              <p className="text-xs lg:text-[15px]">
+              <p className="text-xs lg:text-[15px] text-justify">
                 Life enrichment activity program team of paediatric therapists
                 are here to support babies, children and teenagers aged 0 – 19.
               </p>
@@ -303,7 +303,7 @@ const Services = () => {
             >
               <h2 className="text-xs lg:text-2xl font-bold">Other Therapies
 </h2>
-              <p className="text-xs lg:text-[15px]">
+              <p className="text-xs lg:text-[15px] text-justify">
               Learn more about Music Therapy, Speech and Language Therapy, Neuropsychology and Occupational Therapy
               </p>
               <div className="card-actions justify-end   mt-5">
