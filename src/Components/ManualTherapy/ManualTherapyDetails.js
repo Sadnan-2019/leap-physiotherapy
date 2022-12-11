@@ -41,7 +41,7 @@ const ManualTherapyDetails = () => {
        <div className="flex items-center justify-start"> 
        
        <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
-          <p className="text-xl font-medium text-justify py-2 ml-3">
+          <p className="text-lg font-medium text-justify py-2 ml-3">
            Manipulation
 
           </p>
@@ -70,7 +70,7 @@ const ManualTherapyDetails = () => {
       <div className="flex items-center justify-start"> 
        
        <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
-          <p className="text-xl font-medium text-justify py-2 ml-3">
+          <p className="text-lg font-medium text-justify py-2 ml-3">
           Mobilization
 
           </p>
@@ -107,7 +107,7 @@ const ManualTherapyDetails = () => {
       <div className="flex items-center justify-start"> 
        
        <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
-          <p className="text-xl font-medium text-justify py-2 ml-3">
+          <p className=" text-md font-medium text-justify py-2 ml-3">
           Myofacial Release
 
 
@@ -116,7 +116,7 @@ const ManualTherapyDetails = () => {
       <div className="flex items-center justify-start"> 
        
        <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
-          <p className="text-xl font-medium text-justify py-2 ml-3">
+          <p className="text-md font-medium text-justify py-2 ml-3">
           Therapeutic Massage
 
 
@@ -125,7 +125,7 @@ const ManualTherapyDetails = () => {
       <div className="flex items-center justify-start"> 
        
        <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
-          <p className="text-xl font-medium text-justify py-2 ml-3">
+          <p className="text-md font-medium text-justify py-2 ml-3">
           Positional Release
 
 
@@ -134,7 +134,7 @@ const ManualTherapyDetails = () => {
       <div className="flex items-center justify-start"> 
        
        <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
-          <p className="text-xl font-medium text-justify py-2 ml-3">
+          <p className="text-md font-medium text-justify py-2 ml-3">
           DTFM(Deep Transverse Friction Massage)
 
           </p>
@@ -142,7 +142,7 @@ const ManualTherapyDetails = () => {
       <div className="flex items-center justify-start"> 
        
        <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
-          <p className="text-xl font-medium text-justify py-2 ml-3">
+          <p className="text-md font-medium text-justify py-2 ml-3">
           Trigger point Release
 
           </p>
@@ -150,7 +150,7 @@ const ManualTherapyDetails = () => {
       <div className="flex items-center justify-start"> 
        
        <span><AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight></span>
-          <p className="text-xl font-medium text-justify py-2 ml-3">
+          <p className="text-md font-medium text-justify py-2 ml-3">
           Postural Training
 
 
