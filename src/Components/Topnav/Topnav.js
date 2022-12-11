@@ -50,7 +50,7 @@ const Topnav = () => {
             </div>
           </div>
           <div
-            className="  sm:ml-7  lg:ml-0 bg-yellow-500"
+            className="  sm:ml-7  lg:ml-0"
             style={{ color: "white" }}
           >
              <div className="flex  justify-items-center items-center gap-2  text-[#38639F]">

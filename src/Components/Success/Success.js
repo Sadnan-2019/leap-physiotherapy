@@ -38,6 +38,22 @@ const Success = () => {
         })
         return <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>
     }
+    function Number3({n}) {
+
+
+
+        const [flip, set] = useState(false)
+        const { number } = useSpring({
+          reset: true,
+          reverse: flip,
+          from: { number: 0 },
+          number: n,
+          delay: 1000,
+          config:  { mass: 1, tension: 20,  friction: 10},
+          onRest: () => set(!flip),
+        })
+        return <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>
+    }
 
 
 
@@ -72,10 +88,10 @@ const Success = () => {
               {/* <div className="stat-figure  "  >
                
               </div> */}
-              <div className="sm:text-sm  lg:stat-value flex  "  >
-              <Number n={2000}  /><span>+</span>
+              <div className="stat-value flex  "  >
+              <Number2 n={2000}  /><span>+</span>
               </div>
-              <div className=" sm:text-sm lg:text-[18px] font-bold"  >
+              <div className="  text-[18px] font-bold"  >
              LEAP related man power in our platform
               </div>
               
@@ -86,29 +102,14 @@ const Success = () => {
   
            
   
-            {/* <div className="stat">
-              <div className="stat-figure  " style={{ color: "#453364" }}>
-             
-              </div>
-              <div
-                className="stat-value "
-                style={{ color: "#453364" }}
-              >
-                500+
-              </div>
-              <div className="text-[18px] font-bold" style={{ color: "#453364" }}>
-                HealthCare related man power in our platform
-              </div>
-              
-             
-            </div> */}
+          
           
             <div className="stat">
               <div className="stat-figure  "  >
                
               </div>
-              <div className="stat-value  "  >
-                150+
+              <div className="stat-value flex "  >
+                <Number3 n={150}></Number3><span>+</span>
               </div>
               <div className="text-[18px] font-bold"  >
               Equipments
@@ -120,8 +121,8 @@ const Success = () => {
               <div className="stat-figure  " >
                
               </div>
-              <div className="stat-value  "  >
-                150+
+              <div className="stat-value flex "  >
+              <Number3 n={200}></Number3><span>+</span>
               </div>
               <div className="text-[18px] font-bold"  >
                 Physiotherapists
@@ -133,8 +134,8 @@ const Success = () => {
               <div className="stat-figure  "  >
                
               </div>
-              <div className="stat-value  "  >
-                200+
+              <div className="stat-value flex  "  >
+              <Number3 n={100}></Number3><span>+</span>
               </div>
               <div className="text-[18px] font-bold"  >
               Physician
