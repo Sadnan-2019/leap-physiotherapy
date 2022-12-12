@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./Landingnew.css"
+import 'animate.css';
 
 const Landingnew = () => {
 
@@ -68,8 +69,11 @@ const Landingnew = () => {
          <div className="hero-overlay bg-opacity-60"></div>
          <div className="hero-content text-center text-neutral-content">
            <div className="max-w-md">
-             <h1 className="mb-5 text-5xl font-bold">Welcome to The LEAP Physiotherapy</h1>
-             <p className="mb-5">
+             <h1 className="mb-5 text-5xl font-bold"  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000">Welcome to The LEAP Physiotherapy</h1>
+             <p className="mb-5 animate__animated animate__fadeInRight">
              Be seen by a Consultant expert in our physiotherapy center & get the best physiotherapy in the country.
                   We have state of the art equipments & qualified professionals to
                   heal your pain & suffering.
