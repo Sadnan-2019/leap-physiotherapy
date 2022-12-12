@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 
 import { BsWhatsapp } from "react-icons/bs";
+import ReactWhatsapp from "react-whatsapp";
 
 const Nav = () => {
   const active =
@@ -280,7 +281,18 @@ const Nav = () => {
           <ul className="  menu-horizontal p-0">{navItem}</ul>
         </div>
         <div className="navbar-end">
-          <a href="https://api.whatsapp.com/send?phone=01892409715" className="btn btn-sm bg-green-500 animate-pulse    rounded-full   ">
+          <a
+            href="https://api.whatsapp.com/send?phone=
+"
+          >
+            <a
+              className="btn btn-sm bg-green-500 animate-pulse    rounded-full   "
+              href="https://wa.me/881956534353"
+              title="WHATSAPP CHAT"
+            >
+              {" "}
+            </a>
+
             <BsWhatsapp></BsWhatsapp>
           </a>
         </div>
@@ -288,5 +300,4 @@ const Nav = () => {
     </div>
   );
 };
-
 export default Nav;

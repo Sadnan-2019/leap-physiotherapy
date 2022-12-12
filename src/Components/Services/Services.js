@@ -18,7 +18,7 @@ const Services = () => {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-12 gap-10    py-[25px] items-center justify-items-center">
           <div
-            className="  bg-gradient-to-r from-[#034ca7] h-3/4  to-[#5f7499]    sm:w-5/6  lg:w-5/6  flex items-center justify-center	 gap-5      shadow-2xl shadow-white-1000/50 border    p-10"
+            className="  bg-gradient-to-r from-[#034ca7] h-4/5 lg:h-3/4  to-[#5f7499]    sm:w-5/6  lg:w-5/6  flex items-center justify-center	 gap-5      shadow-2xl shadow-white-1000/50 border    p-10"
             // data-aos="fade-up-right"
             // data-aos-offset="300"
             // data-aos-delay="5000"
@@ -49,7 +49,7 @@ const Services = () => {
                 {" "}
                 Physiotherapy{" "}
               </h2>
-              <p className="text-xs lg:text-[15px] text-justify">
+              <p className="text-xs lg:text-[15px]  ">
                 Experience the best physiotherapy services at LEAP to improve
                 function, reduce symptoms & prevent future complications.
               </p>
