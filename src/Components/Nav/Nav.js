@@ -281,20 +281,18 @@ const Nav = () => {
           <ul className="  menu-horizontal p-0">{navItem}</ul>
         </div>
         <div className="navbar-end">
-          <a
-            href="https://api.whatsapp.com/send?phone=
-"
-          >
+          
             <a
               className="btn btn-sm bg-green-500 animate-pulse    rounded-full   "
               href="https://wa.me/881956534353"
               title="WHATSAPP CHAT"
             >
               {" "}
+              <BsWhatsapp></BsWhatsapp>
             </a>
 
-            <BsWhatsapp></BsWhatsapp>
-          </a>
+           
+           
         </div>
       </div>
     </div>
