@@ -16,9 +16,9 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-12 gap-10    py-[25px] items-center justify-items-center">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-0 lg:px-12 gap-10    py-[25px] items-center justify-items-center ">
           <div
-            className="  bg-gradient-to-r from-[#034ca7] h-4/5 lg:h-3/4  to-[#5f7499]    sm:w-5/6  lg:w-5/6  flex items-center justify-center	 gap-5      shadow-2xl shadow-white-1000/50 border    p-10"
+            className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6  flex items-center justify-center  	 gap-5      shadow-2xl shadow-white-1000/50     p-10"
             // data-aos="fade-up-right"
             // data-aos-offset="300"
             // data-aos-delay="5000"
@@ -64,7 +64,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-3/4   sm:w-5/6  lg:w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -91,7 +91,7 @@ const Services = () => {
               data-aos-duration="3000"
             >
               <h2 className="text-xs lg:text-2xl font-bold ">Rehabilitation</h2>
-              <p className=" text-xs lg:text-[15px] text-justify">
+              <p className=" text-xs lg:text-[15px]  ">
                 Rehabilitation aims to improve function, reduce symptoms and
                 ascertain the wellbeing of people with complex injuries and
                 conditions affecting the brain and nervous system.
@@ -107,7 +107,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  h-3/4   sm:w-5/6  lg:w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  h-4/5 lg:h-3/4     w-screen	 lg:w-5/6    flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -133,7 +133,7 @@ const Services = () => {
               data-aos-duration="3000"
             >
               <h2 className="text-xs lg:text-2xl font-bold">Chest Physio</h2>
-              <p className="text-xs lg:text-[15px] text-justify">
+              <p className="text-xs lg:text-[15px]  ">
                 Respiratory physiotherapy helps treat, educate and advise people
                 who have problems with their lungs and heart.
               </p>
@@ -149,7 +149,7 @@ const Services = () => {
           </div>
 
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-3/4   sm:w-5/6  lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -177,7 +177,7 @@ const Services = () => {
               <span className="text-xs lg:text-2xl font-bold">
                 Sporting Injuries & Pain
               </span>
-              <p className="text-xs lg:text-[15px] text-justify">
+              <p className="text-xs lg:text-[15px]  ">
                 Restoring normal function post-injury and pain management of
                 acute or chronic conditions
               </p>
@@ -192,7 +192,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-3/4   sm:w-5/6  lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -220,7 +220,7 @@ const Services = () => {
               <h2 className="text-xs lg:text-2xl font-bold">
                 Pre & Post Surgery
               </h2>
-              <p className="text-xs lg:text-[15px] text-justify">
+              <p className="text-xs lg:text-[15px]  ">
                 A plan to prepare for surgery, optimize strength, function and
                 mobility afterwards.
               </p>
@@ -235,7 +235,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-3/4   sm:w-5/6  lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -261,7 +261,7 @@ const Services = () => {
               data-aos-duration="3000"
             >
               <h2 className="text-xs lg:text-2xl font-bold">Paediatrics</h2>
-              <p className="text-xs lg:text-[15px] text-justify">
+              <p className="text-xs lg:text-[15px]  ">
                 Life enrichment activity program team of paediatric therapists
                 are here to support babies, children and teenagers aged 0 – 19.
               </p>
@@ -276,7 +276,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-3/4   sm:w-5/6  lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6         flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -301,10 +301,10 @@ const Services = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
             >
-              <h2 className="text-xs lg:text-2xl font-bold">Other Therapies
-</h2>
-              <p className="text-xs lg:text-[15px] text-justify">
-              Learn more about Music Therapy, Speech and Language Therapy, Neuropsychology and Occupational Therapy
+              <h2 className="text-xs lg:text-2xl font-bold">Other Therapies</h2>
+              <p className="text-xs lg:text-[15px]  ">
+                Learn more about Music Therapy, Speech and Language Therapy,
+                Neuropsychology and Occupational Therapy
               </p>
               <div className="card-actions justify-end   mt-5">
                 <button

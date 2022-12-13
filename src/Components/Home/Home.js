@@ -23,7 +23,7 @@ const Home = () => {
            <Backpain/>
            <About></About>
            <Success></Success>
-           <Team></Team>
+           {/* <Team></Team> */}
            <Contact></Contact>
 
           </div>
