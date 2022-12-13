@@ -16,7 +16,7 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-0 lg:px-12 gap-10    py-[25px] items-center justify-items-center ">
+        <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-0   lg:px-12 gap-10    py-[25px] items-center justify-items-center ">
           <div
             className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6  flex items-center justify-center  	 gap-5      shadow-2xl shadow-white-1000/50     p-10"
             // data-aos="fade-up-right"

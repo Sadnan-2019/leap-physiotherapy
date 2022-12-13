@@ -250,10 +250,10 @@ const Nav = () => {
       <div className="navbar bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  ">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className=" lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-5 w-5  bg-gradient-to-r from-[#d3d7db]  to-[#2e723d]"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

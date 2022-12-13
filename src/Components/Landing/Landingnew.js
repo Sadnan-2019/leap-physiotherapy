@@ -63,10 +63,10 @@ const Landingnew = () => {
    <div
          className="hero min-h-screen"
          style={{
-           backgroundImage: `url("https://t4.ftcdn.net/jpg/02/57/00/79/360_F_257007919_4J2jQTuOlxXBxCu4gj1at3BS3PHdb9LV.jpg")`,
+           backgroundImage: `url("https://i.ibb.co/QP33199/slider1.jpg")`,
          }}
        >
-         <div className="hero-overlay bg-opacity-60"></div>
+         <div className="hero-overlay bg-opacity-o"></div>
          <div className="hero-content text-center text-neutral-content">
            <div className="max-w-md">
              <h1 className="mb-5 text-3xl font-bold"  data-aos="fade-right"
