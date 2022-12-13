@@ -8,7 +8,7 @@ const Nav = () => {
   const active =
     "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 md:text-white-900 ";
   const normal =
-    "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0 lg:text-white   ";
+    "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0 lg:text-white    ";
 
   const navItem = (
     <>
@@ -20,22 +20,23 @@ const Nav = () => {
           Home
         </NavLink>
       </li>
-      <li className="dropdown dropdown-hover hover:border-none      ">
-        <div className=" ">
-          <li tabIndex={0} className="nav-item p-2   text-white ">
-            <NavLink className="mx-1 text-white-600  font-bold focus:text-white   lg:text-white ">
+      <li className="dropdown dropdown-hover hover:border-none   p-2   text-white    ">
+         
+          
+            <NavLink 
+            className="mx-1 text-white-600  font-bold focus:text-white   lg:text-white " >
               Services
             </NavLink>
-          </li>
-        </div>
+         
+        
 
         <ul
           tabIndex={0}
-          className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
-          style={{ backgroundColor: "#3E84DC" }}
+          className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52 bg-blue-600  "
+        
         >
           <li className="dropdown dropdown-hover hover:border-none ">
-            <div>
+            
               <li className="nav-item p-2   ">
                 <NavLink
                   className={({ isActive }) =>
@@ -46,12 +47,6 @@ const Nav = () => {
                   Physiotherapy
                 </NavLink>
               </li>
-            </div>
-            <ul
-              tabIndex={0}
-              className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
-              style={{ backgroundColor: "#3E84DC" }}
-            >
               <li className="nav-item p-2">
                 <NavLink
                   className={({ isActive }) =>
@@ -122,7 +117,8 @@ const Nav = () => {
                   Dry <br></br>needling/Acupuncture
                 </NavLink>
               </li>
-            </ul>
+          
+             
           </li>
         </ul>
       </li>
@@ -250,10 +246,10 @@ const Nav = () => {
       <div className="navbar bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  ">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className=" lg:hidden">
+            <label tabIndex={0} className="btn lg:hidden bg-gradient-to-r from-[#d3d7db]  to-[#2e723d]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5  bg-gradient-to-r from-[#d3d7db]  to-[#2e723d]"
+                className="h-5 w-5  bg-gradient-to-r from-[#d3d7db]  to-[#829b88]"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -268,7 +264,7 @@ const Nav = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow   w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow text-white bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   w-52"
             >
               {navItem}
             </ul>
