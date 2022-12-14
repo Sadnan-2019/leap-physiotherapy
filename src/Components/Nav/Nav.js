@@ -122,18 +122,18 @@ const Nav = () => {
           </li>
         </ul>
       </li>
-      <li className="dropdown dropdown-hover hover:border-none      ">
-        <div className=" ">
-          <li tabIndex={0} className="nav-item p-2   text-white ">
-            <NavLink className="mx-1 text-white-600 font-medium font-bold focus:text-white   lg:text-white ">
+      <li className="dropdown dropdown-hover hover:border-none   p-2    text-white    ">
+        
+      
+            <NavLink className="mx-1 text-white-600 font-medium font-bold focus:text-white nav-item    lg:text-white ">
               Conditions
             </NavLink>
-          </li>
-        </div>
+      
+         
 
         <ul
           tabIndex={0}
-          className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
+          className="w-32 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
           style={{ backgroundColor: "#3E84DC" }}
         >
           <li className="nav-item p-2">
