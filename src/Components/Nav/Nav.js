@@ -243,7 +243,8 @@ const Nav = () => {
   );
   return (
     <div className="sticky top-0 z-50">
-      <div className="navbar bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  ">
+      <div className="navbar bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  " data-aos="fade-up"
+     data-aos-duration="3000">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn lg:hidden bg-gradient-to-r from-[#d3d7db]  to-[#2e723d]">
@@ -273,7 +274,7 @@ const Nav = () => {
           <a className="btn">Get started</a>
         </div> */}
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex" >
           <ul className="  menu-horizontal p-0">{navItem}</ul>
         </div>
         <div className="navbar-end">

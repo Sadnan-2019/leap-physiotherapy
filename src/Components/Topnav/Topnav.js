@@ -8,6 +8,7 @@ import schs from "../../assets/schs.png"
 import { FaFacebookSquare } from 'react-icons/fa';
 import { BsLinkedin } from 'react-icons/bs';
 import { TiSocialInstagram, TiSocialTwitter } from 'react-icons/ti';
+import "./Topnav.css"
 
 const Topnav = () => {
     return (
@@ -25,28 +26,28 @@ const Topnav = () => {
             className="flex items-center font-bold     gap-2"
             style={{ color: "white" }}
           >
-            <div>
-              <MdOutlinePhonelinkRing className="text-[10px]   lg:text-2xl  text-[#38639F]    " />
+            <div className='text-shadow '>
+              <MdOutlinePhonelinkRing className="text-[10px]   lg:text-2xl   text-[#38639F]   " />
             </div>
             <div className='text-[#38639F]  '>
-              <p className="text-[10px] lg:text-xs 	">
+              <p className="text-[10px] lg:text-xs   	">
               +8801318588777  
               </p>
-              <p className="text-[10px] lg:text-xs  	 	">+8802222281712  </p>
+              <p className="text-[10px] lg:text-xs  	  	">+8802222281712  </p>
             </div>
           </div>
           <div
-            className="flex items-center font-bold    gap-2"
+            className="flex items-center font-bold  gap-2"
             style={{ color: "white" }}
           >
-            <div>
+            <div className='text-shadow'>
               <HiOutlineMailOpen className="ml-2 lg:ml-0 text-[10px] lg:text-2xl   	text-[#38639F]  " />
             </div>
             <div className='text-[#38639F]'>
               <p className="text-[10px] lg:text-xs     	">
                 Email us
               </p>
-              <p className="text-[10px] lg:text-xs	 	">info@leap.mrg.com.bd</p>
+              <p className="text-[10px] lg:text-xs  	">info@leap.mrg.com.bd</p>
             </div>
           </div>
           <div

@@ -1,0 +1,31 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;600;700&display=swap");
+
+.text-shadow {
+ 
+	color: transparent;
+	-webkit-text-stroke: rgb(243, 138, 138);
+	-webkit-text-stroke-width: 1px;
+	text-shadow: 2px 2px 10px rgb(173, 65, 65);
+	transition: all 0.9s ease-in-out;
+	text-align: center;
+	letter-spacing: 0.2em;
+	animation: flicker 0.5s ease-in-out infinite alternate;
+    color: rgb(116, 4, 13);
+
+	
+}
+.text-shadow:hover {
+    color: rgba(11, 15, 243, 0.863);
+}
+
+@keyframes flicker {
+	0% {
+		opacity: 0.5;
+		text-shadow: 2px 2px 10px rgb(255, 0, 34);
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 2px 2px 20px rgb(21, 255, 0);
+	}
+}
