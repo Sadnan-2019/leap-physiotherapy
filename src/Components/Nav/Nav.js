@@ -32,7 +32,7 @@ const Nav = () => {
 
         <ul
           tabIndex={0}
-          className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52 bg-blue-600  "
+          className="w-44 dropdown-content menu p-2 shadow  rounded-box lg:w-52 bg-blue-600  "
         
         >
           <li className="dropdown dropdown-hover hover:border-none ">
