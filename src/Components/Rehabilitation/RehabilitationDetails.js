@@ -1,8 +1,10 @@
 import React from "react";
-import electrone from "../../assets/electroone.jpg";
-import electrotwo from "../../assets/electrotwo.jpg";
-import electrothree from "../../assets/electrothree.jpg";
-import electrofour from "../../assets/electro4.jpg";
+import electrone from "../../assets/rehabilitation1.jpg";
+import electrotwo from "../../assets/rehabilitation2.jpg";
+import electrothree from "../../assets/rehabilitation3.jpg";
+// import electrothree from "../../assets/rehabilitation3.jpg";
+import rehabilitation3 from "../../assets/manipulation9.jpg";
+import rehabilitation4 from "../../assets/rehabilitation4.jpg";
 const RehabilitationDetails = () => {
   return (
     <div>
@@ -43,7 +45,7 @@ const RehabilitationDetails = () => {
           <img src={electrone} className="w-64 h-44 rounded-lg" alt="" />
           <img src={electrotwo} className="w-64 h-44  rounded-lg" alt="" />
           <img src={electrothree} className="w-64  h-44  rounded-lg" alt="" />
-          <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={rehabilitation4} className="w-64 h-44 rounded-lg" alt="" />
     
         </div>
       </div>
