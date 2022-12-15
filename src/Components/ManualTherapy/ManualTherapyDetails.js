@@ -1,8 +1,12 @@
 import React from "react";
-import electrone from "../../assets/electroone.jpg";
-import electrotwo from "../../assets/electrotwo.jpg";
-import electrothree from "../../assets/electrothree.jpg";
-import electrofour from "../../assets/electro4.jpg";
+import electrone from "../../assets/manipulation1.jpg";
+import electrotwo from "../../assets/manipulation2.jpg";
+import electrothree from "../../assets/manipulation3.jpg";
+import electrofour from "../../assets/manipulation4.jpg";
+import manipulation5  from "../../assets/manipulation5.jpg";
+import manipulation6  from "../../assets/manipulation6.jpg";
+import manipulation7  from "../../assets/manipulation7.jpg";
+import manipulation8  from "../../assets/manipulation8.jpg";
 import { AiFillStar, AiOutlineCaretRight } from "react-icons/ai";
 
 const ManualTherapyDetails = () => {
@@ -30,7 +34,7 @@ const ManualTherapyDetails = () => {
         </p>
       </div>
 
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2 justify-center items-center       gap-12  px-12  py-6 ">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2   items-center   gap-12  px-12  py-6 ">
         <div className="justify-center items-center">
           <p className="text-2xl font-medium text-justify py-2  ">
           We have Qualified and skilled Manual Therapist who assessment you carefully and treat you softly accurately. Our Manual therapy service are-
@@ -163,8 +167,11 @@ const ManualTherapyDetails = () => {
           <img src={electrotwo} className="w-64 h-44  rounded-lg" alt="" />
           <img src={electrothree} className="w-64  h-44  rounded-lg" alt="" />
           <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
-          <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
-          <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={manipulation7} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={manipulation8} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={manipulation5} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={manipulation6} className="w-64 h-44 rounded-lg" alt="" />
+          {/* <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" /> */}
           {/* <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" /> */}
         </div>
       </div>
