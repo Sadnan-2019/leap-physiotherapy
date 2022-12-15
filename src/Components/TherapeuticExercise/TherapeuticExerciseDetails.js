@@ -29,11 +29,22 @@ const TherapeuticExerciseDetails = () => {
           <p className="text-2xl font-medium text-justify py-2 ml-3">
             We provide for:
           </p>
+          {/* <div className="flex items-center justify-start">
+            <span>
+              <AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight>
+            </span>
+            <p className="text-md font-medium text-justify py-2 ml-3">
+              Ankle sprain.
+            </p>
+          </div> */}
+
+
+
           <div className="flex items-center justify-start">
             <span>
               <AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight>
             </span>
-            <p className="text-xl font-medium text-justify py-2 ml-3">
+            <p className="text-md font-medium text-justify py-2 ml-3">
               Strengthening
             </p>
           </div>
@@ -41,7 +52,7 @@ const TherapeuticExerciseDetails = () => {
             <span>
               <AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight>
             </span>
-            <p className="text-xl font-medium text-justify py-2 ml-3">
+            <p className="text-md font-medium text-justify py-2 ml-3">
             Range of motion exercise
 
             </p>
@@ -50,7 +61,7 @@ const TherapeuticExerciseDetails = () => {
             <span>
               <AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight>
             </span>
-            <p className="text-xl font-medium text-justify py-2 ml-3">
+            <p className="text-md font-medium text-justify py-2 ml-3">
             Stretching exercise
 
             </p>
@@ -59,7 +70,7 @@ const TherapeuticExerciseDetails = () => {
             <span>
               <AiOutlineCaretRight className="text-2xl text-blue-900"></AiOutlineCaretRight>
             </span>
-            <p className="text-xl font-medium text-justify py-2 ml-3">
+            <p className="text-md font-medium text-justify py-2 ml-3">
             Balancing exercise
 
             </p>
