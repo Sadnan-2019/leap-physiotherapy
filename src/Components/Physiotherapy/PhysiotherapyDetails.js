@@ -1,8 +1,11 @@
 import React from "react";
-import electrone from "../../assets/electroone.jpg";
-import electrotwo from "../../assets/electrotwo.jpg";
-import electrothree from "../../assets/electrothree.jpg";
-import electrofour from "../../assets/electro4.jpg";
+import electrone from "../../assets/physio1.jpg";
+import electrotwo from "../../assets/physio2.webp";
+import electrothree from "../../assets/physio3.jpg";
+import electrofour from "../../assets/physio4.jpg";
+import physio5 from "../../assets/PHYSIO6.webp";
+import physio7 from "../../assets/physio7.jpg";
+import physio8 from "../../assets/physio8.jpg";
 import { AiFillStar, AiOutlineCaretRight } from "react-icons/ai";
 const PhysiotherapyDetails = () => {
   return (
@@ -101,9 +104,9 @@ const PhysiotherapyDetails = () => {
           <img src={electrotwo} className="w-64 h-44  rounded-lg" alt="" />
           <img src={electrothree} className="w-64  h-44  rounded-lg" alt="" />
           <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
-          <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
-          <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
-          <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={physio5} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={physio7} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={physio8} className="w-64 h-44 rounded-lg" alt="" />
         </div>
       </div>
     </div>
