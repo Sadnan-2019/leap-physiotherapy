@@ -4,6 +4,7 @@ import electrone from "../../assets/needling.jpg";
 import electrotwo from "../../assets/needling1.jpg";
 import electrothree from "../../assets/needling2.jpg";
 import electrofour from "../../assets/electro4.jpg";
+import trigger from "../../assets/triggerpoint.jpg";
 
 const DryneedlingAcupunctureDetails = () => {
   return (
@@ -77,7 +78,7 @@ const DryneedlingAcupunctureDetails = () => {
           <img src={electrone} className="w-64 h-44 rounded-lg" alt="" />
           <img src={electrotwo} className="w-64 h-44  rounded-lg" alt="" />
           <img src={electrothree} className="w-64  h-44  rounded-lg" alt="" />
-          <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={trigger} className="w-64 h-44 rounded-lg" alt="" />
         </div>
       </div>
     </div>

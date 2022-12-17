@@ -2,8 +2,8 @@ import React from "react";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import electrone from "../../assets/backpainone.jpg";
 import electrotwo from "../../assets/backpain2.jpg";
-import electrothree from "../../assets/electrothree.jpg";
-import electrofour from "../../assets/electro4.jpg";
+import electrothree from "../../assets/backpain3.jpg";
+import electrofour from "../../assets/backpain4.jpg";
 
 const BackyPainDetails = () => {
   return (

@@ -186,7 +186,7 @@ const Nav = () => {
               Knee Pain
             </NavLink>
           </li>
-          <li className="nav-item p-2">
+          {/* <li className="nav-item p-2">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -195,7 +195,7 @@ const Nav = () => {
             >
               Sports Injury
             </NavLink>
-          </li>
+          </li> */}
         </ul>
       </li>
       <li className="nav-item p-2 	">
