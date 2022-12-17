@@ -2,7 +2,7 @@ import React from "react";
 // import { AiOutlineCaretRight } from "react-icons/ai";
 import electrone from "../../assets/needling.jpg";
 import electrotwo from "../../assets/needling1.jpg";
-import electrothree from "../../assets/electrothree.jpg";
+import electrothree from "../../assets/needling2.jpg";
 import electrofour from "../../assets/electro4.jpg";
 
 const DryneedlingAcupunctureDetails = () => {
