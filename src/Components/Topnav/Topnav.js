@@ -47,7 +47,7 @@ const Topnav = () => {
               <p className="text-[10px] lg:text-xs     	">
                 Email us
               </p>
-              <p className="text-[10px] lg:text-xs  	">info@leap.mrg.com.bd</p>
+              <a href='info@leap.mrg.com.bd' className="text-[10px] lg:text-xs  	">info@leap.mrg.com.bd</a>
             </div>
           </div>
           <div
@@ -55,7 +55,7 @@ const Topnav = () => {
             style={{ color: "white" }}
           >
              <div className="flex  justify-items-center items-center gap-2  text-[#38639F]">
-          <FaFacebookSquare className="text-[10px] lg:text-lg ml-2  " />
+          <a target="_blank" href='https://www.facebook.com/leap.physio/' ><FaFacebookSquare  className="text-[10px] lg:text-lg ml-2  " /></a>
           <BsLinkedin className="text-[10px] lg:text-lg ml-2  " />
           <TiSocialTwitter className="text-[10px] lg:text-lg ml-2  " />
           <TiSocialInstagram className=" text-[10px] lg:text-lg ml-2  " />

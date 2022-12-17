@@ -281,7 +281,8 @@ const Nav = () => {
           
             <a
               className="btn btn-sm bg-green-500 animate-pulse    rounded-full   "
-              href="https://wa.me/881956534353"
+              href="https://wa.me/+8801767564737"
+                // href="https://wa.me/+8801767564737"
               title="WHATSAPP CHAT"
             >
               {" "}
