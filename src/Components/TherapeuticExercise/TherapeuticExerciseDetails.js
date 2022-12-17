@@ -1,8 +1,8 @@
 import React from "react";
-import electrone from "../../assets/electroone.jpg";
-import electrotwo from "../../assets/electrotwo.jpg";
-import electrothree from "../../assets/electrothree.jpg";
-import electrofour from "../../assets/electro4.jpg";
+import electrone from "../../assets/Therapeutic1.jpg";
+import electrotwo from "../../assets/Therapeutic2.png";
+import electrothree from "../../assets/Therapeutic3.png";
+import electrofour from "../../assets/Therapeutic4.jpg";
 import { AiOutlineCaretRight } from "react-icons/ai";
 const TherapeuticExerciseDetails = () => {
   return (

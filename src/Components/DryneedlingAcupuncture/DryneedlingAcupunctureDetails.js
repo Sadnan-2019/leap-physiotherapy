@@ -1,7 +1,7 @@
 import React from "react";
-import { AiOutlineCaretRight } from "react-icons/ai";
-import electrone from "../../assets/electroone.jpg";
-import electrotwo from "../../assets/electrotwo.jpg";
+// import { AiOutlineCaretRight } from "react-icons/ai";
+import electrone from "../../assets/needling.jpg";
+import electrotwo from "../../assets/needling1.jpg";
 import electrothree from "../../assets/electrothree.jpg";
 import electrofour from "../../assets/electro4.jpg";
 

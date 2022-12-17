@@ -1,8 +1,11 @@
 import React from "react";
-import electrone from "../../assets/electroone.jpg";
-import electrotwo from "../../assets/electrotwo.jpg";
-import electrothree from "../../assets/electrothree.jpg";
-import electrofour from "../../assets/electro4.jpg";
+// import electrone from "../../assets/electroone.jpg";
+import electrotwo from "../../assets/sports.jpg";
+import electrothree from "../../assets/sports2.jpg";
+import electrofour from "../../assets/spoerts4.webp";
+import sportsfour from "../../assets/sports4.jpg";
+import sportsfive from "../../assets/sports5.jpg";
+import sportsix from "../../assets/sports6.jpg";
 import { AiFillStar, AiOutlineCaretRight } from "react-icons/ai";
 const SportsInjuriesDetails = () => {
   return (
@@ -72,12 +75,13 @@ const SportsInjuriesDetails = () => {
         </div>
 
         <div className=" grid sm:grid-cols-2 lg:grid-cols-2 gap-8  justify-center items-center py-12  ">
-          <img src={electrone} className="w-64 h-44 rounded-lg" alt="" />
+        <img src={sportsix} className="w-64 h-44 rounded-lg" alt="" />
           <img src={electrotwo} className="w-64 h-44  rounded-lg" alt="" />
           <img src={electrothree} className="w-64  h-44  rounded-lg" alt="" />
           <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
-          <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
-          <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={sportsfour} className="w-64 h-44 rounded-lg" alt="" />
+          <img src={sportsfive} className="w-64 h-44 rounded-lg" alt="" />
+       
           {/* <img src={electrofour} className="w-64 h-44 rounded-lg" alt="" /> */}
         </div>
       </div>

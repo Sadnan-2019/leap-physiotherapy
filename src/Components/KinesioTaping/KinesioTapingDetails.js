@@ -1,9 +1,10 @@
 import React from "react";
 import { AiOutlineCaretRight } from "react-icons/ai";
-import electrone from "../../assets/electroone.jpg";
-import electrotwo from "../../assets/electrotwo.jpg";
-import electrothree from "../../assets/electrothree.jpg";
-import electrofour from "../../assets/electro4.jpg";
+import electrone from "../../assets/kniotaping.jpg";
+import electrotwo from "../../assets/kniotaping2.jpeg";
+import electrothree from "../../assets/kniotaping.3jpg.jpg";
+import electrofour from "../../assets/kniotaping5.jpeg";
+import five from "../../assets/kniotaping5.jpg";
 // import { AiOutlineCaretRight } from "react-icons/ai";
 
 const KinesioTapingDetails = () => {
