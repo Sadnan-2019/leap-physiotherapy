@@ -19,7 +19,8 @@ import ShoulderPain from "./Components/ShoulderPain/ShoulderPain";
 import ElbowPain from "./Components/ElbowPain/ElbowPain";
 import KneePain from "./Components/KneePain/KneePain";
 import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
-// import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
+import HomeContact from "./Components/HomeContact/HomeContact";
+ // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
   return (
@@ -52,6 +53,8 @@ function App() {
         <Route path="/shoulder-pain" element={<ShoulderPain />}></Route>
         <Route path="/elbow-pain" element={<ElbowPain />}></Route>
         <Route path="/knee-pain" element={<KneePain />}></Route>
+        <Route path="/contact" element={<HomeContact />}></Route>
+        {/* <Route path="/contact" element={<HomeContact />}></Route> */}
         {/* <Route path="/therapeutic-exercise" element={<TherapeuticExercise/>}></Route> */}
 
         {/* <Route path="login" element={<Login />}></Route> */}
