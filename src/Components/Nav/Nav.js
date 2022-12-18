@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 
 import { BsWhatsapp } from "react-icons/bs";
-import ReactWhatsapp from "react-whatsapp";
+// import ReactWhatsapp from "react-whatsapp";
 
 const Nav = () => {
   const active =

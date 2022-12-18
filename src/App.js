@@ -20,6 +20,7 @@ import ElbowPain from "./Components/ElbowPain/ElbowPain";
 import KneePain from "./Components/KneePain/KneePain";
 import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
 import HomeContact from "./Components/HomeContact/HomeContact";
+import Blog from "./Components/Blog/Blog";
  // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         <Route path="/elbow-pain" element={<ElbowPain />}></Route>
         <Route path="/knee-pain" element={<KneePain />}></Route>
         <Route path="/contact" element={<HomeContact />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
         {/* <Route path="/contact" element={<HomeContact />}></Route> */}
         {/* <Route path="/therapeutic-exercise" element={<TherapeuticExercise/>}></Route> */}
 
