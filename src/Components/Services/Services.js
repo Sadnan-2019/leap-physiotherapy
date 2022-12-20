@@ -53,14 +53,16 @@ const Services = () => {
                 Experience the best physiotherapy services at LEAP to improve
                 function, reduce symptoms & prevent future complications.
               </p>
-              <div className="card-actions justify-end  mt-5">
+              {/* <div className="card-actions justify-end  mt-5">
+                <a href="/physiotherapy">
                 <button
                   className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
                 </button>
-              </div>
+                  </a>
+              </div> */}
             </div>
           </div>
           <div
@@ -96,7 +98,7 @@ const Services = () => {
                 ascertain the wellbeing of people with complex injuries and
                 conditions affecting the brain and nervous system.
               </p>
-              <div className="card-actions justify-end  mt-5">
+              {/* <div className="card-actions justify-end  mt-5">
                <a href="/rehabilitation">
                <button
                   className="btn btn-sm  "
@@ -105,7 +107,7 @@ const Services = () => {
                   Details
                 </button>
                </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -139,14 +141,14 @@ const Services = () => {
                 Respiratory physiotherapy helps treat, educate and advise people
                 who have problems with their lungs and heart.
               </p>
-              <div className=" card-actions justify-end  mt-5">
+              {/* <div className=" card-actions justify-end  mt-5">
                 <button
                   className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -183,14 +185,17 @@ const Services = () => {
                 Restoring normal function post-injury and pain management of
                 acute or chronic conditions
               </p>
-              <div className="card-actions justify-end   mt-5">
+              {/* <div className="card-actions justify-end   mt-5">
+                <a href="/sports-injuries">
+                  
                 <button
                   className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
                 </button>
-              </div>
+                  </a>
+              </div> */}
             </div>
           </div>
           <div
@@ -226,14 +231,14 @@ const Services = () => {
                 A plan to prepare for surgery, optimize strength, function and
                 mobility afterwards.
               </p>
-              <div className="card-actions justify-end   mt-5">
+              {/* <div className="card-actions justify-end   mt-5">
                 <button
                   className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -267,14 +272,14 @@ const Services = () => {
                 Life enrichment activity program team of paediatric therapists
                 are here to support babies, children and teenagers aged 0 – 19.
               </p>
-              <div className="card-actions justify-end   mt-5">
+              {/* <div className="card-actions justify-end   mt-5">
                 <button
                   className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -308,14 +313,14 @@ const Services = () => {
                 Learn more about Music Therapy, Speech and Language Therapy,
                 Neuropsychology and Occupational Therapy
               </p>
-              <div className="card-actions justify-end   mt-5">
+              {/* <div className="card-actions justify-end   mt-5">
                 <button
                   className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
