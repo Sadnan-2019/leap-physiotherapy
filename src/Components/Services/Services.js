@@ -97,12 +97,14 @@ const Services = () => {
                 conditions affecting the brain and nervous system.
               </p>
               <div className="card-actions justify-end  mt-5">
-                <button
+               <a href="/rehabilitation">
+               <button
                   className="btn btn-sm  "
                   style={{ backgroundColor: "#3E84DC" }}
                 >
                   Details
                 </button>
+               </a>
               </div>
             </div>
           </div>

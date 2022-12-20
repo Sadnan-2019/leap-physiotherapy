@@ -30,8 +30,9 @@ function App() {
       <Nav />
       {/* <Home/> */}
       <Routes>
+      <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
-        <Route path="/" element={<Home />}></Route>
+        
         <Route path="/electrothyrapy" element={<Electrotherapy />}></Route>
         <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
         <Route path="/manualtherapy" element={<ManualTherapy />}></Route>

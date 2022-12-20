@@ -15,10 +15,10 @@ const Landingnew = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
-        // fade: true,
+        fade: true,
       
-        // autoplay:"true",
-        autoplaySpeed: 3000,
+        autoplay:"true",
+        autoplaySpeed: 5000,
         responsive: [
           {
             breakpoint: 1024,
@@ -69,11 +69,11 @@ const Landingnew = () => {
          <div className="hero-overlay bg-opacity-o"></div>
          <div className="hero-content text-center text-neutral-content">
            <div className="max-w-md">
-             <h1 className="mb-5 text-3xl font-bold"  data-aos="fade-right"
+             <h1 className="mb-5 text-4xl font-bold"  data-aos="fade-right"
               data-aos-offset="300"
               data-aos-delay="5000"
               data-aos-duration="3000">Welcome to The </h1>
-             <h1 className="mb-5 text-3xl font-bold"  data-aos="fade-right"
+             <h1 className="mb-5 text-4xl font-bold"  data-aos="fade-right"
               data-aos-offset="300"
               data-aos-delay="5000"
               data-aos-duration="3000">LEAP Physiotherapy </h1>
@@ -99,7 +99,7 @@ const Landingnew = () => {
          <div className="hero-overlay bg-opacity-60"></div>
          <div className="hero-content text-center text-neutral-content">
            <div className="max-w-md">
-             <h1 className="mb-5 text-5xl font-bold">Passive Exercise</h1>
+             <h1 className="mb-5 text-4xl font-bold">Passive Exercise</h1>
              <p className="mb-5">
                Some Physical Conditions Need to be Treated by Passive Exercise.
                Stroke Induced Paralysis is One of Them.
@@ -121,7 +121,7 @@ const Landingnew = () => {
          <div className="hero-overlay bg-opacity-60"></div>
          <div className="hero-content text-center text-neutral-content">
            <div className="max-w-md">
-             <h1 className="mb-5 text-5xl font-bold">Shortwave Diathermy</h1>
+             <h1 className="mb-5 text-4xl font-bold">Shortwave Diathermy</h1>
              <p className="mb-5">
                 This Machine is Used to Give Deep Heat to the inflamed Tissues of the Body.
                 It Improves Circulation thus Enhances Healing Process.
@@ -143,7 +143,7 @@ const Landingnew = () => {
          <div className="hero-overlay bg-opacity-60"></div>
          <div className="hero-content text-center text-neutral-content">
            <div className="max-w-md">
-             <h1 className="mb-5 text-5xl font-bold">Active Exercise</h1>
+             <h1 className="mb-5 text-4xl font-bold">Active Exercise</h1>
              <p className="mb-5">
                Acitive Exercise Improves Function,Increases Capability & Boosts Up 
                Physical & Mental Wellbeing.

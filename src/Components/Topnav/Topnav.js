@@ -16,7 +16,11 @@ const Topnav = () => {
             
             <div className="flex   flex-col md:flex-row  justify-between px-10	 lx:px-12    items-center ">
         <div>
+          
+          <a href='/'>
           <img  src={logo} className="w-32" alt="" />
+
+          </a>
           {/* <button  className="bg-red-400">        <a href="https://api.whatsapp.com/send?phone=01892409715" >Send Message</a></button> */}
 
         </div>
