@@ -15,7 +15,7 @@ const ElectrotherapyLanding = () => {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Electrotherapy</h1>
             <p className="mb-5 text-xl">
-            Our electrotherapy equipments are up to date and come from Japan, Germany and Holland.
+            Our electrotherapy equipments are up to date and comes from Japan, Germany and Holland.
             </p>
           </div>
         </div>

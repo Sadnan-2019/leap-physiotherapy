@@ -15,9 +15,9 @@ const Landingnew = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
-        fade: true,
+        // fade: true,
       
-        autoplay:"true",
+        // autoplay:"true",
         autoplaySpeed: 3000,
         responsive: [
           {
@@ -99,11 +99,10 @@ const Landingnew = () => {
          <div className="hero-overlay bg-opacity-60"></div>
          <div className="hero-content text-center text-neutral-content">
            <div className="max-w-md">
-             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+             <h1 className="mb-5 text-5xl font-bold">Passive Exercise</h1>
              <p className="mb-5">
-               Provident cupiditate voluptatem et in. Quaerat fugiat ut
-               assumenda excepturi exercitationem quasi. In deleniti eaque
-               aut repudiandae et a id nisi.
+               Some Physical Conditions Need to be Treated by Passive Exercise.
+               Stroke Induced Paralysis is One of Them.
              </p>
              <button className="btn btn-primary">Get Started</button>
            </div>
@@ -116,17 +115,16 @@ const Landingnew = () => {
        <div
          className="hero min-h-screen"
          style={{
-           backgroundImage: `url("https://www.spectrumphysio.info/physio/uploads/2018/07/spectrum-physio-slider-4.jpg")`,
+           backgroundImage: `url("https://content.jdmagicbox.com/comp/pune/s5/020pxx20.xx20.120804115010.l4s5/catalogue/dr-raut-s-shree-physiotherapy-and-slimming-center-dhayari-pune-physiotherapists-qgfipbx67v.jpg?clr=")`,
          }}
        >
          <div className="hero-overlay bg-opacity-60"></div>
          <div className="hero-content text-center text-neutral-content">
            <div className="max-w-md">
-             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+             <h1 className="mb-5 text-5xl font-bold">Shortwave Diathermy</h1>
              <p className="mb-5">
-               Provident cupiditate voluptatem et in. Quaerat fugiat ut
-               assumenda excepturi exercitationem quasi. In deleniti eaque
-               aut repudiandae et a id nisi.
+                This Machine is Used to Give Deep Heat to the inflamed Tissues of the Body.
+                It Improves Circulation thus Enhances Healing Process.
              </p>
              <button className="btn btn-primary">Get Started</button>
            </div>
@@ -139,17 +137,16 @@ const Landingnew = () => {
       <div
          className="hero min-h-screen"
          style={{
-           backgroundImage: `url("https://i.ibb.co/3zGtjcX/jkll-kjfads.jpg")`,
+           backgroundImage: `url("https://www.indica.today/wp-content/uploads/2022/06/History-of-Asana-and-Exercise-in-India.jpg")`,
          }}
        >
-         <div className="hero-overlay bg-opacity-0"></div>
+         <div className="hero-overlay bg-opacity-60"></div>
          <div className="hero-content text-center text-neutral-content">
            <div className="max-w-md">
-             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+             <h1 className="mb-5 text-5xl font-bold">Active Exercise</h1>
              <p className="mb-5">
-               Provident cupiditate voluptatem et in. Quaerat fugiat ut
-               assumenda excepturi exercitationem quasi. In deleniti eaque
-               aut repudiandae et a id nisi.
+               Acitive Exercise Improves Function,Increases Capability & Boosts Up 
+               Physical & Mental Wellbeing.
              </p>
              <button className="btn btn-primary">Get Started</button>
            </div>
