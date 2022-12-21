@@ -15,9 +15,9 @@ const Landingnew = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
-        fade: true,
+        // fade: true,
       
-        autoplay:"true",
+        // autoplay:"true",
         autoplaySpeed: 5000,
         responsive: [
           {
@@ -64,8 +64,32 @@ const Landingnew = () => {
          className="hero   text-red-700  sm:min-h-screen-0 lg:min-h-screen landingone"
               
        >
-         <div className="lg:hero-overlay sm:bg-opacity-60"></div>
-         <div className="hero-content text-center text-neutral-content">
+         <div className="  sm:bg-opacity-60"></div>
+         <div className="hero-content text-center lg:text-neutral-content">
+           <div className="max-w-md">
+             <h1 className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000">Welcome to The </h1>
+             <h1 className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"   data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000">LEAP Physiotherapy </h1>
+             <p className="lg:mb-5 animate__animated animate__fadeInRight">
+                   We have state of the art equipments & qualified professionals to
+                  heal your pain & suffering.
+             </p>
+            </div>
+         </div>
+       </div>
+   </div>
+   <div className=" ">
+   <div
+         className="hero   text-red-700  sm:min-h-screen-0 lg:min-h-screen landingtwo"
+              
+       >
+         <div className="  sm:bg-opacity-60"></div>
+         <div className="hero-content text-center lg:text-neutral-content">
            <div className="max-w-md">
              <h1 className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"  data-aos="fade-right"
               data-aos-offset="300"
@@ -85,12 +109,12 @@ const Landingnew = () => {
    </div>
    
      
-      <div className="">
+      {/* <div className="">
       <div
-         className="hero sm:min-h-fit text-red-700  sm:min-h-screen-0 lg:min-h-screen landingtwo"
+         className="hero   text-red-700  sm:min-h-screen-0 lg:min-h-screen landingtwo"
           
        >
-         <div className="lg:hero-overlay bg-opacity-60"></div>
+         <div className=" sm:bg-opacity-60 "></div>
          <div className="hero-content text-center text-neutral-content">
            <div className="max-w-md">
              <h1 className="mb-5 sm:text-2xl lg:text-4xl font-bold">Passive Exercise</h1>
@@ -102,7 +126,7 @@ const Landingnew = () => {
          </div>
        </div>
      
-      </div>
+      </div> */}
      
        <div className="">
        <div

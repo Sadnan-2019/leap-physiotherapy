@@ -15,7 +15,7 @@
 .landingtwo{
 
   background-image:  
-  url("https://rebalancerehab.in/wp-content/uploads/2021/01/slide4-3.png");
+  url("https://i.ibb.co/2YtW38S/1s.png");
 
  
 }
@@ -28,19 +28,18 @@
     linear-gradient(
         to left,
         rgba(243, 238, 234, 0),
-        rgba(230, 242, 244, 0.837)
+        rgba(230, 242, 244, 0.5)
       ),
       url("https://i.ibb.co/QP33199/slider1.jpg");
   
-    /* color: rgb(144, 10, 10);
-    background-size: contain;
-    background-size: cover; */
+    color: rgb(232, 221, 235);
+     
 
-    background-size: 100% 85%;
-    
-    /* line-height: 120%; */
+    background-size: 100% 95%;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
+    
+     
   }
   .landingtwo {
     width: 100%;
@@ -48,19 +47,18 @@
     linear-gradient(
         to left,
         rgba(243, 238, 234, 0),
-        rgba(230, 242, 244, 0.837)
+        rgba(230, 242, 244, 0.5)
       ),
-      url("https://rebalancerehab.in/wp-content/uploads/2021/01/slide4-3.png");
+      url("https://i.ibb.co/2YtW38S/1s.png");
   
-    /* color: rgb(144, 10, 10);
-    background-size: contain;
-    background-size: cover; */
+    color: rgb(232, 221, 235);
+     
 
-    background-size: 100% 80%;
-    
-    /* line-height: 120%; */
+    background-size: 100% 95%;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
+    
+       
   }
 
 
