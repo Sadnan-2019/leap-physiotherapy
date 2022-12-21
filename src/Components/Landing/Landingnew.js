@@ -98,10 +98,10 @@ const Landingnew = () => {
              <h1 className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"   data-aos="fade-right"
               data-aos-offset="300"
               data-aos-delay="5000"
-              data-aos-duration="3000">LEAP Physiotherapy </h1>
+              data-aos-duration="3000">Passive Exercise</h1>
              <p className="lg:mb-5 animate__animated animate__fadeInRight">
-                   We have state of the art equipments & qualified professionals to
-                  heal your pain & suffering.
+             Some Physical Conditions Need to be Treated by Passive Exercise.
+               Stroke Induced Paralysis is One of Them.
              </p>
             </div>
          </div>
