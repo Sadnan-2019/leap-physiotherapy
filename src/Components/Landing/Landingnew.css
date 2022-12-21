@@ -22,7 +22,7 @@
 .landingthree{
 
   background-image:  
-  url("https://i.ibb.co/G7GHydn/shortwave.webp");
+  url("https://i.ibb.co/XsTC1Gz/wave.jpg");
 
  
 }
@@ -73,9 +73,9 @@
     linear-gradient(
         to left,
         rgba(243, 238, 234, 0),
-        rgba(230, 242, 244, 0.0)
+        rgba(230, 242, 244, 0.1)
       ),
-      url("https://i.ibb.co/G7GHydn/shortwave.webp");
+      url("https://i.ibb.co/XsTC1Gz/wave.jpg");
   
     color: rgb(232, 221, 235);
      
