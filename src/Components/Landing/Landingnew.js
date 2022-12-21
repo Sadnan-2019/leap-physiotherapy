@@ -131,52 +131,41 @@ const Landingnew = () => {
          </div>
        </div>
    </div>
+
+
+
+   <div className=" ">
+   <div
+         className="hero      sm:min-h-screen-0 lg:min-h-screen landingfour"
+              
+       >
+         <div className="  bg-opacity-60"></div>
+         <div className="hero-content text-center text-neutral-content lg:text-neutral-content">
+           <div className="max-w-md">
+             <h1 className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000">Welcome to The </h1>
+             <h1 className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"   data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000">Active Exercise</h1>
+             <p className="lg:mb-5 animate__animated animate__fadeInRight">
+             Acitive Exercise Improves Function,Increases Capability & Boosts Up 
+               Physical & Mental Wellbeing.
+             </p>
+            </div>
+         </div>
+       </div>
+   </div>
    
      
        
      
-       {/* <div className="">
-       <div
-         className="hero sm:min-h-fit    sm:min-h-screen-0 lg:min-h-screen"
-         style={{
-           backgroundImage: `url("https://content.jdmagicbox.com/comp/pune/s5/020pxx20.xx20.120804115010.l4s5/catalogue/dr-raut-s-shree-physiotherapy-and-slimming-center-dhayari-pune-physiotherapists-qgfipbx67v.jpg?clr=")`,
-         }}
-       >
-         <div className="hero-overlay bg-opacity-60"></div>
-         <div className="hero-content text-center text-neutral-content">
-           <div className="max-w-md">
-             <h1 className="mb-5 sm:text-2xl lg:text-4xl font-bold">Shortwave Diathermy</h1>
-             <p className="mb-5">
-                This Machine is Used to Give Deep Heat to the inflamed Tissues of the Body.
-                It Improves Circulation thus Enhances Healing Process.
-             </p>
-             <button className="btn btn-primary">Get Started</button>
-           </div>
-         </div>
-       </div>
-       </div> */}
+       
      
      
-      <div className="">
-      <div
-         className="hero sm:min-h-fit    sm:min-h-screen-0 lg:min-h-screen"
-         style={{
-           backgroundImage: `url("https://www.indica.today/wp-content/uploads/2022/06/History-of-Asana-and-Exercise-in-India.jpg")`,
-         }}
-       >
-         <div className="hero-overlay bg-opacity-60"></div>
-         <div className="hero-content text-center text-neutral-content">
-           <div className="max-w-md">
-             <h1 className="mb-5 sm:text-2xl lg:text-4xl font-bold">Active Exercise</h1>
-             <p className="mb-5">
-               Acitive Exercise Improves Function,Increases Capability & Boosts Up 
-               Physical & Mental Wellbeing.
-             </p>
-             {/* <button className="btn btn-primary">Get Started</button> */}
-           </div>
-         </div>
-       </div>
-      </div>
+      
       
       
    </Slider>

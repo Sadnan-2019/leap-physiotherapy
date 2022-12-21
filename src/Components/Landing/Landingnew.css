@@ -26,6 +26,18 @@
 
  
 }
+.landingfour{
+
+  background-image:
+  linear-gradient(
+        to left,
+        rgba(1, 106, 134, 0.521),
+        rgba(3, 29, 34, 0.9)
+      ),  
+  url("https://i.ibb.co/Hnb6kdz/active.jpg");
+
+ 
+}
 
 @media only screen and (max-width: 393px) {
 
@@ -76,6 +88,25 @@
         rgba(230, 242, 244, 0.1)
       ),
       url("https://i.ibb.co/XsTC1Gz/wave.jpg");
+  
+    color: rgb(232, 221, 235);
+     
+
+    background-size: 100% 95%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    
+       
+  }
+  .landingfour {
+    width: 100%;
+    background-image: 
+    linear-gradient(
+        to left,
+        rgba(243, 238, 234, 0),
+        rgba(230, 242, 244, 0.1)
+      ),
+      url("https://i.ibb.co/Hnb6kdz/active.jpg");
   
     color: rgb(232, 221, 235);
      
