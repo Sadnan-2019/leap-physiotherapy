@@ -1,21 +1,25 @@
-.physiotherapy{
+.physiotherapy {
+  background-image: url("../../assets/Physio.jpg");
 
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    background-image: 
-  
-    
-       /* url("https://adamsptservices.com/wp-content/uploads/2016/09/knee-pain-therapy-1437x627-1.jpg"); */
-       url("../../assets/Physio.jpg");
-   
-     background-repeat: no-repeat;
-     background-size: cover;
-   
-     
-     
-    min-height: 500px;
-    color: #fff;
-    /* background-position: 50% 50%; */
+  min-height: 500px;
+  color: #fff;
+
+  background-position: center;
+}
+
+@media only screen and (max-width: 393px) {
+  .physiotherapy {
+    width: 100%;
+    background-image: url("../../assets/Physio.jpg");
+
+    color: white;
+
     /* background-size: cover; */
-     background-position: center;
-     /* background-attachment: fixed; */
-   }
+
+    min-height: 200px;
+    color: #fff;
+  }
+}
