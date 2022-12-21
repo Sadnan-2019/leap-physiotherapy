@@ -64,7 +64,7 @@ const Landingnew = () => {
          className="hero   text-red-700  sm:min-h-screen-0 lg:min-h-screen landingone"
               
        >
-         <div className=" hero-overlay "></div>
+         <div className="  bg-opacity-60 "></div>
          <div className="hero-content text-center lg:text-neutral-content">
            <div className="max-w-md">
              <h1 className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"  data-aos="fade-right"

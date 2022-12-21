@@ -27,13 +27,13 @@
     background-image: 
     linear-gradient(
         to left,
-        rgba(230, 242, 244, 0.5)
-        rgba(230, 242, 244, 0.5)
+        rgba(1, 106, 134, 0.521),
+        rgba(3, 29, 34, 0.9)
       ),
       url("https://i.ibb.co/QP33199/slider1.jpg");
   
     color: rgb(232, 221, 235);
-     
+    
 
     background-size: 100% 95%;
     background-repeat: no-repeat;
@@ -47,14 +47,14 @@
     linear-gradient(
         to left,
         rgba(243, 238, 234, 0),
-        rgba(230, 242, 244, 0.5)
+        rgba(230, 242, 244, 0.0)
       ),
       url("https://i.ibb.co/2YtW38S/1s.png");
   
     color: rgb(232, 221, 235);
      
 
-    background-size: 100% 99%;
+    background-size: 100% 95%;
     background-repeat: no-repeat;
     /* background-position: center; */
     
