@@ -3,121 +3,84 @@
   color: rgb(29, 7, 94);
 }
 
- 
-
-.landingone{
-
-  background-image:  
-  url("https://i.ibb.co/QP33199/slider1.jpg");
-
- 
+.landingone {
+  background-image: url("https://i.ibb.co/QP33199/slider1.jpg");
 }
-.landingtwo{
-
-  background-image:  
-  url("https://i.ibb.co/2YtW38S/1s.png");
-
- 
+.landingtwo {
+  background-image: url("https://i.ibb.co/2YtW38S/1s.png");
 }
-.landingthree{
-
-  background-image:  
-  url("https://i.ibb.co/XsTC1Gz/wave.jpg");
-
- 
+.landingthree {
+  background-image: url("https://i.ibb.co/XsTC1Gz/wave.jpg");
 }
-.landingfour{
-
-  background-image:
-  linear-gradient(
-        to left,
-        rgba(1, 106, 134, 0.521),
-        rgba(3, 29, 34, 0.9)
-      ),  
-  url("https://i.ibb.co/Hnb6kdz/active.jpg");
-
- 
+.landingfour {
+  background-image: linear-gradient(
+      to left,
+      rgba(3, 19, 24, 0.521),
+      rgba(3, 29, 34, 0.9)
+    ),
+    url("https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/11/23/Pictures/themselves-recruitment-hindustan-november-preparing-different-exercise_d4520c4a-0d5c-11ea-8f6b-23ce1c606bc4.jpg");
 }
 
 @media only screen and (max-width: 393px) {
-
   .landingone {
     width: 100%;
-    background-image: 
-    linear-gradient(
+    background-image: linear-gradient(
         to left,
         rgba(1, 106, 134, 0.521),
         rgba(3, 29, 34, 0.9)
       ),
       url("https://i.ibb.co/QP33199/slider1.jpg");
-  
+
     color: rgb(232, 221, 235);
-    
 
     background-size: 100% 95%;
     background-repeat: no-repeat;
     /* background-position: center; */
-    
-     
   }
   .landingtwo {
     width: 100%;
-    background-image: 
-    linear-gradient(
+    background-image: linear-gradient(
         to left,
         rgba(243, 238, 234, 0),
-        rgba(230, 242, 244, 0.0)
+        rgba(230, 242, 244, 0)
       ),
       url("https://i.ibb.co/2YtW38S/1s.png");
-  
+
     color: rgb(232, 221, 235);
-     
 
     background-size: 100% 95%;
     background-repeat: no-repeat;
     /* background-position: center; */
-    
-       
   }
   .landingthree {
     width: 100%;
-    background-image: 
-    linear-gradient(
+    background-image: linear-gradient(
         to left,
         rgba(243, 238, 234, 0),
         rgba(230, 242, 244, 0.1)
       ),
       url("https://i.ibb.co/XsTC1Gz/wave.jpg");
-  
+
     color: rgb(232, 221, 235);
-     
 
     background-size: 100% 95%;
     background-repeat: no-repeat;
     /* background-position: center; */
-    
-       
   }
   .landingfour {
     width: 100%;
-    background-image: 
-    linear-gradient(
+    background-image: linear-gradient(
         to left,
         rgba(243, 238, 234, 0),
         rgba(230, 242, 244, 0.1)
       ),
-      url("https://i.ibb.co/Hnb6kdz/active.jpg");
-  
+      url("https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/11/23/Pictures/themselves-recruitment-hindustan-november-preparing-different-exercise_d4520c4a-0d5c-11ea-8f6b-23ce1c606bc4.jpg");
+
     color: rgb(232, 221, 235);
-     
 
     background-size: 100% 95%;
     background-repeat: no-repeat;
     /* background-position: center; */
-    
-       
   }
-
-
-
+   
 }
