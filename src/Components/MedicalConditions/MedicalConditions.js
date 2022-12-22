@@ -5,8 +5,8 @@ const MedicalConditions = () => {
     return (
         <div>
             <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
-        <h2 className="text-xl text-center   font-bold poppins-b lg:text-4xl  " data-aos="fade-up"
-            data-aos-duration="1000"style={{ color: "#536E9B" }}>
+        <h2 className="text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-xl text-center   font-bold poppins-b lg:text-4xl  " data-aos="fade-up"
+            data-aos-duration="1000" >
         We Treat the following Medical Conditions        </h2>
         {/* <h1
             className="  w-64 h-1 rounded-lg mt-2 mb-4 mx-auto"
@@ -20,7 +20,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className="w-52   rounded-full"
           />
-          <p className='text-center font-bold text-xl py-2'>Arthritis</p>
+          <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Arthritis</p>
         </div>
         <div className="       	  mx-10">
           <img
@@ -28,7 +28,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className="  w-52  rounded-full  "
           />
-          <p className='text-center font-bold text-xl py-2'>Frozen Shoulder</p>
+          <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Frozen Shoulder</p>
         </div>
         <div className="     	 mx-10 ">
           <img
@@ -36,7 +36,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className="  w-52 rounded-full    "
           />
-           <p className='text-center font-bold text-xl py-2'>Golfers Elbow</p>
+           <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Golfers Elbow</p>
         </div>
         <div className="     	 mx-10 ">
           <img
@@ -44,7 +44,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className=" w-52  rounded-full    "
           />
-          <p className='text-center font-bold text-xl py-2'>Lumber Spondylitis</p>
+          <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Lumber Spondylitis</p>
         </div>
         <div className="     	 mx-10 ">
           <img
@@ -52,7 +52,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className="   w-52   rounded-full  "
           />
-          <p className='text-center font-bold text-xl py-2'>Acute Wry Neck</p>
+          <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Acute Wry Neck</p>
         </div>
         <div className="      	 mx-10 ">
           <img
@@ -60,7 +60,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className=" w-52   rounded-full    "
           />
-          <p className='text-center font-bold text-xl py-2'>Tightness Of Muscle</p>
+          <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Tightness Of Muscle</p>
         </div>
         <div className="     	 mx-10 ">
           <img
@@ -68,7 +68,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className=" w-52    rounded-full "
           />
-           <p className='text-center font-bold text-xl py-2'>Tennis Elbow</p>
+           <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Tennis Elbow</p>
           
         </div>
         <div className=" 	 mx-10     ">
@@ -77,7 +77,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className=" w-52     rounded-full  "
           />
-          <p className='text-center font-bold text-xl py-2'>Postural Syndrome</p>
+          <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Postural Syndrome</p>
         </div>
         <div className=" 	 mx-10     ">
           <img
@@ -85,7 +85,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className=" w-52  rounded-full      "
           />
-          <p className='text-center font-bold text-xl py-2'>Nerve Problem</p>
+          <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Nerve Problem</p>
         </div>
         <div className=" 	 mx-10     ">
           <img
@@ -93,7 +93,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className=" w-52  rounded-full       "
           />
-           <p className='text-center font-bold text-xl py-2'>Referred Pain</p>
+           <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Referred Pain</p>
         </div>
         <div className=" 	 mx-10     ">
           <img
@@ -101,7 +101,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className=" w-52  rounded-full         "
           />
-                     <p className='text-center font-bold text-xl py-2'>Osteoarthritis</p>
+                     <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Osteoarthritis</p>
         </div>
         <div className=" 	 mx-10     ">
           <img
@@ -109,7 +109,7 @@ const MedicalConditions = () => {
             alt="Shoes"
             className=" w-52 rounded-full         "
           />
-          <p className='text-center font-bold text-xl py-2'>Any Sports Injury</p>
+          <p className='text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-center font-bold text-xl py-2'>Any Sports Injury</p>
         </div>
         
        

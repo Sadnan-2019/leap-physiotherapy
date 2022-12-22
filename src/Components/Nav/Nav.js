@@ -243,7 +243,7 @@ const Nav = () => {
   );
   return (
     <div className="sticky top-0 z-50">
-      <div className="navbar bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  " data-aos="fade-down"
+      <div className="navbar bg-gradient-to-r from-[#2622B7]  to-[#2622B7]  " data-aos="fade-down"
      data-aos-duration="3000"
      data-aos-offset="300"
      data-aos-delay="5000"

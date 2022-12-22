@@ -44,14 +44,14 @@ const Review = () => {
       <div>
         <div className=" ">
           <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
-            <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-[#536E9B]" data-aos="fade-up"
+            <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]" data-aos="fade-up"
             data-aos-duration="1000">
               Check Our Recent Reviews!
             </h2>
           </div>
 
           <Slider {...settings} className="mx-12   py-12">
-            <section class="bg-gradient-to-r from-[#034ca7]  to-[#5f7499] dark:bg-gray-900 rounded-lg   shadow-md hover:shadow-lg cursor-pointer  ">
+            <section class="bg-gradient-to-r from-[#034ca7]  to-[#2622B7] dark:bg-gray-900 rounded-lg   shadow-md hover:shadow-lg cursor-pointer  ">
               <div class="max-w-screen-sm   py-8 mx-auto text-center lg:py-24 lg:px-1   ">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
@@ -67,7 +67,7 @@ const Review = () => {
                   </svg>
                   <blockquote>
                     <p class="text-xl font-medium text-white md:text-lg dark:text-white">
-                      "Landwind is just first awesome. It contains tons of
+                      "LEAP Physio is just first awesome. It contains tons of
                       predesigned components and pages starting from login
                       screen to complex dashboard. Perfect choice for your next
                       SaaS application."
@@ -101,7 +101,7 @@ const Review = () => {
                 </div>
               </div>
             </section>
-            <section class="bg-gradient-to-r from-[#034ca7]  to-[#5f7499] dark:bg-gray-900 rounded-lg  ">
+            <section class="bg-gradient-to-r from-[#034ca7]  to-[#2622B7] dark:bg-gray-900 rounded-lg  ">
               <div class="max-w-screen-sm px-4 py-8 mx-auto text-center lg:py-24 lg:px-1">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
@@ -150,7 +150,7 @@ const Review = () => {
                 </div>
               </div>
             </section>
-            <section class="bg-gradient-to-r from-[#034ca7]  to-[#5f7499] dark:bg-gray-900 rounded-lg  ">
+            <section class="bg-gradient-to-r from-[#034ca7]  to-[#2622B7] dark:bg-gray-900 rounded-lg  ">
               <div class="max-w-screen-sm px-4 py-8 mx-auto text-center lg:py-24 lg:px-1">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
@@ -199,7 +199,7 @@ const Review = () => {
                 </div>
               </div>
             </section>
-            <section class="bg-gradient-to-r from-[#034ca7]  to-[#5f7499] dark:bg-gray-900 rounded-lg  first-line:">
+            <section class="bg-gradient-to-r from-[#034ca7]  to-[#2622B7] dark:bg-gray-900 rounded-lg  first-line:">
               <div class="max-w-screen-sm px-4 py-8 mx-auto text-center lg:py-24 lg:px-1">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
@@ -248,7 +248,7 @@ const Review = () => {
                 </div>
               </div>
             </section>
-            <section class="bg-gradient-to-r from-[#034ca7]  to-[#5f7499] dark:bg-gray-900 rounded-lg  ">
+            <section class="bg-gradient-to-r from-[#034ca7]  to-[#2622B7] dark:bg-gray-900 rounded-lg  ">
               <div class="max-w-screen-sm px-4 py-8 mx-auto text-center lg:py-24 lg:px-1">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
@@ -297,7 +297,7 @@ const Review = () => {
                 </div>
               </div>
             </section>
-            <section class="bg-gradient-to-r from-[#034ca7]  to-[#5f7499] dark:bg-gray-900 rounded-lg  ">
+            <section class="bg-gradient-to-r from-[#034ca7]  to-[#2622B7] dark:bg-gray-900 rounded-lg  ">
               <div class="max-w-screen-sm px-4 py-8 mx-auto text-center lg:py-24 lg:px-1">
                 <figure class="max-w-screen-md mx-auto">
                   <svg

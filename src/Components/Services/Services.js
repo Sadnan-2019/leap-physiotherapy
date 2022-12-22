@@ -7,8 +7,8 @@ const Services = () => {
       <div className="py-10">
         <div className=" ">
           <h2
-            className="text-3xl text-center  py-8 font-bold poppins-b sm:text-4xl"
-            style={{ color: "#536E9B" }}
+            className="text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]      text-3xl text-center  py-8 font-bold poppins-b sm:text-4xl "
+            // style={{ color: "#536E9B" }}
             data-aos="fade-up"
             data-aos-duration="1000"
           >
@@ -18,7 +18,7 @@ const Services = () => {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-0   lg:px-12 gap-10    py-[25px] items-center justify-items-center ">
           <div
-            className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6  flex items-center justify-center  	 gap-5      shadow-2xl shadow-white-1000/50     p-10"
+            className="  bg-gradient-to-r from-[#034ca7]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6  flex items-center justify-center  	 gap-5      shadow-2xl shadow-white-1000/50     p-10"
             // data-aos="fade-up-right"
             // data-aos-offset="300"
             // data-aos-delay="5000"
@@ -66,7 +66,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="  bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className="  bg-gradient-to-r from-[#034ca7]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6     flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -111,7 +111,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499]  h-4/5 lg:h-3/4     w-screen	 lg:w-5/6    flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#2622B7]  h-4/5 lg:h-3/4     w-screen	 lg:w-5/6    flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -153,7 +153,7 @@ const Services = () => {
           </div>
 
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6       flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -199,7 +199,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -242,7 +242,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6        flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -283,7 +283,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" bg-gradient-to-r from-[#034ca7]  to-[#5f7499] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6         flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
+            className=" bg-gradient-to-r from-[#034ca7]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6         flex items-center justify-center	 gap-5      shadow-lg shadow-white-1000/50 border   p-10"
             style={{
               borderRadius: "25px",
             }}

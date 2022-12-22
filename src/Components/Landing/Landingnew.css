@@ -4,13 +4,31 @@
 }
 
 .landingone {
-  background-image: url("https://i.ibb.co/QP33199/slider1.jpg");
+  background-image: 
+  linear-gradient(
+        to left,
+        rgba(1, 106, 134, 0.521),
+        rgba(3, 29, 34, 0.9)
+      ),
+  url("https://i.ibb.co/QP33199/slider1.jpg");
 }
 .landingtwo {
-  background-image: url("https://i.ibb.co/2YtW38S/1s.png");
+  background-image:
+  linear-gradient(
+        to left,
+        rgba(1, 106, 134, 0.521),
+        rgba(3, 29, 34, 0.9)
+      ),
+  url("https://i.ibb.co/2YtW38S/1s.png");
 }
 .landingthree {
-  background-image: url("https://i.ibb.co/XsTC1Gz/wave.jpg");
+  background-image: 
+  linear-gradient(
+        to left,
+        rgba(1, 106, 134, 0.221),
+        rgba(3, 29, 34, 0.9)
+      ),
+  url("https://i.ibb.co/XsTC1Gz/wave.jpg");
 }
 .landingfour {
   background-image: linear-gradient(

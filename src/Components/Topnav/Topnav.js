@@ -33,7 +33,7 @@ const Topnav = () => {
             <div className='text-shadow '>
               <MdOutlinePhonelinkRing className="text-[10px]   lg:text-2xl   text-[#38639F]   " />
             </div>
-            <div className='text-[#38639F]  '>
+            <div className='text-[#1c165a]  '>
               <p className="text-[10px] lg:text-xs   	">
               +8801318588777  
               </p>
@@ -59,10 +59,11 @@ const Topnav = () => {
             style={{ color: "white" }}
           >
              <div className="flex  justify-items-center items-center gap-2  text-[#38639F]">
-          <a target="_blank" href='https://www.facebook.com/leap.physio/' ><FaFacebookSquare  className="text-[10px] lg:text-lg ml-2  " /></a>
-          <BsLinkedin className="text-[10px] lg:text-lg ml-2  " />
-          <TiSocialTwitter className="text-[10px] lg:text-lg ml-2  " />
-          <TiSocialInstagram className=" text-[10px] lg:text-lg ml-2  " />
+          <a target="_blank" href='https://www.facebook.com/leap.physio/' >
+            <FaFacebookSquare  className="text-[10px] lg:text-lg ml-2 text-shadow  " /></a>
+          <BsLinkedin className="text-[10px] lg:text-lg ml-2 text-shadow " />
+          <TiSocialTwitter className="text-[10px] lg:text-lg ml-2 text-shadow  " />
+          <TiSocialInstagram className=" text-[10px] lg:text-lg ml-2 text-shadow  " />
           </div>
           </div>
         </div>
