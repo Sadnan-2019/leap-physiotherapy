@@ -283,7 +283,10 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="shadow-2xl shadow-blue-800  bg-gradient-to-r from-[#034ca7]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6         flex items-center justify-center	 gap-5       border   p-10"
+            className="shadow-2xl  
+             shadow-blue-800  bg-gradient-to-r from-[#034ca7]  to-[#2622B7] h-4/5 lg:h-3/4   
+               w-screen	 lg:w-5/6         flex items-center justify-center	 gap-5       border   p-10"
+
             style={{
               borderRadius: "25px",
             }}
