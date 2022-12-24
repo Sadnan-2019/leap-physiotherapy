@@ -58,7 +58,7 @@ const HomeAboutDetails = () => {
                 className="text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]
                lg:text-[35px] md:text-[30px] font-bold   leading-10	"
               >
-                LEAP Physiotherapy - Since 2016,
+                What is LEAP Physiotherapy?
               </h2>
               
               {/*              
