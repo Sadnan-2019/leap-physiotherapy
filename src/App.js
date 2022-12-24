@@ -21,6 +21,7 @@ import KneePain from "./Components/KneePain/KneePain";
 import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
 import HomeContact from "./Components/HomeContact/HomeContact";
 import Blog from "./Components/Blog/Blog";
+import HomeAbout from "./Components/HomeAbout/HomeAbout";
  // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
@@ -57,11 +58,8 @@ function App() {
         <Route path="/knee-pain" element={<KneePain />}></Route>
         <Route path="/contact" element={<HomeContact />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
-        {/* <Route path="/contact" element={<HomeContact />}></Route> */}
-        {/* <Route path="/therapeutic-exercise" element={<TherapeuticExercise/>}></Route> */}
-
-        {/* <Route path="login" element={<Login />}></Route> */}
-        {/* <Route path="/*" element={<FourZeroFour />} />  */}
+        <Route path="/about" element={<HomeAbout/>}></Route>
+      
       </Routes>
 
       <Footer />

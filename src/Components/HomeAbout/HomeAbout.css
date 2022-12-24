@@ -1,0 +1,22 @@
+.homeabout{
+
+    background-image: 
+    linear-gradient(
+      to left,
+      rgba(7, 55, 100, 0.521),
+      rgba(2, 95, 95, 0.726)
+    ),
+    
+    url("../../assets/leapteam.jpg");   
+     background-repeat: no-repeat;
+     background-size: cover;
+   
+     
+     
+    min-height: 500px;
+    color: #fff;
+    /* background-position: 50% 50%; */
+    /* background-size: cover; */
+     background-position: center;
+     /* background-attachment: fixed; */
+}

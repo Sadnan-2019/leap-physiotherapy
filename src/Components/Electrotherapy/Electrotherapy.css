@@ -2,7 +2,11 @@
 
 
     background-image: 
-  
+    linear-gradient(
+      to left,
+      rgba(3, 62, 78, 0.521),
+      rgba(3, 29, 34, 0.9)
+    ),
     
        url("../../assets/electrotherapyy.png");
    
@@ -18,3 +22,24 @@
      background-position: center;
      /* background-attachment: fixed; */
    }
+
+
+   @media only screen and (max-width: 393px) {
+    .electrotherapy {
+      width: 100%;
+      background-image:
+      linear-gradient(
+      to left,
+      rgba(3, 62, 78, 0.521),
+      rgba(3, 29, 34, 0.9)
+    ),
+       url("../../assets/electrotherapyy.png");
+  
+      color: white;
+  
+      /* background-size: cover; */
+  
+      min-height: 200px;
+      color: #fff;
+    }
+  }
