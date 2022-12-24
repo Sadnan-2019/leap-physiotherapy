@@ -45,13 +45,9 @@ const About = () => {
                 <div className=" items-center text-center text-white p-4">
                   <p className="text-[20px]">Cost Effectiveness</p>
                   <p className="text-justify	text-[15px] poppins-t">
-                    Though some physiotherapists tend to charge more for
-                    providing their services at home, it is still cost effective
-                    in comparison to visiting a physiotherapy center. It is
-                    mainly because your travel costs are saved. Moreover, your
-                    travel might require an ambulance depending upon your
-                    condition. Such costs can be avoided if you avail
-                    physiotherapy at home.
+                  There is difference between taking physiotherapy at home
+                  & going to a physiotherapy center.You save money  of transport 
+                  & waiting for longer time.You get service at the comfort at your home.
                   </p>
                 </div>
               </div>
@@ -73,10 +69,8 @@ const About = () => {
                 <div className=" items-center text-center text-white p-4">
                   <p className="text-[20px]">Time management</p>
                   <p className="text-justify	text-[15px] poppins-t">
-                    A lot of time can be saved by opting for physiotherapy at
-                    home. Also, time plays an important role in treating
-                    conditions like acute pain and stress. Thus, treatment at
-                    home helps a lot.
+                    You can get service at home according to your wish.You can manage your time 
+                    while giving time to the appoinment for physiotherapy service.
                   </p>
                 </div>
               </div>
@@ -98,10 +92,8 @@ const About = () => {
                 <div className=" items-center text-center text-white p-4">
                   <p className="text-[20px]">Supervision</p>
                   <p className="text-justify	text-[15px] poppins-t">
-                    Availing for physiotherapy treatment at home helps the
-                    patient and his/her family to keep track of the treatment
-                    process and to ensure that the patient is getting proper
-                    physiotherapy care or not.
+                    At home service one can predict improvement & progress of 
+                    the physiotherapy treatment.
                   </p>
                 </div>
               </div>
@@ -123,11 +115,11 @@ const About = () => {
                 <div className=" items-center text-center text-white p-4">
                   <p className="text-[20px]">Comfort of home</p>
                   <p className="text-justify	text-[15px] poppins-t">
-                    The environment at home is considered to be more comfortable
-                    for a patient as compared to the environment of the clinic.
+                    The environment at home is  most  comfortable
+                    for a patient as compared to the environment of the center.
                     Presence of family members during the treatment process
                     helps to boost the morale of the patient and contributes to
-                    the speedy recovery of the patient.
+                    the prompt  recovery of the patient.
                   </p>
                 </div>
               </div>
@@ -149,10 +141,8 @@ const About = () => {
                 <div className=" items-center text-center text-white p-4">
                   <p className="text-[20px]">Personalized treatment</p>
                   <p className="text-justify	text-[15px] poppins-t">
-                    Availing physiotherapy treatment at home means you get to
-                    discuss your problem in details with the doctor. You can
-                    also coordinate with your physiotherapist depending on your
-                    current condition.
+                    Getting  physiotherapy treatment at home means you can ask 
+                    question about  your problem in details with the therapist. 
                   </p>
                 </div>
               </div>
@@ -174,14 +164,11 @@ const About = () => {
                 <div className=" items-center text-center text-white p-4">
                   <p className="text-[20px]">Increased scope of treatment</p>
                   <p className="text-justify	text-[15px] poppins-t">
-                    Opting for a private physiotherapist at home also tends to
-                    increase the scope of the treatment process. Generally, in a
-                    clinic, a large number of patients are present and the
-                    physiotherapist is not able to devote enough time towards
-                    each patient. Thus, opting for physiotherapy care at home
-                    helps the physiotherapist to give enough attention to an
-                    individual patient which in turn helps in better recovery of
-                    the patient.
+                  At a physiotherapy center the load of the patient is more than 
+                  at a home service.One can discuss about personilized service provided by a 
+                  therapists.Each complain can be addressed individually .So there is  
+                  an increase in scope of treatment.
+
                   </p>
                 </div>
               </div>
