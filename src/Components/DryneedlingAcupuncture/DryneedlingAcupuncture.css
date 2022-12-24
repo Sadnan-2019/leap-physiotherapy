@@ -1,6 +1,11 @@
 .dryneedling{
 background-image: 
-    url("https://pivotalmotion.physio/wp-content/uploads/2018/03/Dry-Needling-2000x980-smaller.jpg");
+linear-gradient(
+  to left,
+  rgba(90, 137, 151, 0.9),
+  rgba(2, 20, 24, 0.2)
+),
+    url("../../assets/accupunchar.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,4 +19,24 @@ background-image:
   background-position: center;
 
 
+}
+
+@media only screen and (max-width: 393px) {
+  .dryneedling {
+    width: 100%;
+    background-image: 
+    linear-gradient(
+      to left,
+      rgba(90, 114, 121, 0.03),
+      rgba(15, 87, 102, 0.2)
+    ),
+    url("../../assets/accupunchar.jpg");
+
+    color: white;
+
+    /* background-size: cover; */
+
+    min-height: 200px;
+    color: #fff;
+  }
 }

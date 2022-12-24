@@ -1,7 +1,11 @@
 .kinesiotaping{
 
     background-image: 
-  
+    linear-gradient(
+      to left,
+      rgba(90, 114, 121, 0.03),
+      rgba(15, 87, 102, 0.2)
+    ),
     
     url("../../assets/s2.jpg");
 
@@ -15,4 +19,24 @@
  /* background-position: 50% 50%; */
  /* background-size: cover; */
   background-position: center;
+}
+
+@media only screen and (max-width: 393px) {
+  .kinesiotaping {
+    width: 100%;
+    background-image: 
+    linear-gradient(
+      to left,
+      rgba(90, 114, 121, 0.03),
+      rgba(15, 87, 102, 0.2)
+    ),
+    url("../../assets/s2.jpg");
+
+    color: white;
+
+    /* background-size: cover; */
+
+    min-height: 200px;
+    color: #fff;
+  }
 }
