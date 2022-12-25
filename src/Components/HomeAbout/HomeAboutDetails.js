@@ -8,7 +8,7 @@ const HomeAboutDetails = () => {
         <div className="  mt-10">
           <div className=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2      py-10 items-center justify-items-center  drop-shadow-2xl text-[#536E9B]   p-4 ">
             <div className="sm:h-80  sm:w-5/6 lg:w-5/6 h-96">
-               <img src={about1} alt/>
+               <img className="rounded-lg " src={about1} alt/>
             </div>
 
             <div
@@ -20,7 +20,7 @@ const HomeAboutDetails = () => {
                 className="text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]
                lg:text-[35px] md:text-[30px] font-bold   leading-10	"
               >
-                LEAP Physiotherapy - Since 2016,
+                LEAP Physiotherapy - Since 2001,
               </h2>
               
               {/*              
@@ -83,7 +83,7 @@ const HomeAboutDetails = () => {
               </div> */}
             </div>
             <div className="sm:h-80  sm:w-5/6 lg:w-5/6 h-96">
-               <img src={about2} alt/>
+               <img className="rounded-lg " src={about2} alt/>
             </div>
           </div>
         </div>

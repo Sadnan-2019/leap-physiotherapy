@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Physiotherapy.css"
+import "animate.css";
 
 const PhysiotherapyLanding = () => {
     return (
@@ -15,7 +16,7 @@ const PhysiotherapyLanding = () => {
    <div className="hero-content text-center text-neutral-content">
      <div className="max-w-md">
        <h1 className="mb-5 text-2xl lg:text-5xl font-bold">Physiotherapy</h1>
-       <p className="mb-5 text-lg lg:text-xl">
+       <p className="mb-5 text-lg lg:text-xl animate__animated animate__fadeInRight ">
        Physiotherapists are highly qualified health professionals who work in partnership with their patients to help people get better and stay well
        </p>
      </div>
