@@ -1,6 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
 import { AiFillStar } from "react-icons/ai";
+import review1 from "../../assets/reviewone.jpg";
+import review2 from "../../assets/reviewtwo.jpg";
+// import review2 from "../../assets/reviewtwo.jpg";
+import review3 from "../../assets/reviewthree.jpg";
 
 const Review = () => {
   var settings = {
@@ -44,8 +48,11 @@ const Review = () => {
       <div>
         <div className=" ">
           <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
-            <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]" data-aos="fade-up"
-            data-aos-duration="1000">
+            <h2
+              className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               Check Our Recent Reviews!
             </h2>
           </div>
@@ -67,25 +74,23 @@ const Review = () => {
                   </svg>
                   <blockquote>
                     <p class="text-xl font-medium text-white md:text-lg dark:text-white">
-                      "LEAP Physio is just first awesome. It contains tons of
-                      predesigned components and pages starting from login
-                      screen to complex dashboard. Perfect choice for your next
-                      SaaS application."
+                      "Amazing service they give . Quality work and service. I
+                      am satisfied with myself physiotherapist Miss Khusbu and
+                      her treatment quality makes me satisfied. Their management
+                      are also doing great."
                     </p>
                   </blockquote>
                   <figcaption class="flex items-center justify-center mt-6 space-x-3">
                     <img
-                      class="w-12 h-12 rounded-full"
-                      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                      class="w-16 h-16 rounded-full"
+                      src={review1}
                       alt="profile picture"
                     />
                     <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                       <div class="pr-3 font-medium text-white dark:text-white">
-                        Micheal Gough
+                        Neena Chowdhury
                       </div>
-                      <div class="pl-3 text-sm font-light text-white dark:text-gray-400">
-                        CEO at Google
-                      </div>
+                      <div class="pl-3 text-sm font-light text-white dark:text-gray-400"></div>
                     </div>
                   </figcaption>
                 </figure>
@@ -117,24 +122,22 @@ const Review = () => {
                   </svg>
                   <blockquote>
                     <p class="text-xl font-medium text-white md:text-lg dark:text-white">
-                      "Landwind is just awesome. It contains tons of predesigned
-                      components and pages starting from login screen to complex
-                      dashboard. Perfect choice for your next SaaS application."
+                      "One of the Best in Dhaka! Especially Dr.Shafiq
+                      physiotherapist, He is a Masterpiece, Highly Recommended!
+                      &Willing to more Advanced to technology as an addition!."
                     </p>
                   </blockquote>
                   <figcaption class="flex items-center justify-center mt-6 space-x-3">
                     <img
-                      class="w-12 h-12 rounded-full"
-                      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                      class="w-16 h-16 rounded-full"
+                      src={review2}
                       alt="profile picture"
                     />
                     <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                       <div class="pr-3 font-medium text-white dark:text-white">
-                        Micheal Gough
+                        Kayes Khan
                       </div>
-                      <div class="pl-3 text-sm font-light text-white dark:text-gray-400">
-                        CEO at Google
-                      </div>
+                      <div class="pl-3 text-sm font-light text-white dark:text-gray-400"></div>
                     </div>
                   </figcaption>
                 </figure>
@@ -166,23 +169,25 @@ const Review = () => {
                   </svg>
                   <blockquote>
                     <p class="text-xl font-medium text-white md:text-lg dark:text-white">
-                      "Landwind is just awesome. It contains tons of predesigned
-                      components and pages starting from login screen to complex
-                      dashboard. Perfect choice for your next SaaS application."
+                      "Their work is remarkable. I am very satisfied with their
+                      work. All of the members are friendly. I was suffering for
+                      a few years, but after going for therapy my life has
+                      completely changed. I feel so much better now.  "
                     </p>
                   </blockquote>
                   <figcaption class="flex items-center justify-center mt-6 space-x-3">
                     <img
-                      class="w-12 h-12 rounded-full"
-                      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                      class="w-16 h-16 rounded-full"
+                      src={review3}
                       alt="profile picture"
                     />
                     <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                       <div class="pr-3 font-medium text-white dark:text-white">
-                        Micheal Gough
+                      Jobeda Rabbani Joly
+
                       </div>
                       <div class="pl-3 text-sm font-light text-white dark:text-gray-400">
-                        CEO at Google
+                        
                       </div>
                     </div>
                   </figcaption>
