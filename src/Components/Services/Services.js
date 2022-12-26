@@ -16,9 +16,11 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-0   lg:px-12 gap-10    py-[25px] items-center justify-items-center ">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-0   lg:px-12 gap-10    py-[25px] items-center justify-items-center ">
           <div
-            className="shadow-2xl shadow-blue-800 hover:  transition duration-500 hover:scale-110  bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6  flex items-center justify-center  	 gap-5      border    p-10"
+            className="shadow-2xl shadow-blue-800 hover:  transition duration-500 hover:scale-110 
+             bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4   
+             w-screen  md:w-3/4 lg:w-5/6  flex items-center justify-center  	 gap-5      border    p-10"
             // data-aos="fade-up-right"
             // data-aos-offset="300"
             // data-aos-delay="5000"
@@ -66,7 +68,9 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="shadow-2xl shadow-blue-800 hover:  transition duration-500 hover:scale-110  bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6     flex items-center justify-center	 gap-5          border   p-10"
+            className="shadow-2xl shadow-blue-800 hover:  transition duration-500 hover:scale-110 
+             bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4    
+              w-screen md:w-3/4	 lg:w-5/6     flex items-center justify-center	 gap-5          border   p-10"
             style={{
               backgroundColor: "white",
               borderRadius: "25px",
@@ -111,7 +115,9 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="hover:  transition duration-500 hover:scale-110 shadow-2xl shadow-blue-800  bg-gradient-to-r from-[#052f61]  to-[#2622B7]  h-4/5 lg:h-3/4     w-screen	 lg:w-5/6    flex items-center justify-center	 gap-5       border   p-10"
+            className="hover:  transition duration-500 hover:scale-110 shadow-2xl
+             shadow-blue-800  bg-gradient-to-r from-[#052f61]  to-[#2622B7]  h-4/5 lg:h-3/4     w-screen	
+             md:w-3/4  lg:w-5/6    flex items-center justify-center	 gap-5       border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -153,7 +159,9 @@ const Services = () => {
           </div>
 
           <div
-            className="hover:  transition duration-500 hover:scale-110 shadow-2xl shadow-blue-800 bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6       flex items-center justify-center	 gap-5       border   p-10"
+            className="hover:  transition duration-500 hover:scale-110
+             shadow-2xl shadow-blue-800 bg-gradient-to-r from-[#052f61]  to-[#2622B7] 
+             h-4/5 lg:h-3/4     w-screen	 md:w-3/4  lg:w-5/6       flex items-center justify-center	 gap-5       border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -199,7 +207,9 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="shadow-2xl shadow-blue-800 hover:  transition duration-500 hover:scale-110 bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6        flex items-center justify-center	 gap-5      border   p-10"
+            className="shadow-2xl shadow-blue-800 hover:  transition duration-500 hover:scale-110 
+            bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 md:w-3/4 lg:w-5/6   
+                 flex items-center justify-center	 gap-5      border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -242,7 +252,9 @@ const Services = () => {
             </div>
           </div>
           <div
-            className=" hover:  transition duration-500 hover:scale-110 shadow-2xl shadow-blue-800  bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 lg:w-5/6        flex items-center justify-center	 gap-5        border   p-10"
+            className=" hover:  transition duration-500 hover:scale-110 shadow-2xl shadow-blue-800  
+            bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4     w-screen	 md:w-3/4  lg:w-5/6  
+                  flex items-center justify-center	 gap-5        border   p-10"
             style={{
               borderRadius: "25px",
             }}
@@ -285,7 +297,7 @@ const Services = () => {
           <div
             className="shadow-2xl hover:  transition duration-500 hover:scale-110 
              shadow-blue-800  bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4   
-               w-screen	 lg:w-5/6         flex items-center justify-center	 gap-5       border   p-10"
+               w-screen  md:w-3/4  lg:w-5/6         flex items-center justify-center	 gap-5       border   p-10"
 
             style={{
               borderRadius: "25px",
