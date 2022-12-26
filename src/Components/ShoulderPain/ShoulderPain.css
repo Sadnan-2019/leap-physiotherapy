@@ -2,7 +2,11 @@
 
     background-image: 
 
-    
+    linear-gradient(
+      to left,
+      rgba(3, 62, 78, 0.521),
+      rgba(3, 29, 34, 0.3)
+    ),
     url("../../assets/shoulder.jpg");
 
   background-repeat: no-repeat;
@@ -17,4 +21,24 @@
   background-position: center;
 
 
+}
+
+@media only screen and (max-width: 393px) {
+  .shoulderpain {
+    width: 100%;
+    background-image:
+    linear-gradient(
+    to left,
+    rgba(3, 62, 78, 0.521),
+    rgba(3, 29, 34, 0.3)
+  ),
+     url("../../assets/shoulder.jpg");
+
+    color: white;
+
+    /* background-size: cover; */
+
+    min-height: 200px;
+    color: #fff;
+  }
 }

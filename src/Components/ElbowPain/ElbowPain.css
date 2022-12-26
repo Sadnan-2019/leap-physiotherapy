@@ -1,7 +1,11 @@
 .elbowpain{
     background-image: 
 
-    
+    linear-gradient(
+      to left,
+      rgba(3, 62, 78, 0.521),
+      rgba(3, 29, 34, 0.3)
+    ),
     url("../../assets/elbow.jpg");
 
   background-repeat: no-repeat;
@@ -15,4 +19,23 @@
  /* background-size: cover; */
   background-position: center;
 
+}
+@media only screen and (max-width: 393px) {
+  .elbowpain {
+    width: 100%;
+    background-image:
+    linear-gradient(
+    to left,
+    rgba(3, 62, 78, 0.521),
+    rgba(3, 29, 34, 0.3)
+  ),
+     url("../../assets/elbow.jpg");
+
+    color: white;
+
+    /* background-size: cover; */
+
+    min-height: 200px;
+    color: #fff;
+  }
 }

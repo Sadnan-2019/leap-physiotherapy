@@ -3,6 +3,7 @@ import React from 'react';
 import About from '../About/About';
 import Backpain from '../Bankpain/Backpain';
 import Contact from '../Contact/Contact';
+import HomeTeam from '../HomeTeam/HomeTeam';
 import Landing from '../Landing/Landing';
 // import Landing from '../Landing/Landing';
 import Landingnew from '../Landing/Landingnew';
@@ -23,7 +24,8 @@ const Home = () => {
            <Backpain/>
            <About></About>
            <Success></Success>
-           <Team></Team>
+           {/* <Team></Team> */}
+           <HomeTeam></HomeTeam>
            <Contact></Contact>
 
           </div>

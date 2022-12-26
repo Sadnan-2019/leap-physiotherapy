@@ -4,7 +4,7 @@ const MeetTeamLanding = () => {
      return (
           <div>
                  <div
-        className="hero min-h-screen electrotherapy"
+        className="hero min-h-screen meetteam"
         data-aos="fade-down"
         data-aos-offset="300"
         data-aos-delay="5000"
