@@ -58,7 +58,7 @@ const Review = () => {
           </div>
 
           <Slider {...settings} className="mx-12   py-12">
-            <section class="bg-gradient-to-r from-[#034ca7]  to-[#2622B7] dark:bg-gray-900 rounded-lg   shadow-md hover:shadow-lg cursor-pointer  ">
+            <section class="bg-gradient-to-r from-[#383e53] to-[#2622B7]   rounded-lg   shadow-md hover:shadow-lg cursor-pointer  ">
               <div class="max-w-screen-sm   py-8 mx-auto text-center lg:py-24 lg:px-1   ">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
@@ -106,7 +106,7 @@ const Review = () => {
                 </div>
               </div>
             </section>
-            <section class="bg-gradient-to-r from-[#034ca7]  to-[#2622B7] dark:bg-gray-900 rounded-lg  ">
+            <section class="bg-gradient-to-r from-[#383e53] to-[#2622B7]   rounded-lg  ">
               <div class="max-w-screen-sm px-4 py-8 mx-auto text-center lg:py-24 lg:px-1">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
@@ -153,7 +153,7 @@ const Review = () => {
                 </div>
               </div>
             </section>
-            <section class="bg-gradient-to-r from-[#034ca7]  to-[#2622B7] dark:bg-gray-900 rounded-lg  ">
+            <section class="bg-gradient-to-r from-[#383e53] to-[#2622B7]   rounded-lg  ">
               <div class="max-w-screen-sm px-4 py-8 mx-auto text-center lg:py-24 lg:px-1">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
