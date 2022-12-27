@@ -7,9 +7,9 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Nav = () => {
   const active =
-    "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 md:text-white-900 ";
+    "text-white  text-xs lg:font-medium text-sm border-b-2 border-white-900 pb-1 md:text-white-900 ";
   const normal =
-    "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0 lg:text-white    ";
+    "   text-white-600 text-xs lg:font-medium text-sm  font-medium font-bold focus:text-white p-0 lg:text-white    ";
 
   const navItem = (
     <>
