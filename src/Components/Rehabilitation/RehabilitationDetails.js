@@ -8,7 +8,12 @@ import rehabilitation4 from "../../assets/rehabilitation4.jpg";
 const RehabilitationDetails = () => {
   return (
     <div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12    py-6  ">
+      <div
+        className="grid sm:grid-cols-1 lg:grid-cols-1  justify-center items-center    gap-12  px-12    py-6 
+      
+         mt-[50px]   
+      "
+      >
         <p className="text-justify font-medium ">
           Rehabilitation describes specialized healthcare dedicated to
           improving, maintaining or restoring physical strength, cognition and
@@ -38,7 +43,6 @@ const RehabilitationDetails = () => {
             soon as possible to speed recovery. The programs that combine many
             different components are likely to be most effective.
           </p>
-           
         </div>
 
         <div className=" grid grid-cols-2 gap-8 mt-[50px] py-6 ">
@@ -46,7 +50,6 @@ const RehabilitationDetails = () => {
           <img src={electrotwo} className="w-64 h-44  rounded-lg" alt="" />
           <img src={electrothree} className="w-64  h-44  rounded-lg" alt="" />
           <img src={rehabilitation4} className="w-64 h-44 rounded-lg" alt="" />
-    
         </div>
       </div>
     </div>
