@@ -6,6 +6,18 @@ import { BsWhatsapp } from "react-icons/bs";
 // import ReactWhatsapp from "react-whatsapp";
 
 const Nav = () => {
+
+
+
+
+
+
+
+
+
+
+
+  
   const active =
     "text-white  text-xs lg:font-medium text-sm border-b-2 border-white-900 pb-1 md:text-white-900 ";
   const normal =

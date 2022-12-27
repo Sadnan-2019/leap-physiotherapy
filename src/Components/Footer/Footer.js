@@ -38,6 +38,7 @@ const Footer = () => {
     </div>
   </div>
 </footer>   
+{/* <a href="#top">Jump to top of page</a> */}
           </div>
      );
 };
