@@ -23,7 +23,7 @@ const PhysiotherapyLanding = () => {
      <div className="max-w-md">
      
        <h1 className="mb-5 text-2xl lg:text-5xl font-bold">Physiotherapy</h1>
-       <h1  className='mb-5 text-2xl lg:text-xl font-bold'>
+       <h1  className='mb-5 text-2xl lg:text-xl font-bold'style={{ paddingTop: '5rem', margin: 'auto 0', }}>
      Physiotherapy{' '}
         <span className='mb-5 text-lg lg:text-xl animate__animated animate__fadeInRight  ' >
           {/* Style will be inherited from the parent element */}

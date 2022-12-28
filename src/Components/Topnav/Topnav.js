@@ -34,9 +34,9 @@ const Topnav = () => {
               <MdOutlinePhonelinkRing className="text-[10px]   lg:text-2xl   text-[#38639F]   " />
             </div>
             <div className='text-[#1c165a]  '>
-              <p className="text-[10px] lg:text-xs   	">
+              <a href='tel:+8801767564737' className="text-[10px] lg:text-xs   	">
               +8801318588777  
-              </p>
+              </a> 
               <p className="text-[10px] lg:text-xs  	  	">+8802222281712  </p>
             </div>
           </div>
