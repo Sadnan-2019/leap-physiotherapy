@@ -12,12 +12,14 @@ import Review from '../Review/Review';
 import Services from '../Services/Services';
 import Success from '../Success/Success';
 import Team from '../Team/Team';
+import Type from '../Type/Type';
 
 const Home = () => {
      return (
           <div>
            <Landingnew/> 
            {/* <Landing></Landing> */}
+           <Type></Type>
            <MedicalConditions></MedicalConditions>
            <Services/>
            <Review></Review>

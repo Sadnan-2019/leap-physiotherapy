@@ -1,8 +1,14 @@
 import React from 'react';
 import "./Physiotherapy.css"
 import "animate.css";
-
+import { Typewriter } from 'react-simple-typewriter'
 const PhysiotherapyLanding = () => {
+  const handleType = (count ) => {
+    // access word count number
+    console.log(count)}
+    const handleDone = () => {
+        console.log(`Done after 5 loops!`)
+      }
     return (
         <div>
         <div
@@ -15,10 +21,25 @@ const PhysiotherapyLanding = () => {
    <div className="  "></div>
    <div className="hero-content text-center text-neutral-content">
      <div className="max-w-md">
+     
        <h1 className="mb-5 text-2xl lg:text-5xl font-bold">Physiotherapy</h1>
-       <p className="mb-5 text-lg lg:text-xl animate__animated animate__fadeInRight ">
-       Physiotherapists are highly qualified health professionals who work in partnership with their patients to help people get better and stay well
-       </p>
+       <h1  className='mb-5 text-2xl lg:text-xl font-bold'>
+     Physiotherapy{' '}
+        <span className='mb-5 text-lg lg:text-xl animate__animated animate__fadeInRight  ' >
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={['are highly qualified health professionals who work in partnership with their patients to help people get better and stay well', ]}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+            onLoopDone={handleDone}
+            onType={handleType}
+          />
+        </span>
+      </h1> 
      </div>
    </div>
  </div> 
