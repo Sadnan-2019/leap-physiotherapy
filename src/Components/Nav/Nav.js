@@ -37,7 +37,7 @@ const Nav = () => {
          
           
             <NavLink 
-            className="mx-1 text-white-600  font-bold focus:text-white   lg:text-white " >
+            className="mx-1 text-white-600 text-xs lg:font-medium lg:text-sm  font-medium   focus:text-white p-0 lg:text-white " >
               Services
             </NavLink>
          
@@ -138,7 +138,7 @@ const Nav = () => {
       <li className="dropdown dropdown-hover hover:border-none   p-2    text-white    ">
         
       
-            <NavLink className="mx-1 text-white-600 font-medium font-bold focus:text-white nav-item    lg:text-white ">
+            <NavLink className="mx-1 text-white-600 text-xs lg:font-medium lg:text-sm  font-medium   focus:text-white p-0 lg:text-white ">
               Conditions
             </NavLink>
       
