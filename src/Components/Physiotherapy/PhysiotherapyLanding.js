@@ -29,12 +29,13 @@ const PhysiotherapyLanding = () => {
           {/* Style will be inherited from the parent element */}
           <Typewriter
             words={['are highly qualified health professionals who work in partnership with their patients to help people get better and stay well', ]}
-            loop={5}
+            loop={true}
             cursor
             cursorStyle='_'
             typeSpeed={70}
             deleteSpeed={50}
             delaySpeed={1000}
+            cursorBlinking={true}
             onLoopDone={handleDone}
             onType={handleType}
           />
