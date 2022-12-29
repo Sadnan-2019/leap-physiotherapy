@@ -5,6 +5,7 @@ import review1 from "../../assets/reviewone.jpg";
 import review2 from "../../assets/reviewtwo.jpg";
 // import review2 from "../../assets/reviewtwo.jpg";
 import review3 from "../../assets/reviewthree.jpg";
+import "./Review.css"
 
 const Review = () => {
   var settings = {
@@ -46,7 +47,7 @@ const Review = () => {
   return (
     <div>
       <div>
-        <div className=" ">
+        <div className="review ">
           <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
             <h2
               className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]"
@@ -58,7 +59,7 @@ const Review = () => {
           </div>
 
           <Slider {...settings} className="mx-12   py-12">
-            <section class="bg-gradient-to-r from-[#383e53] to-[#2622B7]   rounded-lg   shadow-md hover:shadow-lg cursor-pointer  ">
+            <section class="  bg-gradient-to-r from-[#383e53] to-[#2622B7]   rounded-lg   shadow-md hover:shadow-lg cursor-pointer  ">
               <div class="max-w-screen-sm   py-8 mx-auto text-center lg:py-24 lg:px-1   ">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
@@ -106,7 +107,7 @@ const Review = () => {
                 </div>
               </div>
             </section>
-            <section class="bg-gradient-to-r from-[#383e53] to-[#2622B7]   rounded-lg  ">
+            <section class="bg-gradient-to-r from-[#383e53] to-[#2622B7]   rounded-lg   ">
               <div class="max-w-screen-sm px-4 py-8 mx-auto text-center lg:py-24 lg:px-1">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
@@ -153,7 +154,7 @@ const Review = () => {
                 </div>
               </div>
             </section>
-            <section class="bg-gradient-to-r from-[#383e53] to-[#2622B7]   rounded-lg  ">
+            <section class="bg-gradient-to-r from-[#383e53] to-[#2622B7]   rounded-lg   ">
               <div class="max-w-screen-sm px-4 py-8 mx-auto text-center lg:py-24 lg:px-1">
                 <figure class="max-w-screen-md mx-auto">
                   <svg
@@ -168,7 +169,7 @@ const Review = () => {
                     />
                   </svg>
                   <blockquote>
-                    <p class="text-xl font-medium text-white md:text-lg dark:text-white">
+                    <p class=" text-xl font-medium text-white md:text-lg dark:text-white">
                       "Their work is remarkable. I am very satisfied with their
                       work. All of the members are friendly. I was suffering for
                       a few years, but after going for therapy my life has

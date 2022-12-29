@@ -5,6 +5,7 @@ import Comforthome from "../../assets/Comfort of home.jpg";
 import Personalized from "../../assets/personilized.jpg";
 import increase  from "../../assets/increase scope of treatment.jpg";
 import cost  from "../../assets/Cost effectiveness.jpg";
+import "./About.css"
 const About = () => {
   return (
     <div className="py-10">
@@ -23,7 +24,7 @@ const About = () => {
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="">
+          <div className="about">
             <h1 className=" text-5xl font-bold text-white py-12 ">Why LEAP?</h1>
 
             <div className="text-white 	 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

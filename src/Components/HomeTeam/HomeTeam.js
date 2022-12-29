@@ -1,9 +1,10 @@
 import React from 'react';
 import dr1 from "../../assets/dr1.jpg"
+import "./HomeTeam.css"
 const HomeTeam = () => {
     return (
         <div>
-            <div className="  mb-10     bg-gradient-to-r from-[#034ca7]  to-[#2622B7]  ">
+            <div className="hometeam  mb-10     bg-gradient-to-r from-[#034ca7]  to-[#2622B7]  ">
       <div className=" md:mx-16 lg:mx-24 mx-8  ">
         <h2 className="text-3xl text-center py-12  font-bold poppins-b sm:text-4xl text-white">
           Meet Our Experts

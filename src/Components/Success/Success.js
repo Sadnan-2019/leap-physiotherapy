@@ -67,7 +67,7 @@ const Success = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <div className="stats success text-white">
+          <div className="stats success text-white successtext">
             <div className="stat">
               <div className="stat-figure  "  >
                {/* <p>bangladesh</p> */}

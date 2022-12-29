@@ -1,9 +1,10 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
+import "./MedicalConditions.css"
 
 const MedicalConditions = () => {
     return (
-        <div>
+        <div className='conditions'>
             <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
         <h2 className="text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7] text-xl text-center   font-bold poppins-b lg:text-4xl  " data-aos="fade-up"
             data-aos-duration="1000" >

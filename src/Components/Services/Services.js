@@ -1,10 +1,11 @@
 import React from "react";
 import physio from "../../assets/servicephysio.png";
+import "./Services.css"
 
 const Services = () => {
   return (
     <div>
-      <div className="py-10">
+      <div className="py-10 services">
         <div className=" ">
           <h2
             className="text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]      text-3xl text-center  py-8 font-bold poppins-b sm:text-4xl "
