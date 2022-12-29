@@ -47,7 +47,7 @@ const Landingnew = () => {
 
   return (
     <div>
-      <div className="  px-7 py-7">
+      <div className="  px-7 py-7 landingtext">
         <Slider {...settings}>
           <div className=" ">
             <div className="hero    sm:min-h-screen-0 lg:min-h-screen landingone">

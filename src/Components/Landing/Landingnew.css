@@ -1,73 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette:wght@300;400;500;600;700;800;900&display=swap");
+
+
 .slick-prev:before,
 .slick-next:before {
   color: rgb(29, 7, 94);
-   
 }
-
-
 
 @keyframes flickerAnimation {
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-o-keyframes flickerAnimation{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
+@-o-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-moz-keyframes flickerAnimation{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
+@-moz-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-webkit-keyframes flickerAnimation{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
+@-webkit-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .slick-prev:before,
 .slick-next:before {
-   -webkit-animation: flickerAnimation .5s infinite;
-   -moz-animation: flickerAnimation .5s infinite;
-   -o-animation: flickerAnimation .5s infinite;
-    animation: flickerAnimation .5s infinite;
+  -webkit-animation: flickerAnimation 0.5s infinite;
+  -moz-animation: flickerAnimation 0.5s infinite;
+  -o-animation: flickerAnimation 0.5s infinite;
+  animation: flickerAnimation 0.5s infinite;
 }
-
-
-
-
-
-
-
+.landingtext {
+  font-family: "Courgette", cursive;
+}
 
 
 .landingone {
-  background-image: 
-  linear-gradient(
-        to left,
-        rgba(1, 106, 134, 0.521),
-        rgba(3, 29, 34, 0.9)
-      ),
-  url("https://i.ibb.co/QP33199/slider1.jpg");
+  background-image: linear-gradient(
+      to left,
+      rgba(1, 106, 134, 0.521),
+      rgba(3, 29, 34, 0.9)
+    ),
+    url("https://i.ibb.co/QP33199/slider1.jpg");
 }
 .landingtwo {
-  background-image:
-  linear-gradient(
-        to left,
-        rgba(1, 106, 134, 0.521),
-        rgba(3, 29, 34, 0.9)
-      ),
-  url("https://i.ibb.co/2YtW38S/1s.png");
+  background-image: linear-gradient(
+      to left,
+      rgba(1, 106, 134, 0.521),
+      rgba(3, 29, 34, 0.9)
+    ),
+    url("https://i.ibb.co/2YtW38S/1s.png");
 }
 .landingthree {
-  background-image: 
-  linear-gradient(
-        to left,
-        rgba(1, 106, 134, 0.221),
-        rgba(3, 29, 34, 0.9)
-      ),
-  url("https://i.ibb.co/XsTC1Gz/wave.jpg");
+  background-image: linear-gradient(
+      to left,
+      rgba(1, 106, 134, 0.221),
+      rgba(3, 29, 34, 0.9)
+    ),
+    url("https://i.ibb.co/XsTC1Gz/wave.jpg");
 }
 .landingfour {
   background-image: linear-gradient(
@@ -139,5 +156,4 @@
     background-repeat: no-repeat;
     /* background-position: center; */
   }
-   
 }
