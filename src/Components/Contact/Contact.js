@@ -155,17 +155,15 @@ const Contact = () => {
                 <div class="md:mb-12 lg:mb-0 "  >
                   <div class="map-container relative shadow-lg rounded-lg">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.1680536513817!2d90.41293411262717!3d23.79409158796257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7d225815457%3A0x751bac9a03f7ebd1!2sLABAID%20GULSHAN!5e0!3m2!1sen!2sbd!4v1672039830259!5m2!1sen!2sbd"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14603.66899095437!2d90.39857756855731!3d23.785960953147356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c78b740a5dd1%3A0xaa66305adf67a514!2sLEAP%20Physiotherapy%20Center!5e0!3m2!1sen!2sbd!4v1672461926325!5m2!1sen!2sbd"
                       class="left-0 top-0 h-full w-full absolute rounded-lg"
                       frameborder="0"
                       allowfullscreen
                     ></iframe>
 
 
-{/* 
-<iframe 
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.1680536513817!2d90.41293411262717!3d23.79409158796257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7d225815457%3A0x751bac9a03f7ebd1!2sLABAID%20GULSHAN!5e0!3m2!1sen!2sbd!4v1672039830259!5m2!1sen!2sbd" width="600" height="450" style="border:0;" 
-allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      */}
+{/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14603.66899095437!2d90.39857756855731!3d23.785960953147356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c78b740a5dd1%3A0xaa66305adf67a514!2sLEAP%20Physiotherapy%20Center!5e0!3m2!1sen!2sbd!4v1672461926325!5m2!1sen!2sbd"
+ width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
                   </div>
                 </div>
               </div>
