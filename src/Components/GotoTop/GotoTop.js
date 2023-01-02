@@ -30,7 +30,7 @@ const GotoTop = () => {
         <div>
           <BiArrowToTop
             onClick={gotoBtn}
-            className="bg-blue-700 float-right text-4xl top-btn cursor-pointer"
+            className="bg-blue-700 float-right text-3xl top-btn   cursor-pointer"
           />
         </div>
       )}
