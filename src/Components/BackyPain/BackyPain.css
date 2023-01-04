@@ -1,37 +1,36 @@
-.backpain{
+@import url('https://fonts.googleapis.com/css2?family=Courgette:wght@300;400;500;600;700;800;900&display=swap');
 
 
-    background-image: 
-    linear-gradient(
+
+.backpain {
+  font-family: "Courgette", cursive;
+
+  background-image: linear-gradient(
       to left,
       rgba(3, 62, 78, 0.521),
       rgba(3, 29, 34, 0.9)
     ),
-    
     url("../../assets/s4.png");
 
   background-repeat: no-repeat;
   background-size: cover;
 
-  
-  
- min-height: 500px;
- color: #fff;
- /* background-position: 50% 50%; */
- /* background-size: cover; */
+  min-height: 500px;
+  color: #fff;
+  /* background-position: 50% 50%; */
+  /* background-size: cover; */
   background-position: center;
 }
 
 @media only screen and (max-width: 393px) {
   .backpain {
     width: 100%;
-    background-image:
-    linear-gradient(
-    to left,
-    rgba(3, 62, 78, 0.521),
-    rgba(3, 29, 34, 0.9)
-  ),
-     url("../../assets/s4.png");
+    background-image: linear-gradient(
+        to left,
+        rgba(3, 62, 78, 0.521),
+        rgba(3, 29, 34, 0.9)
+      ),
+      url("../../assets/s4.png");
 
     color: white;
 

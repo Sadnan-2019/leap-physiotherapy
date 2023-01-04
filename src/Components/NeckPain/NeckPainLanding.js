@@ -14,7 +14,7 @@ const NeckPainLanding = () => {
         <div className="  "></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Neck Pain</h1>
+            <h1 className="mb-5 text-2xl lg:text-5xl  font-bold">Neck Pain</h1>
             {/* <p className="mb-5 text-xl">
             Our electrotherapy equipments are up to date and come from Japan, Germany and Holland.
             </p> */}
