@@ -1,7 +1,7 @@
 import React from "react";
-import about1 from "../../assets/about1.jpg"
-import about2 from "../../assets/about2.jpg"
-import "./HomeDetails.css"
+import about1 from "../../assets/about1.jpg";
+import about2 from "../../assets/about2.jpg";
+import "./HomeDetails.css";
 const HomeAboutDetails = () => {
   return (
     <div>
@@ -9,7 +9,7 @@ const HomeAboutDetails = () => {
         <div className="  mt-10 homeaboutdetails">
           <div className=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2      py-10 items-center justify-items-center  drop-shadow-2xl text-[#536E9B]   p-4 ">
             <div className="sm:h-80  sm:w-5/6 lg:w-5/6 h-96">
-               <img className="rounded-lg " src={about1} alt/>
+              <img className="rounded-lg " src={about1} alt />
             </div>
 
             <div
@@ -23,8 +23,7 @@ const HomeAboutDetails = () => {
               >
                 LEAP Physiotherapy - Since 2001,
               </h2>
-              
-              
+
               <p className="text-justify font-medium ">
                 Top-class latest and evidence-based physiotherapy treatment from
                 the comfort of your own home. Service is provided by highly
@@ -41,8 +40,6 @@ const HomeAboutDetails = () => {
           </div>
 
           <div className=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2      py-10 items-center justify-items-center  drop-shadow-2xl text-[#536E9B]   p-4 ">
-            
-
             <div
               className="card-body"
               data-aos="fade-right"
@@ -54,7 +51,7 @@ const HomeAboutDetails = () => {
               >
                 What is LEAP Physiotherapy?
               </h2>
-              
+
               {/*              
               <p className=" max-w-lg  lg:text-[20px] md:text-[20px]      ">
               Our highly qualified and experienced teams use the most up-to-date
@@ -77,7 +74,7 @@ const HomeAboutDetails = () => {
               </div> */}
             </div>
             <div className="sm:h-80  sm:w-5/6 lg:w-5/6 h-96">
-               <img className="rounded-lg " src={about2} alt/>
+              <img className="rounded-lg " src={about2} alt />
             </div>
           </div>
         </div>
