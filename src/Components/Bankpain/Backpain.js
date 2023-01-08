@@ -25,12 +25,12 @@ const Backpain = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
           >
-            <h2 className="text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]
+            {/* <h2 className="text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]
              lg:text-[43px] md:text-[30px] font-bold   leading-10	">
               Physiotherapy
-            </h2>
+            </h2> */}
             <h2 className=" lg:text-[43px] md:text-[30px] font-bold   leading-10 text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]	">
-              In Clinic, At Home
+             LEAP Physiotherapy & Rehabilitation Center Provides
             </h2>
 {/*              
             <p className=" max-w-lg  lg:text-[20px] md:text-[20px]      ">
@@ -41,11 +41,11 @@ const Backpain = () => {
               session with our physio today and bounce back better.
             </p> */}
             <p className="text-justify text-lg  ">
-            Our highly qualified and experienced teams use the most up-to-date
-              techniques to swiftly and smoothly repair your body, with the goal
+            Qualified and experienced team uses the most up-to-date
+              technology to  precisely and smoothly repair your body, with the goal
               of long-term wellness. They will help you identify any potential
-              underlying causes such as diet, exercise, and posture. Book a
-              session with our physio today and bounce back better.
+              underlying causes such as diet, exercise and posture. Book a
+              session with our physiotherapist today and bounce back.
         </p>
             {/* <div className="card-actions  ">
               <button className="btn bg-neutral  " style={{ color: "white" }}>

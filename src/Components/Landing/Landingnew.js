@@ -143,10 +143,7 @@ const Landingnew = () => {
               <div className="  sm:bg-opacity-60"></div>
               <div className="hero-content text-center text-neutral-content lg:text-neutral-content">
                 <div className="max-w-md">
-                  {/* <h1 className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"  data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000">Welcome to The </h1> */}
+                   
                   <h1
                     className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"
                     data-aos="fade-right"
