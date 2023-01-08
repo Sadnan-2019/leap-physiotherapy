@@ -25,11 +25,11 @@ const PhysiotherapyLanding = () => {
      
        <h1 className="mb-5 text-2xl lg:text-5xl font-bold">Physiotherapy</h1>
        <h1  className='mb-5 text-lg lg:text-xl font-bold' >
-     Physiotherapy{' '}
+     Physiotherapists{' '}
         <span className='mb-5 text-lg  lg:text-xl animate__animated animate__fadeInRight  ' >
           {/* Style will be inherited from the parent element */}
           <Typewriter
-            words={['are highly qualified health professionals who work in partnership with their patients to help people get better and stay well', ]}
+            words={['are highly qualified healthcare professionals who work in  close contact with their patients to help   get better and stay well', ]}
             loop={true}
             cursor
             cursorStyle='_'

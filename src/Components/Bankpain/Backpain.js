@@ -45,7 +45,7 @@ const Backpain = () => {
               technology to  precisely and smoothly repair your body, with the goal
               of long-term wellness. They will help you identify any potential
               underlying causes such as diet, exercise and posture. Book a
-              session with our physiotherapist today and bounce back.
+              session with our physiotherapist today and enjoy healthy life.
         </p>
             {/* <div className="card-actions  ">
               <button className="btn bg-neutral  " style={{ color: "white" }}>

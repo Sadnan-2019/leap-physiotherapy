@@ -13,10 +13,11 @@ const SportsInjuriesDetails = () => {
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 justify-center items-center       gap-12  px-12  py-6 ">
         <div className=" ">
           <p className="text-2xl font-medium text-justify py-2 ml-3">
-            Sports injuries are injuries that occur in athletic activities or
-            exercising. They can result from accidents, poor training technique
-            in practice, inadequate equipment, and overuse of a particular body
-            part.
+            Sports injuries are very common among the sportsmen
+            & athletes.Hundred of peoplesuffer from sports injuries
+            all over the world.Some athletes become disabled due to this.We hae 
+            to address this injuries by using differnt technices & by 
+            using instruments.ACL,PCL injury is very common.    
           </p>
           <p className="text-2xl font-medium text-justify py-2 ml-3">
             The seven most common sports injuries are:

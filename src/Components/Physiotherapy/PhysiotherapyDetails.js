@@ -28,7 +28,7 @@ const PhysiotherapyDetails = () => {
       <div className="grid sm:grid-cols-1 lg:grid-cols-2  items-center justify-center    gap-12  px-10  ">
         <div className="justify-center items-center">
           <p className="text-2xl font-medium text-justify py-2 ml-3">
-            Why Physiotherapy needs for-
+            What Physiotherapy is needed for
           </p>
           <p className="text-sm font-medium text-justify py-2 ml-3">
             Pain – manages or prevents pain and its impact on function in
@@ -52,9 +52,9 @@ const PhysiotherapyDetails = () => {
             hospital admissions.
           </p>
           <p className="text-sm font-medium text-justify py-2 ml-3">
-            Occupational health – supports the health and wellbeing of workers,
+            Occupational health – supports the health and wellbeing of industrial workers,
             reduces safety risks in the workplace, prevents and manages injuries
-            and diseases, and support workers in returning to work.
+            and diseases, and support workers in return back to work.
           </p>
           <p className="text-sm font-medium text-justify py-2 ml-3">
             Cardiorespiratory – prevents, rehabilitates and supports people
@@ -89,7 +89,7 @@ const PhysiotherapyDetails = () => {
             and walking, clumsiness, or hyperactivity.
           </p>
           <p className="text-sm font-medium text-justify py-2 ml-3">
-            Sports – prevents, diagnoses and treats musculoskeletal and sporting
+            Sports – prevents, diagnoses and treats musculoskeletal and sport
             injuries among all types of people, from professional athletes.
           </p>
           <p className="text-sm font-medium text-justify py-2 ml-3">
