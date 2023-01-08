@@ -20,11 +20,7 @@ const KinesioTapingDetails = () => {
             Kinesiology tape is a thin, stretchy, elastic cotton strip with an
             acrylic adhesive. Therapeutic kinesiology tape that can benefit a
             wide variety of musculoskeletal and sports injuries, plus
-            inflammatory conditions. Kinesiology tape is almost identical to
-            human skin in both thickness and elasticity, which allows kinesio
-            tape to be worn without binding, constricting or restriction of your
-            movement. Kinesiology tape is an that is used for treating athletic
-            injuries and a variety of physical disorders..
+            inflammatory conditions.
           </p>
 
 

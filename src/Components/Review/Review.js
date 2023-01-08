@@ -173,7 +173,7 @@ const Review = () => {
                       "Their work is remarkable. I am very satisfied with their
                       work. All of the members are friendly. I was suffering for
                       a few years, but after going for therapy my life has
-                      completely changed. I feel so much better now.  "
+                      completely changed. "
                     </p>
                   </blockquote>
                   <figcaption class="flex items-center justify-center mt-6 space-x-3">

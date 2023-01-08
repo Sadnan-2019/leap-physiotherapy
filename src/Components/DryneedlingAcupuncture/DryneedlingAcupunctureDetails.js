@@ -25,10 +25,10 @@ const DryneedlingAcupunctureDetails = () => {
           <p className="text-2xl font-medium text-justify   ml-3 py-6">
             What is dry needling?
           </p>
-          <p className=" font-medium text-justify py-2 ml-3  ">
+          {/* <p className=" font-medium text-justify py-2 ml-3  ">
             The primary aim is to relieve muscle pain and cramping, but it may
             also help to improve a person’s flexibility.
-          </p>
+          </p> */}
           <p className=" font-medium text-justify py-2 ml-3  ">
             A practitioner inserts short, thin, stainless steel filiform needles
             into pressure points. Also called trigger points, these are tight

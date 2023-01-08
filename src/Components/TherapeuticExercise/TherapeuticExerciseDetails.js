@@ -13,9 +13,7 @@ const TherapeuticExerciseDetails = () => {
             Therapeutic exercise -
           </p>
           <p className="  font-medium text-justify py-2 ml-3">
-            Therapeutic exercises refers to a wide range of physical activities
-            that focuses on restoring and maintaining strength, endurance,
-            flexiblity, stability and balance. The goal of therapeutic exercises
+             The goal of therapeutic exercises
             is to return an injured patient to a fully functioning, pain-free
             state. Our physiotherapist begins by conducting a thorough
             evaluation of an individual’s physical capabilities through both a

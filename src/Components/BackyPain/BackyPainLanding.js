@@ -14,9 +14,10 @@ const BackyPainLanding = () => {
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
             <h1 className="mb-5 text-2xl lg:text-5xl  font-bold">Back Pain</h1>
-            {/* <p className="mb-5 text-xl">
-            Our electrotherapy equipments are up to date and come from Japan, Germany and Holland.
-            </p> */}
+            <p className="mb-5 text-xl">
+              Back pain is the most deabilitating condition which is very common 
+              among young adults.It should be corrected/treated urgently by physiotherapy.
+            </p>
           </div>
         </div>
       </div> 

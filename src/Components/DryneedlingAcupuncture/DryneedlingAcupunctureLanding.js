@@ -28,8 +28,9 @@ const DryneedlingAcupunctureLanding = () => {
         <div className="  "></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-2xl lg:text-5xl  font-bold">Dry needling/Acupuncture</h1>
-            
+            <h1 className="mb-5 text-2xl lg:text-5xl  font-bold">Dry needling  (Acupuncture)</h1>
+            <p>The primary aim is to relieve muscle pain and cramping, but it may
+            also help to improve a person’s flexibility.</p>
           </div>
         </div>
       </div> 

@@ -1,9 +1,9 @@
-import React from 'react';
-import "./TherapeuticExercise.css"
+import React from "react";
+import "./TherapeuticExercise.css";
 const TherapeuticExerciseLanding = () => {
-    return (
-        <div>
-            <div
+  return (
+    <div>
+      <div
         className="hero min-h-screen therapeuticexercise "
         data-aos="fade-down"
         data-aos-offset="300"
@@ -13,15 +13,19 @@ const TherapeuticExerciseLanding = () => {
         <div className="  "></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-2xl lg:text-5xl  font-bold">Therapeutic Exercise</h1>
-            {/* <p className="mb-5 text-xl">
-            Our electrotherapy equipments are up to date and come from Japan, Germany and Holland.
-            </p> */}
+            <h1 className="mb-5 text-2xl lg:text-5xl  font-bold">
+              Therapeutic Exercise
+            </h1>
+            <p className="mb-5 text-xl">
+              Therapeutic exercises refers to a wide range of physical
+              activities that focuses on restoring and maintaining strength,
+              endurance, flexiblity, stability and balance.{" "}
+            </p>
           </div>
         </div>
-      </div> 
-        </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default TherapeuticExerciseLanding;

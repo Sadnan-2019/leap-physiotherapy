@@ -14,7 +14,11 @@ const KinesioTapingLanding = () => {
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
             <h1 className="mb-5 text-2xl lg:text-5xl  font-bold">Kinesio Taping Therapy</h1>
-            
+            <p> Kinesiology tape is almost identical to
+            human skin in both thickness and elasticity, which allows kinesio
+            tape to be worn without binding, constricting or restriction of your
+            movement. Kinesiology tape is an that is used for treating athletic
+            injuries and a variety of physical disorders..</p>
           </div>
         </div>
       </div> 
