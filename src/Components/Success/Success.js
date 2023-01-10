@@ -109,7 +109,7 @@ const Success = () => {
                
               </div>
               <div className="stat-value flex "  >
-                <Number3 n={150}></Number3><span>+</span>
+                <Number3 n={50}></Number3><span>+</span>
               </div>
               <div className="text-[18px] font-bold"  >
               Equipments

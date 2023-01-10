@@ -29,7 +29,7 @@ const Backpain = () => {
              lg:text-[43px] md:text-[30px] font-bold   leading-10	">
               Physiotherapy
             </h2> */}
-            <h2 className=" lg:text-[43px] md:text-[30px] font-bold   leading-10 text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]	">
+            <h2 className=" lg:text-[35px] md:text-[30px] font-bold   leading-10 text-transparent   bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]	">
              LEAP Physiotherapy & Rehabilitation Center Provides
             </h2>
 {/*              
