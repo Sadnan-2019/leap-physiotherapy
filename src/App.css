@@ -5,17 +5,17 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,400&family=Sevillana&display=swap');  
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,400&family=Sevillana&display=swap"); */
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400");
+ 
 .App {
   text-align: center;
 }
 body {
   /* font-family: "Poppins", sans-serif;
    */
-   font-family: 'Raleway', sans-serif;
-
-   
+  font-family: 'Roboto Mono', monospace;
 }
 .App-logo {
   height: 40vmin;

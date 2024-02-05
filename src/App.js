@@ -23,6 +23,7 @@ import HomeContact from "./Components/HomeContact/HomeContact";
 import Blog from "./Components/Blog/Blog";
 import HomeAbout from "./Components/HomeAbout/HomeAbout";
 import MeetTeam from "./Components/MeetTeam/MeetTeam";
+import NewNav from "./Components/NewNav/NewNav";
  // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
     <div className=" ">
       <Topnav></Topnav>
       <Nav />
+      {/* <NewNav></NewNav> */}
       {/* <Home/> */}
       <Routes>
       <Route path="/" element={<Home />}></Route>

@@ -20,8 +20,8 @@ const Services = () => {
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-0   lg:px-12 gap-10    py-[25px] items-center justify-items-center ">
           <div
             className="shadow-2xl shadow-blue-800 hover:  transition duration-500 hover:scale-110 
-             bg-gradient-to-r from-[#052f61]  to-[#2622B7] h-4/5 lg:h-3/4   
-             w-screen  md:w-3/4 lg:w-5/6  flex items-center justify-center  	 gap-5      border    p-10"
+             bg-gradient-to-r from-[#052f61]  to-[#2622B7] 
+             h-4/5 lg:h-3/4   w-screen  md:w-3/4 lg:w-5/6  flex items-center justify-center  	 gap-5      border    p-10"
             // data-aos="fade-up-right"
             // data-aos-offset="300"
             // data-aos-delay="5000"
@@ -33,7 +33,7 @@ const Services = () => {
           >
             <div
               className=""
-              data-aos="fade-right"
+              data-aos="fade-right  "
               data-aos-offset="300"
               data-aos-delay="5000"
               data-aos-duration="3000"

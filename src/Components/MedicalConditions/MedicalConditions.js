@@ -1,5 +1,6 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
+import Tightnessmuscle from "../../assets/Tightness Of Muscle.jpg"
 import "./MedicalConditions.css"
 
 const MedicalConditions = () => {
@@ -57,7 +58,7 @@ const MedicalConditions = () => {
         </div>
         <div className="      	 mx-10 ">
           <img
-            src="https://cdn.shopify.com/s/files/1/0425/6363/3311/articles/a51a005f6da02a3c921226bedde28505_1950x.jpg?v=1643242359"
+            src={Tightnessmuscle}
             alt="Shoes"
             className=" w-52   rounded-full    "
           />
