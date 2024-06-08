@@ -1,6 +1,7 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
 import Tightnessmuscle from "../../assets/Tightness Of Muscle.jpg"
+import posturalsyndrome from "../../assets/posturalsyndrome.jpg"
 import "./MedicalConditions.css"
 
 const MedicalConditions = () => {
@@ -75,7 +76,7 @@ const MedicalConditions = () => {
         </div>
         <div className=" 	 mx-10     ">
           <img
-            src="https://www.narayanahealth.org/blog/wp-content/uploads/2020/05/shutterstock_572526787.jpg"
+            src={posturalsyndrome}
             alt="Shoes"
             className=" w-52     rounded-full  "
           />

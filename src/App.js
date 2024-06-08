@@ -24,6 +24,7 @@ import Blog from "./Components/Blog/Blog";
 import HomeAbout from "./Components/HomeAbout/HomeAbout";
 import MeetTeam from "./Components/MeetTeam/MeetTeam";
 import NewNav from "./Components/NewNav/NewNav";
+import FourZeroFour from "./Components/FourZeroFour/FourZeroFour";
  // import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/team" element={<MeetTeam/>}></Route>
         <Route path="/about" element={<HomeAbout/>}></Route>
+        <Route path="/*" element={<FourZeroFour />} /> 
       
       </Routes>
 

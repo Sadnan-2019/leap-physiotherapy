@@ -276,7 +276,7 @@ const Nav = () => {
         <div className="navbar-end">
           <a
             className="btn btn-sm bg-green-500 animate-pulse  whatsup  rounded-full   "
-            href="https://wa.me/+8801767564737"
+            href="https://wa.me/+8801673615587"
             // href="https://wa.me/+8801767564737"
             title="WHATSAPP CHAT"
           >
