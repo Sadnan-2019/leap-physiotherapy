@@ -1,5 +1,11 @@
 import React from "react";
 import physio from "../../assets/servicephysio.png";
+import rehabilitation from "../../assets/rehabilitation.png";
+import chest from "../../assets/chest-press.png";
+import injury from "../../assets/injury.png";
+import postoperative from "../../assets/postoperative.png";
+import Child from "../../assets/Child.png";
+import therapy from "../../assets/therapy.png";
 import "./Services.css"
 
 const Services = () => {
@@ -85,7 +91,7 @@ const Services = () => {
             >
               {" "}
               <img
-                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Neuro.png   "
+                src={rehabilitation}
                 className="w-96   lg:h-36 "
                 alt=""
               />{" "}
@@ -131,7 +137,7 @@ const Services = () => {
             >
               {" "}
               <img
-                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Respiratory.png "
+                src={chest}
                 className="w-96   lg:h-36 "
                 alt=""
               />{" "}
@@ -175,7 +181,7 @@ const Services = () => {
             >
               {" "}
               <img
-                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Sports-Injuries.png "
+                src={injury}
                 className="w-96   lg:h-36  "
                 alt=""
               />{" "}
@@ -223,7 +229,7 @@ const Services = () => {
             >
               {" "}
               <img
-                src="https://www.rehabphysiolondon.com/wp-content/uploads/2019/06/Orthopaedic.png"
+                src={postoperative}
                 className="w-96   lg:h-36  "
                 alt=""
               />{" "}
@@ -268,7 +274,7 @@ const Services = () => {
             >
               {" "}
               <img
-                src="https://www.rehabphysiolondon.com/wp-content/uploads/2020/09/Paediatrics-Icon.png"
+                src={Child}
                 className="w-96   lg:h-36  "
                 alt=""
               />{" "}
@@ -312,7 +318,7 @@ const Services = () => {
             >
               {" "}
               <img
-                src="https://www.rehabphysiolondon.com/wp-content/uploads/2020/01/OtherTherapies.png"
+                src={therapy}
                 className="w-96   lg:h-36  "
                 alt=""
               />{" "}
