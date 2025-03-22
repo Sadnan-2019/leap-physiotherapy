@@ -6,6 +6,11 @@ import { BsWhatsapp } from "react-icons/bs";
 // import ReactWhatsapp from "react-whatsapp";
 
 const Nav = () => {
+
+  const gotoBtn = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+  
   const active =
     "text-white  text-xs lg:font-medium text-sm border-b-2 border-white-900 pb-1 md:text-white-900 ";
   const normal =
@@ -13,7 +18,7 @@ const Nav = () => {
 
   const navItem = (
     <>
-      <li className="nav-item p-2 	">
+      <li className="p-2 nav-item " onClick={gotoBtn}>
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/home"
@@ -21,17 +26,17 @@ const Nav = () => {
           Home
         </NavLink>
       </li>
-      <li className="dropdown dropdown-hover hover:border-none   p-2   text-white    ">
-        <NavLink className="mx-1 text-white-600 text-xs lg:font-medium lg:text-sm  font-medium   focus:text-white p-0 lg:text-white ">
+      <li className="p-2 text-white dropdown dropdown-hover hover:border-none " onClick={gotoBtn}>
+        <NavLink className="p-0 mx-1 text-xs font-medium text-white-600 lg:font-medium lg:text-sm focus:text-white lg:text-white ">
           Services
         </NavLink>
 
         <ul
           tabIndex={0}
-          className="w-44 dropdown-content menu p-2 shadow  rounded-box lg:w-52 bg-blue-600  "
+          className="p-2 bg-blue-600 shadow w-44 dropdown-content menu rounded-box lg:w-52 "
         >
           <li className="dropdown dropdown-hover hover:border-none ">
-            <li className="nav-item p-2   ">
+            <li className="p-2 nav-item ">
               <NavLink
                 className={({ isActive }) =>
                   isActive ? `${active}` : `${normal}`
@@ -41,7 +46,7 @@ const Nav = () => {
                 Physiotherapy
               </NavLink>
             </li>
-            <li className="nav-item p-2">
+            <li className="p-2 nav-item">
               <NavLink
                 className={({ isActive }) =>
                   isActive ? `${active}` : `${normal}`
@@ -51,7 +56,7 @@ const Nav = () => {
                 Electrotherapy
               </NavLink>
             </li>
-            <li className="nav-item p-2">
+            <li className="p-2 nav-item">
               <NavLink
                 className={({ isActive }) =>
                   isActive ? `${active}` : `${normal}`
@@ -61,7 +66,7 @@ const Nav = () => {
                 Manual Therapy
               </NavLink>
             </li>
-            <li className="nav-item p-2">
+            <li className="p-2 nav-item">
               <NavLink
                 className={({ isActive }) =>
                   isActive ? `${active}` : `${normal}`
@@ -71,7 +76,7 @@ const Nav = () => {
                 Sports Injuries
               </NavLink>
             </li>
-            <li className="nav-item p-2">
+            <li className="p-2 nav-item">
               <NavLink
                 className={({ isActive }) =>
                   isActive ? `${active}` : `${normal}`
@@ -81,7 +86,7 @@ const Nav = () => {
                 Rehabilitation
               </NavLink>
             </li>
-            <li className="nav-item p-2">
+            <li className="p-2 nav-item">
               <NavLink
                 className={({ isActive }) =>
                   isActive ? `${active}` : `${normal}`
@@ -91,7 +96,7 @@ const Nav = () => {
                 Therapeutic exercise
               </NavLink>
             </li>
-            <li className="nav-item p-2">
+            <li className="p-2 nav-item">
               <NavLink
                 className={({ isActive }) =>
                   isActive ? `${active}` : `${normal}`
@@ -101,7 +106,7 @@ const Nav = () => {
                 Kinesio Taping Therapy
               </NavLink>
             </li>
-            <li className="nav-item p-2">
+            <li className="p-2 nav-item">
               <NavLink
                 className={({ isActive }) =>
                   isActive ? `${active}` : `${normal}`
@@ -114,17 +119,17 @@ const Nav = () => {
           </li>
         </ul>
       </li>
-      <li className="dropdown dropdown-hover hover:border-none   p-2    text-white    ">
-        <NavLink className="mx-1 text-white-600 text-xs lg:font-medium lg:text-sm  font-medium   focus:text-white p-0 lg:text-white ">
+      <li className="p-2 text-white dropdown dropdown-hover hover:border-none "onClick={gotoBtn}>
+        <NavLink className="p-0 mx-1 text-xs font-medium text-white-600 lg:font-medium lg:text-sm focus:text-white lg:text-white ">
           Conditions
         </NavLink>
 
         <ul
           tabIndex={0}
-          className="w-32 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
+          className="w-32 p-2 shadow dropdown-content menu rounded-box lg:w-52"
           style={{ backgroundColor: "#3E84DC" }}
         >
-          <li className="nav-item p-2">
+          <li className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -134,7 +139,7 @@ const Nav = () => {
               Back Pain
             </NavLink>
           </li>
-          <li className="nav-item p-2">
+          <li className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -144,7 +149,7 @@ const Nav = () => {
               Neck Pain
             </NavLink>
           </li>
-          <li className="nav-item p-2">
+          <li className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -154,7 +159,7 @@ const Nav = () => {
               Shoulder Pain
             </NavLink>
           </li>
-          <li className="nav-item p-2">
+          <li className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -164,7 +169,7 @@ const Nav = () => {
               Elbow Pain
             </NavLink>
           </li>
-          <li className="nav-item p-2">
+          <li className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -174,7 +179,7 @@ const Nav = () => {
               Knee Pain
             </NavLink>
           </li>
-          {/* <li className="nav-item p-2">
+          {/* <li className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -186,7 +191,7 @@ const Nav = () => {
           </li> */}
         </ul>
       </li>
-      <li className="nav-item p-2 	">
+      <li className="p-2 nav-item " onClick={gotoBtn}>
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/team"
@@ -194,15 +199,8 @@ const Nav = () => {
           Meet The Team
         </NavLink>
       </li>
-      {/* <li className="nav-item p-2 	">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/testimonials"
-        >
-          Testimonials
-        </NavLink>
-      </li> */}
-      <li className=" nav-item  p-2   	">
+    
+      <li className="p-2 nav-item" onClick={gotoBtn}>
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/blog"
@@ -210,7 +208,7 @@ const Nav = () => {
           Blog
         </NavLink>
       </li>
-      <li className="nav-item p-2 	">
+      <li className="p-2 nav-item " onClick={gotoBtn}>
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/about"
@@ -219,7 +217,7 @@ const Nav = () => {
         </NavLink>
       </li>
 
-      <li className="nav-item p-2 	">
+      <li className="p-2 nav-item " onClick={gotoBtn}>
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/contact"
@@ -270,12 +268,12 @@ const Nav = () => {
           <a className="btn">Get started</a>
         </div> */}
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="  menu-horizontal p-0">{navItem}</ul>
+        <div className="hidden navbar-center lg:flex">
+          <ul className="p-0 menu-horizontal">{navItem}</ul>
         </div>
         <div className="navbar-end">
           <a
-            className="btn btn-sm bg-green-500 animate-pulse  whatsup  rounded-full   "
+            className="bg-green-500 rounded-full btn btn-sm animate-pulse whatsup "
             href="https://wa.me/+8801673615587"
             // href="https://wa.me/+8801767564737"
             title="WHATSAPP CHAT"
