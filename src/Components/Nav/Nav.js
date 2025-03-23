@@ -18,7 +18,7 @@ const Nav = () => {
 
   const navItem = (
     <>
-      <li className="p-2 nav-item " onClick={gotoBtn}>
+      <li rel="canonical"  className="p-2 nav-item " onClick={gotoBtn}>
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/home"
@@ -26,7 +26,7 @@ const Nav = () => {
           Home
         </NavLink>
       </li>
-      <li className="p-2 text-white dropdown dropdown-hover hover:border-none " onClick={gotoBtn}>
+      <li rel="canonical"  className="p-2 text-white dropdown dropdown-hover hover:border-none " onClick={gotoBtn}>
         <NavLink className="p-0 mx-1 text-xs font-medium text-white-600 lg:font-medium lg:text-sm focus:text-white lg:text-white ">
           Services
         </NavLink>
@@ -119,7 +119,7 @@ const Nav = () => {
           </li>
         </ul>
       </li>
-      <li className="p-2 text-white dropdown dropdown-hover hover:border-none "onClick={gotoBtn}>
+      <li rel="canonical"  className="p-2 text-white dropdown dropdown-hover hover:border-none "onClick={gotoBtn}>
         <NavLink className="p-0 mx-1 text-xs font-medium text-white-600 lg:font-medium lg:text-sm focus:text-white lg:text-white ">
           Conditions
         </NavLink>
@@ -129,7 +129,7 @@ const Nav = () => {
           className="w-32 p-2 shadow dropdown-content menu rounded-box lg:w-52"
           style={{ backgroundColor: "#3E84DC" }}
         >
-          <li className="p-2 nav-item">
+          <li rel="canonical"  className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -139,7 +139,7 @@ const Nav = () => {
               Back Pain
             </NavLink>
           </li>
-          <li className="p-2 nav-item">
+          <li rel="canonical"   className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -149,7 +149,7 @@ const Nav = () => {
               Neck Pain
             </NavLink>
           </li>
-          <li className="p-2 nav-item">
+          <li rel="canonical"  className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -159,7 +159,7 @@ const Nav = () => {
               Shoulder Pain
             </NavLink>
           </li>
-          <li className="p-2 nav-item">
+          <li rel="canonical"  className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -169,7 +169,7 @@ const Nav = () => {
               Elbow Pain
             </NavLink>
           </li>
-          <li className="p-2 nav-item">
+          <li rel="canonical"   className="p-2 nav-item">
             <NavLink
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
@@ -179,19 +179,10 @@ const Nav = () => {
               Knee Pain
             </NavLink>
           </li>
-          {/* <li className="p-2 nav-item">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/sports-injury"
-            >
-              Sports Injury
-            </NavLink>
-          </li> */}
+          
         </ul>
       </li>
-      <li className="p-2 nav-item " onClick={gotoBtn}>
+      <li rel="canonical"  className="p-2 nav-item " onClick={gotoBtn}>
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/team"
@@ -200,7 +191,7 @@ const Nav = () => {
         </NavLink>
       </li>
     
-      <li className="p-2 nav-item" onClick={gotoBtn}>
+      <li rel="canonical"  className="p-2 nav-item" onClick={gotoBtn}>
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/blog"
@@ -208,7 +199,7 @@ const Nav = () => {
           Blog
         </NavLink>
       </li>
-      <li className="p-2 nav-item " onClick={gotoBtn}>
+      <li rel="canonical"  className="p-2 nav-item " onClick={gotoBtn}>
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/about"
@@ -217,7 +208,7 @@ const Nav = () => {
         </NavLink>
       </li>
 
-      <li className="p-2 nav-item " onClick={gotoBtn}>
+      <li rel="canonical"  className="p-2 nav-item " onClick={gotoBtn}>
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/contact"
