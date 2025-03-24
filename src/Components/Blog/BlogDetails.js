@@ -3,13 +3,10 @@ import React from "react";
 const BlogDetails = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center justify-items-center gap-10 px-12 py-12">
-        <div className="card   bg-base-100 shadow-xl">
+      <div className="grid items-center justify-center grid-cols-1 gap-10 px-12 py-12 lg:grid-cols-2 justify-items-center">
+        <div className="shadow-xl card bg-base-100">
           <figure>
-            <img
-              src="https://leap.mrg.com.bd/wp-content/uploads/2016/11/Physiotherapy-blog2-LEAP.jpg"
-              alt="Movie"
-            />
+           
           </figure>
           <div className="card-body">
             <h2 className="card-title ">WHAT IS DRY NEEDLING?</h2>
@@ -27,12 +24,9 @@ const BlogDetails = () => {
             </p>
           </div>
         </div>
-        <div className="card   bg-base-100 shadow-xl">
+        <div className="shadow-xl card bg-base-100">
           <figure>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS56i4Kolp5crsaAJGSfwMPRJvD3dDAdJ6Y-Q&usqp=CAU"
-              alt="Movie"
-            />
+            
           </figure>
           <div className="card-body">
             <h2 className="card-title ">BRIEF HISTORY OF REFLEXOLOGY</h2>

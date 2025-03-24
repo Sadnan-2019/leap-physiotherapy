@@ -1,32 +1,11 @@
  
 import "./App.css";
 import Nav from "./Components/Nav/Nav";
-import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import { Route, Routes, useLocation } from "react-router-dom";
-import Electrotherapy from "./Components/Electrotherapy/Electrotherapy";
-import Physiotherapy from "./Components/Physiotherapy/Physiotherapy";
-import ManualTherapy from "./Components/ManualTherapy/ManualTherapy";
-import SportsInjuries from "./Components/SportsInjuries/SportsInjuries";
-import Rehabilitation from "./Components/Rehabilitation/Rehabilitation";
-import TherapeuticExercise from "./Components/TherapeuticExercise/TherapeuticExercise";
-import KinesioTaping from "./Components/KinesioTaping/KinesioTaping";
-import DryneedlingAcupuncture from "./Components/DryneedlingAcupuncture/DryneedlingAcupuncture";
 import Topnav from "./Components/Topnav/Topnav";
-import BackyPain from "./Components/BackyPain/BackyPain";
-import NeckPain from "./Components/NeckPain/NeckPain";
-import ShoulderPain from "./Components/ShoulderPain/ShoulderPain";
-import ElbowPain from "./Components/ElbowPain/ElbowPain";
-import KneePain from "./Components/KneePain/KneePain";
-// import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
-import HomeContact from "./Components/HomeContact/HomeContact";
-import Blog from "./Components/Blog/Blog";
-import HomeAbout from "./Components/HomeAbout/HomeAbout";
-import MeetTeam from "./Components/MeetTeam/MeetTeam";
-import NewNav from "./Components/NewNav/NewNav";
 import FourZeroFour from "./Components/FourZeroFour/FourZeroFour";
 import { HelmetProvider } from "react-helmet-async";
-// import TherapeuticExercise from './Components/TherapeuticExercise/TherapeuticExercise.JS';
 import logo from "../src/assets/leaplogo.jpg";
 import { lazy, Suspense } from "react";
 function App() {
