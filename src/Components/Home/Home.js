@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title> Leap Physiocener Labaid</title>
+        <title> Leap Physiocenter Labaid</title>
         <meta
           name="description"
           content="We have state of the art equipments & qualified
@@ -29,7 +29,6 @@ const Home = () => {
           content="back pain, nack pain,knee pain,Stroke rehab dhaka,physiotheray dhaka,pain problem,bsc physio therapy"
         />
         <meta name="robots" content="index, follow" />
-        {/* <meta property="og:title" content="Healthcare at Home" /> */}
         <meta property="og:title" content=" Best  Physiocare at  Gulshan 2" />
         <meta
           property="og:title"
@@ -55,8 +54,6 @@ const Home = () => {
       </Helmet>
 
       <Landingnew />
-      {/* <Landing></Landing> */}
-      {/* <Type></Type> */}
       <MedicalConditions></MedicalConditions>
       <Services />
       <Review></Review>
