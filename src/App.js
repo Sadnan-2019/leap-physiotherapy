@@ -90,9 +90,7 @@ function App() {
           <div className="flex items-center justify-center h-screen">
             <img src={logo} alt="" className="w-48 h-32"  />
 
-            {/* <span className="loading loading-dots loading-lg">
-              .............{" "}
-            </span> */}
+          
           </div>
         }
       >
