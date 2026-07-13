@@ -1,280 +1,195 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { NavLink, Link } from "react-router-dom";
+import { BsWhatsapp } from "react-icons/bs";
 import "./Nav.css";
 
-import { BsWhatsapp } from "react-icons/bs";
-// import ReactWhatsapp from "react-whatsapp";
-
 const Nav = () => {
-
-  const gotoBtn = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  };
+  // Track which dropdown is open on click
+  const [openDropdown, setOpenDropdown] = useState(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
-  const active =
-    "text-white  text-xs lg:font-medium text-sm border-b-2 border-white-900 pb-1 md:text-white-900 ";
-  const normal =
-    "   text-white-600 text-xs lg:font-medium text-sm  font-medium font-bold focus:text-white p-0 lg:text-white    ";
+  const navRef = useRef(null);
 
-  const navItem = (
-    <>
-      <li rel="canonical"  className="p-2 nav-item " onClick={gotoBtn}>
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/home"
-        >
-          Home
-        </NavLink>
-      </li>
-      <li rel="canonical"  className="p-2 text-white dropdown dropdown-hover hover:border-none " onClick={gotoBtn}>
-        <NavLink className="p-0 mx-1 text-xs font-medium text-white-600 lg:font-medium lg:text-sm focus:text-white lg:text-white ">
-          Services
-        </NavLink>
+  // Close dropdowns if clicking anywhere outside the navbar
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        setOpenDropdown(null);
+        setMobileMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleOutsideClick);
+    return () => document.removeEventListener("mousedown", handleOutsideClick);
+  }, []);
 
-        <ul
-          tabIndex={0}
-          className="p-2 bg-blue-600 shadow w-44 dropdown-content menu rounded-box lg:w-52 "
-        >
-          <li className="dropdown dropdown-hover hover:border-none ">
-            <li className="p-2 nav-item ">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${normal}`
-                }
-                to="/physiotherapy"
-              >
-                Physiotherapy
-              </NavLink>
-            </li>
-            <li className="p-2 nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${normal}`
-                }
-                to="/electrothyrapy"
-              >
-                Electrotherapy
-              </NavLink>
-            </li>
-            <li className="p-2 nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${normal}`
-                }
-                to="/manualtherapy"
-              >
-                Manual Therapy
-              </NavLink>
-            </li>
-            <li className="p-2 nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${normal}`
-                }
-                to="/sports-injuries"
-              >
-                Sports Injuries
-              </NavLink>
-            </li>
-            <li className="p-2 nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${normal}`
-                }
-                to="/rehabilitation"
-              >
-                Rehabilitation
-              </NavLink>
-            </li>
-            <li className="p-2 nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${normal}`
-                }
-                to="/therapeutic-exercise"
-              >
-                Therapeutic exercise
-              </NavLink>
-            </li>
-            <li className="p-2 nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${normal}`
-                }
-                to="/kinesio-taping-therapy"
-              >
-                Kinesio Taping Therapy
-              </NavLink>
-            </li>
-            <li className="p-2 nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? `${active}` : `${normal}`
-                }
-                to="/dryneedling-acupuncture"
-              >
-                Dry <br></br>needling/Acupuncture
-              </NavLink>
-            </li>
-          </li>
-        </ul>
-      </li>
-      <li rel="canonical"  className="p-2 text-white dropdown dropdown-hover hover:border-none "onClick={gotoBtn}>
-        <NavLink className="p-0 mx-1 text-xs font-medium text-white-600 lg:font-medium lg:text-sm focus:text-white lg:text-white ">
-          Conditions
-        </NavLink>
+  const toggleDropdown = (name, e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setOpenDropdown(openDropdown === name ? null : name);
+  };
 
-        <ul
-          tabIndex={0}
-          className="w-32 p-2 shadow dropdown-content menu rounded-box lg:w-52"
-          style={{ backgroundColor: "#3E84DC" }}
-        >
-          <li rel="canonical"  className="p-2 nav-item">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/back-pain"
-            >
-              Back Pain
-            </NavLink>
-          </li>
-          <li rel="canonical"   className="p-2 nav-item">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/neck-pain"
-            >
-              Neck Pain
-            </NavLink>
-          </li>
-          <li rel="canonical"  className="p-2 nav-item">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/shoulder-pain"
-            >
-              Shoulder Pain
-            </NavLink>
-          </li>
-          <li rel="canonical"  className="p-2 nav-item">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/elbow-pain"
-            >
-              Elbow Pain
-            </NavLink>
-          </li>
-          <li rel="canonical"   className="p-2 nav-item">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${normal}`
-              }
-              to="/knee-pain"
-            >
-              Knee Pain
-            </NavLink>
-          </li>
-          
-        </ul>
-      </li>
-      <li rel="canonical"  className="p-2 nav-item " onClick={gotoBtn}>
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/team"
-        >
-          Meet The Team
-        </NavLink>
-      </li>
-    
-      <li rel="canonical"  className="p-2 nav-item" onClick={gotoBtn}>
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/blog"
-        >
-          Blog
-        </NavLink>
-      </li>
-      <li rel="canonical"  className="p-2 nav-item " onClick={gotoBtn}>
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/about"
-        >
-          About
-        </NavLink>
-      </li>
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    setOpenDropdown(null);
+    setMobileMenuOpen(false);
+  };
 
-      <li rel="canonical"  className="p-2 nav-item " onClick={gotoBtn}>
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/contact"
-        >
-          Contacts
-        </NavLink>
-      </li>
-    </>
-  );
+  const activeClass = "text-white text-sm font-semibold border-b-2 border-white pb-1";
+  const normalClass = "text-slate-200 text-sm font-medium hover:text-white transition duration-200";
+
+  const servicesList = [
+    { to: "/physiotherapy", label: "Physiotherapy" },
+    { to: "/electrothyrapy", label: "Electrotherapy" },
+    { to: "/manualtherapy", label: "Manual Therapy" },
+    { to: "/sports-injuries", label: "Sports Injuries" },
+    { to: "/rehabilitation", label: "Rehabilitation" },
+    { to: "/therapeutic-exercise", label: "Therapeutic Exercise" },
+    { to: "/kinesio-taping-therapy", label: "Kinesio Taping Therapy" },
+    { to: "/dryneedling-acupuncture", label: "Dry Needling / Acupuncture" },
+  ];
+
+  const conditionsList = [
+    { to: "/back-pain", label: "Back Pain" },
+    { to: "/neck-pain", label: "Neck Pain" },
+    { to: "/shoulder-pain", label: "Shoulder Pain" },
+    { to: "/elbow-pain", label: "Elbow Pain" },
+    { to: "/knee-pain", label: "Knee Pain" },
+  ];
+
   return (
-    <div className="sticky top-0 z-50">
-      <div
-        className="navbar bg-gradient-to-r from-[#2622B7]  to-[#2622B7]  "
-        // data-aos="fade-down"
-        // data-aos-duration="3000"
-        // data-aos-offset="300"
-        // data-aos-delay="5000"
-      >
-        <div className="navbar-start">
-          <div className="dropdown">
-            <label
-              tabIndex={0}
-              className="btn lg:hidden bg-gradient-to-r from-[#d3d7db]  to-[#2e723d]"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5  bg-gradient-to-r from-[#d3d7db]  to-[#829b88]"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
-            </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow text-white bg-gradient-to-r from-[#034ca7]  to-[#5f7499]   w-52"
-            >
-              {navItem}
-            </ul>
-          </div>
-          {/* <div className="navbar-end">
-          <a className="btn">Get started</a>
-        </div> */}
-        </div>
-        <div className="hidden navbar-center lg:flex">
-          <ul className="p-0 menu-horizontal">{navItem}</ul>
-        </div>
-        <div className="navbar-end">
-          <a
-            className="bg-green-500 rounded-full btn btn-sm animate-pulse whatsup "
-            href="https://wa.me/+8801673615587"
-            // href="https://wa.me/+8801767564737"
-            title="WHATSAPP CHAT"
+  <nav ref={navRef} className="sticky top-0 z-50 bg-[#2622B7] shadow-md text-white">
+    {/* Wrapped in a relative container to align the floating elements seamlessly */}
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div className="flex items-center justify-between lg:justify-center h-16">
+        
+        {/* Mobile Menu Button Container (Kept on the far left via absolute placement) */}
+        <div className="flex lg:hidden absolute left-4">
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-blue-700 focus:outline-none transition duration-200"
+            aria-label="Toggle Menu"
           >
-            {" "}
-            <BsWhatsapp></BsWhatsapp>
+            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              {mobileMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+        </div>
+
+        {/* Centered Desktop Navigation Links */}
+        <div className="hidden lg:flex items-center space-x-8 justify-center w-full">
+          <NavLink to="/home" className={({ isActive }) => isActive ? activeClass : normalClass} onClick={handleLinkClick}>
+            Home
+          </NavLink>
+
+          {/* Clickable Services Dropdown */}
+          <div className="relative">
+            <button 
+              onClick={(e) => toggleDropdown("services", e)}
+              className={`${normalClass} flex items-center space-x-1 focus:outline-none`}
+            >
+              <span>Services</span>
+              <svg className={`w-4 h-4 transform transition-transform duration-200 ${openDropdown === "services" ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg>
+            </button>
+            {openDropdown === "services" && (
+              <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-56 rounded-xl shadow-xl bg-blue-600 border border-white/10 overflow-hidden py-1 z-50 animate-fadeIn">
+                {servicesList.map((item) => (
+                  <NavLink key={item.to} to={item.to} className={({ isActive }) => `block px-4 py-2.5 text-sm ${isActive ? "bg-blue-800 text-white font-bold" : "text-blue-50 hover:bg-blue-700"}`} onClick={handleLinkClick}>
+                    {item.label}
+                  </NavLink>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Clickable Conditions Dropdown */}
+          <div className="relative">
+            <button 
+              onClick={(e) => toggleDropdown("conditions", e)}
+              className={`${normalClass} flex items-center space-x-1 focus:outline-none`}
+            >
+              <span>Conditions</span>
+              <svg className={`w-4 h-4 transform transition-transform duration-200 ${openDropdown === "conditions" ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg>
+            </button>
+            {openDropdown === "conditions" && (
+              <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-52 rounded-xl shadow-xl bg-[#3E84DC] border border-white/10 overflow-hidden py-1 z-50 animate-fadeIn">
+                {conditionsList.map((item) => (
+                  <NavLink key={item.to} to={item.to} className={({ isActive }) => `block px-4 py-2.5 text-sm ${isActive ? "bg-blue-800 text-white font-bold" : "text-blue-50 hover:bg-blue-500"}`} onClick={handleLinkClick}>
+                    {item.label}
+                  </NavLink>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <NavLink to="/team" className={({ isActive }) => isActive ? activeClass : normalClass} onClick={handleLinkClick}>Meet The Team</NavLink>
+          <NavLink to="/blog" className={({ isActive }) => isActive ? activeClass : normalClass} onClick={handleLinkClick}>Blog</NavLink>
+          <NavLink to="/about" className={({ isActive }) => isActive ? activeClass : normalClass} onClick={handleLinkClick}>About</NavLink>
+          <NavLink to="/contact" className={({ isActive }) => isActive ? activeClass : normalClass} onClick={handleLinkClick}>Contacts</NavLink>
+        </div>
+
+        {/* WhatsApp Button Action (Kept on the far right via absolute placement) */}
+        <div className="flex items-center absolute right-4 sm:right-6 lg:right-8">
+          <a
+            className="bg-green-500 hover:bg-green-600 text-white p-2.5 rounded-full shadow-lg transition duration-300 transform hover:scale-105 flex items-center justify-center whatsapp-flicker"
+            href="https://wa.me/+8801673615587"
+            title="WHATSAPP CHAT"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsWhatsapp className="w-5 h-5" />
           </a>
         </div>
+
       </div>
     </div>
-  );
+
+    {/* Mobile Sidebar/Drawer Menu */}
+    {mobileMenuOpen && (
+      <div className="lg:hidden bg-[#1d1a94] border-t border-white/10 px-4 py-4 space-y-3 max-h-[calc(100vh-4rem)] overflow-y-auto animate-fadeIn">
+        <NavLink to="/home" className="block py-2 text-base font-medium text-slate-200 hover:text-white" onClick={handleLinkClick}>Home</NavLink>
+        
+        {/* Mobile Services Accordion */}
+        <div>
+          <button onClick={(e) => toggleDropdown("services", e)} className="w-full flex justify-between items-center py-2 text-base font-medium text-slate-200 hover:text-white">
+            <span>Services</span>
+            <svg className={`w-4 h-4 transform ${openDropdown === "services" ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg>
+          </button>
+          {openDropdown === "services" && (
+            <div className="pl-4 mt-1 space-y-1 bg-black/10 rounded-lg py-1">
+              {servicesList.map((item) => (
+                <NavLink key={item.to} to={item.to} className="block py-2 px-3 text-sm text-slate-300 hover:text-white" onClick={handleLinkClick}>{item.label}</NavLink>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* Mobile Conditions Accordion */}
+        <div>
+          <button onClick={(e) => toggleDropdown("conditions", e)} className="w-full flex justify-between items-center py-2 text-base font-medium text-slate-200 hover:text-white">
+            <span>Conditions</span>
+            <svg className={`w-4 h-4 transform ${openDropdown === "conditions" ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg>
+          </button>
+          {openDropdown === "conditions" && (
+            <div className="pl-4 mt-1 space-y-1 bg-black/10 rounded-lg py-1">
+              {conditionsList.map((item) => (
+                <NavLink key={item.to} to={item.to} className="block py-2 px-3 text-sm text-slate-300 hover:text-white" onClick={handleLinkClick}>{item.label}</NavLink>
+              ))}
+            </div>
+          )}
+        </div>
+
+        <NavLink to="/team" className="block py-2 text-base font-medium text-slate-200 hover:text-white" onClick={handleLinkClick}>Meet The Team</NavLink>
+        <NavLink to="/blog" className="block py-2 text-base font-medium text-slate-200 hover:text-white" onClick={handleLinkClick}>Blog</NavLink>
+        <NavLink to="/about" className="block py-2 text-base font-medium text-slate-200 hover:text-white" onClick={handleLinkClick}>About</NavLink>
+        <NavLink to="/contact" className="block py-2 text-base font-medium text-slate-200 hover:text-white" onClick={handleLinkClick}>Contacts</NavLink>
+      </div>
+    )}
+  </nav>
+);
 };
+
 export default Nav;

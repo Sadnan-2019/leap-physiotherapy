@@ -11,6 +11,7 @@ import Review from "../Review/Review";
 import Services from "../Services/Services";
 import Success from "../Success/Success";
 import { Helmet } from "react-helmet-async";
+import Faq from "../FAQ/Faq";
 // import Team from '../Team/Team';
 // import Type from '../Type/Type';
 
@@ -50,18 +51,19 @@ const Home = () => {
           content=" Some Physical Conditions Need to be Treated by Passive
                     Exercise. Stroke Induced Paralysis is One of Them."
         />
-        
       </Helmet>
 
       <Landingnew />
       <MedicalConditions></MedicalConditions>
       <Services />
-      <Review></Review>
+    
       {/* <Backpain/> */}
       <About></About>
       <Success></Success>
-      {/* <Team></Team> */}
-      <HomeTeam></HomeTeam>
+     <HomeTeam></HomeTeam>
+      
+       <Review></Review>
+      <Faq></Faq>
       <Contact></Contact>
     </div>
   );

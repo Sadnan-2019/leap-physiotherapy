@@ -94,8 +94,7 @@ function App() {
           </div>
         }
       >
-        <HelmetProvider>
-          <Routes key={location.pathname}>
+           <Routes key={location.pathname}>
             <Route path="/" element={<Home />}></Route>
             <Route path="/home" element={<Home />}></Route>
 
@@ -127,8 +126,7 @@ function App() {
             <Route path="/about" element={<HomeAbout />}></Route>
             <Route path="/*" element={<FourZeroFour />} />
           </Routes>
-        </HelmetProvider>
-      </Suspense>
+       </Suspense>
 
       <Footer />
       {/* demo leap  */}

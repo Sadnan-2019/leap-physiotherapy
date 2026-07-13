@@ -2,6 +2,7 @@ import React from "react";
 import Team from "../Team/Team";
 import MeetTeamLanding from "./MeetTeamLanding";
 import { Helmet } from "react-helmet-async";
+import HomeTeam from "../HomeTeam/HomeTeam";
 
 // import Team from '../Team/Team';
 const MeetTeam = () => {
@@ -9,10 +10,7 @@ const MeetTeam = () => {
     <div>
       <Helmet>
         <title> MeetTeam</title>
-        <meta
-          name="description"
-          content="MeetTeam ."
-        />
+        <meta name="description" content="MeetTeam ." />
         <meta
           name="keywords"
           content="back pain,Pain,Musculoskeletal,Orthopaedic,Occupational health,nack pain,knee pain,Stroke rehab dhaka,physiotheray dhaka,pain problem,bsc physio therapy"
@@ -43,7 +41,7 @@ const MeetTeam = () => {
       </Helmet>
       <MeetTeamLanding></MeetTeamLanding>
 
-      <Team></Team>
+      <HomeTeam></HomeTeam>
     </div>
   );
 };

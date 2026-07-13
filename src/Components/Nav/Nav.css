@@ -1,27 +1,18 @@
- 
 @keyframes flickerAnimation {
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-o-keyframes flickerAnimation{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-moz-keyframes flickerAnimation{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-webkit-keyframes flickerAnimation{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  .whatsup{
-     -webkit-animation: flickerAnimation .5s infinite;
-     -moz-animation: flickerAnimation .5s infinite;
-     -o-animation: flickerAnimation .5s infinite;
-      animation: flickerAnimation .5s infinite;
-  }
+  0%   { opacity: 1; transform: scale(1); }
+  50%  { opacity: 0.75; transform: scale(0.96); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.whatsapp-flicker {
+  animation: flickerAnimation 1.5s infinite ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out forwards;
+}
