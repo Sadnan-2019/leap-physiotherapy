@@ -127,38 +127,41 @@ const Services = () => {
   ];
   return (
     <div>
-     <section className="py-20 bg-gradient-to-b from-white via-blue-50/40 to-white services">
-  <div className="container mx-auto px-4 lg:px-10">
-    {/* Heading */}
-    <div
-      className="max-w-4xl mx-auto text-center mb-16"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
-      <span className="badge badge-primary badge-lg mb-5">
-        Evidence-Based Physiotherapy Care
-      </span>
+      <section className="py-20 bg-gradient-to-b from-white via-blue-50/40 to-white services">
+        <div className="container mx-auto px-4 lg:px-10">
+          {/* Heading */}
+          <div
+            className="max-w-4xl mx-auto text-center mb-16"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <span className="badge badge-primary badge-lg mb-5">
+              Evidence-Based Physiotherapy Care
+            </span>
 
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]">
-Expert Physiotherapy, Sports Injury & Rehabilitation Services in Dhaka      </h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#034ca7] to-[#2622B7]">
+              Expert Physiotherapy, Sports Injury & Rehabilitation Services in
+              Dhaka{" "}
+            </h2>
 
-      <p className="mt-6 text-gray-600 text-base lg:text-lg leading-8">
-        At <strong>L.E.A.P Physiotherapy & Rehabilitation</strong>, we provide
-        personalized physiotherapy treatment for back pain, neck pain, knee
-        pain, frozen shoulder, sports injuries, stroke rehabilitation,
-        arthritis, post-surgical recovery, chest physiotherapy and pediatric
-        rehabilitation. Our experienced physiotherapists help reduce pain,
-        restore movement and improve quality of life with evidence-based care.
-      </p>
-    </div>
+            <p className="mt-6 text-gray-600 text-base lg:text-lg leading-8">
+              At <strong>L.E.A.P Physiotherapy & Rehabilitation</strong>, we
+              provide personalized physiotherapy treatment for back pain, neck
+              pain, knee pain, frozen shoulder, sports injuries, stroke
+              rehabilitation, arthritis, post-surgical recovery, chest
+              physiotherapy and pediatric rehabilitation. Our experienced
+              physiotherapists help reduce pain, restore movement and improve
+              quality of life with evidence-based care.
+            </p>
+          </div>
 
-    {/* Services */}
+          {/* Services */}
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
-      {services.map((service) => (
-        <article
-          key={service.id}
-          className="
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+            {services.map((service) => (
+              <article
+                key={service.id}
+                className="
           group
           relative
           overflow-hidden
@@ -181,21 +184,21 @@ Expert Physiotherapy, Sports Injury & Rehabilitation Services in Dhaka      </h2
           p-6
           lg:p-8
         "
-        >
-          {/* Background Decoration */}
+              >
+                {/* Background Decoration */}
 
-          <div className="absolute -right-16 -top-16 w-44 h-44 rounded-full bg-white/5 blur-3xl"></div>
+                <div className="absolute -right-16 -top-16 w-44 h-44 rounded-full bg-white/5 blur-3xl"></div>
 
-          <div className="relative flex flex-col sm:flex-row gap-6">
-            {/* Image */}
+                <div className="relative flex flex-col sm:flex-row gap-6">
+                  {/* Image */}
 
-            <div
-              className="flex justify-center sm:justify-start"
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-            >
-              <div
-                className="
+                  <div
+                    className="flex justify-center sm:justify-start"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                  >
+                    <div
+                      className="
                 w-24
                 h-24
                 lg:w-28
@@ -210,12 +213,12 @@ Expert Physiotherapy, Sports Injury & Rehabilitation Services in Dhaka      </h2
                 justify-center
                 flex-shrink-0
               "
-              >
-                <img
-                  src={service.image}
-                  alt={service.alt}
-                  loading="lazy"
-                  className="
+                    >
+                      <img
+                        src={service.image}
+                        alt={service.alt}
+                        loading="lazy"
+                        className="
                   w-14
                   h-14
                   lg:w-20
@@ -225,32 +228,32 @@ Expert Physiotherapy, Sports Injury & Rehabilitation Services in Dhaka      </h2
                   duration-300
                   group-hover:scale-110
                 "
-                />
-              </div>
-            </div>
+                      />
+                    </div>
+                  </div>
 
-            {/* Content */}
+                  {/* Content */}
 
-            <div
-              className="flex-1 text-center sm:text-left"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-            >
-              <h3 className="text-xl lg:text-2xl font-bold text-white leading-snug">
-                {service.title}
-              </h3>
+                  <div
+                    className="flex-1 text-center sm:text-left"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                  >
+                    <h3 className="text-xl lg:text-2xl font-bold text-white leading-snug">
+                      {service.title}
+                    </h3>
 
-              <p className="mt-4 text-sm lg:text-base leading-7 text-blue-100">
-                {service.description}
-              </p>
+                    <p className="mt-4 text-sm lg:text-base leading-7 text-blue-100">
+                      {service.description}
+                    </p>
 
-              {/* Badges */}
+                    {/* Badges */}
 
-              <div className="flex flex-wrap justify-center sm:justify-start gap-2 mt-5">
-                {service.badges.map((badge) => (
-                  <span
-                    key={badge}
-                    className="
+                    <div className="flex flex-wrap justify-center sm:justify-start gap-2 mt-5">
+                      {service.badges.map((badge) => (
+                        <span
+                          key={badge}
+                          className="
                     badge
                     badge-sm
                     bg-white/15
@@ -261,18 +264,18 @@ Expert Physiotherapy, Sports Injury & Rehabilitation Services in Dhaka      </h2
                     hover:text-[#052f61]
                     transition
                   "
-                  >
-                    {badge}
-                  </span>
-                ))}
-              </div>
+                        >
+                          {badge}
+                        </span>
+                      ))}
+                    </div>
 
-              {/* Button */}
+                    {/* Button */}
 
-              <div className="mt-7">
-                <a href={service.link}>
-                  <button
-                    className="
+                    <div className="mt-7">
+                      <a href={service.link}>
+                        <button
+                          className="
                     btn
                     btn-sm
                     rounded-full
@@ -283,19 +286,19 @@ Expert Physiotherapy, Sports Injury & Rehabilitation Services in Dhaka      </h2
                     hover:scale-105
                     transition-all
                   "
-                  >
-                    Learn More →
-                  </button>
-                </a>
-              </div>
-            </div>
+                        >
+                          Learn More →
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            ))}
           </div>
-        </article>
-      ))}
-    </div>
-  </div>
-</section>
-```
+        </div>
+      </section>
+      ```
     </div>
   );
 };
