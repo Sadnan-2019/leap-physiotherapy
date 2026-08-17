@@ -1,5 +1,5 @@
 import React from "react";
-
+import physio from "../../assets/Physio.jpg"
 const PhysiotherapyLanding = () => {
   return (
     <section className="bg-white">
@@ -83,7 +83,7 @@ const PhysiotherapyLanding = () => {
           <div className="relative">
             <div className="overflow-hidden rounded-2xl">
               <img
-                src="/images/physiotherapy-hero.jpg"
+                src={physio}
                 alt="Physiotherapist providing rehabilitation treatment in Dhaka"
                 className="h-[420px] w-full object-cover sm:h-[500px]"
               />

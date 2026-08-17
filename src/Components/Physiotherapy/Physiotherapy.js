@@ -5,6 +5,8 @@ import Team from "../Team/Team";
 import PhysiotherapyDetails from "./PhysiotherapyDetails";
 import PhysiotherapyLanding from "./PhysiotherapyLanding";
 import { Helmet } from "react-helmet-async";
+import PhysiotherapyServices from "./PhysiotherapyServices";
+import HeroAndAppointment from "./HeroAndAppointment";
 
 const Physiotherapy = () => {
   return (
@@ -44,10 +46,11 @@ const Physiotherapy = () => {
         />
       </Helmet>
 
-      <PhysiotherapyLanding></PhysiotherapyLanding>
-
+      {/* <PhysiotherapyLanding></PhysiotherapyLanding> */}
+      <HeroAndAppointment></HeroAndAppointment>
+<PhysiotherapyServices></PhysiotherapyServices>
       <PhysiotherapyDetails></PhysiotherapyDetails>
-      <Review></Review>
+      {/* <Review></Review> */}
       <Team></Team>
     </div>
   );
