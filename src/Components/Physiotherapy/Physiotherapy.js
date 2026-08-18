@@ -7,6 +7,12 @@ import PhysiotherapyLanding from "./PhysiotherapyLanding";
 import { Helmet } from "react-helmet-async";
 import PhysiotherapyServices from "./PhysiotherapyServices";
 import HeroAndAppointment from "./HeroAndAppointment";
+import ConditionsSection from "./ConditionsSection";
+import TreatmentTechniques from "./TreatmentTechniques";
+import LocationBaseSection from "./LocationBaseSection";
+import WhyLeapSection from "./WhyLeapSection";
+import TreatmentProcess from "./TreatmentProcess";
+import Faq from "./Faq";
 
 const Physiotherapy = () => {
   return (
@@ -49,9 +55,16 @@ const Physiotherapy = () => {
       {/* <PhysiotherapyLanding></PhysiotherapyLanding> */}
       <HeroAndAppointment></HeroAndAppointment>
 <PhysiotherapyServices></PhysiotherapyServices>
-      <PhysiotherapyDetails></PhysiotherapyDetails>
-      {/* <Review></Review> */}
+<ConditionsSection></ConditionsSection>
+<TreatmentTechniques></TreatmentTechniques>
+<LocationBaseSection></LocationBaseSection>
+<WhyLeapSection></WhyLeapSection>
+<TreatmentProcess></TreatmentProcess>
+
+      {/* <PhysiotherapyDetails></PhysiotherapyDetails> */}
+      <Review></Review>
       <Team></Team>
+      <Faq></Faq>
     </div>
   );
 };
