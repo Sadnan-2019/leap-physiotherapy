@@ -165,177 +165,126 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-  {/* ===========================
+        {/* ===========================
         Primary SEO
     =========================== */}
 
-  <title>
-    Physiotherapy Center in Gulshan, Dhaka | LEAP Physiotherapy
-  </title>
+        <title>
+          Physiotherapy Center in Gulshan, Dhaka | LEAP Physiotherapy
+        </title>
 
-<meta
-  name="description"
-  content="LEAP Physiotherapy offers expert physiotherapy in Gulshan, Dhaka for back pain, neck pain, knee pain, sports injuries and stroke rehabilitation."
-/>
+        <meta
+          name="description"
+          content="LEAP Physiotherapy offers expert physiotherapy in Gulshan, Dhaka for back pain, neck pain, knee pain, sports injuries and stroke rehabilitation."
+        />
 
-  <meta
-    name="keywords"
-    content="physiotherapy clinic Dhaka, physiotherapy Gulshan, physiotherapist Dhaka, back pain physiotherapy, neck pain treatment, knee pain treatment, sports injury rehabilitation, stroke rehabilitation, frozen shoulder treatment, arthritis physiotherapy, home physiotherapy Dhaka, rehabilitation center Dhaka, physiotherapy near me, LEAP Physiotherapy"
-  />
+        <meta
+          name="keywords"
+          content="physiotherapy clinic Dhaka, physiotherapy Gulshan, physiotherapist Dhaka, back pain physiotherapy, neck pain treatment, knee pain treatment, sports injury rehabilitation, stroke rehabilitation, frozen shoulder treatment, arthritis physiotherapy, home physiotherapy Dhaka, rehabilitation center Dhaka, physiotherapy near me, LEAP Physiotherapy"
+        />
 
-  <meta
-    name="robots"
-    content="index, follow, max-image-preview:large"
-  />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
 
-  <meta
-    name="author"
-    content="L.E.A.P Physiotherapy & Rehabilitation"
-  />
+        <meta name="author" content="L.E.A.P Physiotherapy & Rehabilitation" />
 
-  <meta
-    name="language"
-    content="English"
-  />
+        <meta name="language" content="English" />
 
-  <meta
-    name="theme-color"
-    content="#034ca7"
-  />
+        <meta name="theme-color" content="#034ca7" />
 
-  {/* ===========================
+        {/* ===========================
         Canonical
     =========================== */}
 
-  <link
-    rel="canonical"
-    href="https://www.leap.mrg.com.bd/"
-  />
+        <link rel="canonical" href="https://www.leap.mrg.com.bd/" />
 
-  {/* ===========================
+        {/* ===========================
         Geo SEO
     =========================== */}
 
-  <meta
-    name="geo.region"
-    content="BD-13"
-  />
+        <meta name="geo.region" content="BD-13" />
 
-  <meta
-    name="geo.placename"
-    content="Dhaka"
-  />
+        <meta name="geo.placename" content="Dhaka" />
 
-  <meta
-    name="geo.position"
-    content="23.7925;90.4078"
-  />
+        <meta name="geo.position" content="23.7925;90.4078" />
 
-  <meta
-    name="ICBM"
-    content="23.7925,90.4078"
-  />
+        <meta name="ICBM" content="23.7925,90.4078" />
 
-  {/* ===========================
+        {/* ===========================
         Open Graph
     =========================== */}
 
-  <meta
-    property="og:type"
-    content="website"
-  />
+        <meta property="og:type" content="website" />
 
-  <meta
-    property="og:site_name"
-    content="L.E.A.P Physiotherapy & Rehabilitation"
-  />
+        <meta
+          property="og:site_name"
+          content="L.E.A.P Physiotherapy & Rehabilitation"
+        />
 
-  <meta
-    property="og:locale"
-    content="en_US"
-  />
+        <meta property="og:locale" content="en_US" />
 
-  <meta
-    property="og:url"
-    content="https://www.leap.mrg.com.bd/"
-  />
+        <meta property="og:url" content="https://www.leap.mrg.com.bd/" />
 
-  <meta
-    property="og:title"
-    content="Physiotherapy Clinic in Gulshan, Dhaka | LEAP Physiotherapy"
-  />
+        <meta
+          property="og:title"
+          content="Physiotherapy Clinic in Gulshan, Dhaka | LEAP Physiotherapy"
+        />
 
-  <meta
-    property="og:description"
-    content="Expert physiotherapy clinic in Gulshan, Dhaka for back pain, neck pain, knee pain, sports injuries, stroke rehabilitation, frozen shoulder and home physiotherapy."
-  />
+        <meta
+          property="og:description"
+          content="Expert physiotherapy clinic in Gulshan, Dhaka for back pain, neck pain, knee pain, sports injuries, stroke rehabilitation, frozen shoulder and home physiotherapy."
+        />
 
-  <meta
-    property="og:image"
-    content="https://www.leap.mrg.com.bd/og-home.jpg"
-  />
+        <meta
+          property="og:image"
+          content="https://www.leap.mrg.com.bd/og-home.jpg"
+        />
 
-  <meta
-    property="og:image:width"
-    content="1200"
-  />
+        <meta property="og:image:width" content="1200" />
 
-  <meta
-    property="og:image:height"
-    content="630"
-  />
+        <meta property="og:image:height" content="630" />
 
-  <meta
-    property="og:image:alt"
-    content="LEAP Physiotherapy & Rehabilitation Center, Gulshan, Dhaka"
-  />
+        <meta
+          property="og:image:alt"
+          content="LEAP Physiotherapy & Rehabilitation Center, Gulshan, Dhaka"
+        />
 
-  {/* ===========================
+        {/* ===========================
         Twitter
     =========================== */}
 
-  <meta
-    name="twitter:card"
-    content="summary_large_image"
-  />
+        <meta name="twitter:card" content="summary_large_image" />
 
-  <meta
-    name="twitter:title"
-    content="Physiotherapy Clinic in Gulshan, Dhaka | LEAP Physiotherapy"
-  />
+        <meta
+          name="twitter:title"
+          content="Physiotherapy Clinic in Gulshan, Dhaka | LEAP Physiotherapy"
+        />
 
-  <meta
-    name="twitter:description"
-    content="Expert physiotherapy treatment for back pain, sports injuries, stroke rehabilitation, knee pain and home physiotherapy in Dhaka."
-  />
+        <meta
+          name="twitter:description"
+          content="Expert physiotherapy treatment for back pain, sports injuries, stroke rehabilitation, knee pain and home physiotherapy in Dhaka."
+        />
 
-  <meta
-    name="twitter:image"
-    content="https://www.leap.mrg.com.bd/og-home.jpg"
-  />
+        <meta
+          name="twitter:image"
+          content="https://www.leap.mrg.com.bd/og-home.jpg"
+        />
 
-  {/* ===========================
+        {/* ===========================
         Favicon
     =========================== */}
 
-  <link
-    rel="icon"
-    href="/favicon.ico"
-  />
+        <link rel="icon" href="/favicon.ico" />
 
-  <link
-    rel="apple-touch-icon"
-    href="/apple-touch-icon.png"
-  />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-  {/* ===========================
+        {/* ===========================
         Schema.org
     =========================== */}
 
-  <script type="application/ld+json">
-    {JSON.stringify(clinicSchema)}
-  </script>
-</Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(clinicSchema)}
+        </script>
+      </Helmet>
 
       <Landingnew />
       <MedicalConditions></MedicalConditions>

@@ -1,4 +1,5 @@
 import React from "react";
+import BananiPhysioSectionBanner from "./BananiPhysioSectionBanner";
 
 const BlogDetails = () => {
   return (
@@ -46,6 +47,8 @@ const BlogDetails = () => {
             </p>
           </div>
         </div>
+
+        <BananiPhysioSectionBanner></BananiPhysioSectionBanner>
       </div>
     </div>
   );

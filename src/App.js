@@ -8,6 +8,7 @@ import FourZeroFour from "./Components/FourZeroFour/FourZeroFour";
 import { HelmetProvider } from "react-helmet-async";
 import logo from "../src/assets/leaplogo.jpg";
 import { lazy, Suspense } from "react";
+import PhysiotherapyBananiBlog from "./Components/Blog/PhysiotherapyBananiBlog";
 function App() {
   const location = useLocation();
 
@@ -124,6 +125,7 @@ function App() {
             <Route path="/blog" element={<Blog />}></Route>
             <Route path="/team" element={<MeetTeam />}></Route>
             <Route path="/about" element={<HomeAbout />}></Route>
+            <Route path="/physiotherapy-center-in-banani" element={<PhysiotherapyBananiBlog />}></Route>
             <Route path="/*" element={<FourZeroFour />} />
           </Routes>
        </Suspense>

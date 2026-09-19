@@ -13,8 +13,11 @@ import LocationBaseSection from "./LocationBaseSection";
 import WhyLeapSection from "./WhyLeapSection";
 import TreatmentProcess from "./TreatmentProcess";
 import Faq from "./Faq";
+import HomeTeam from "../HomeTeam/HomeTeam";
 
 const Physiotherapy = () => {
+
+  
   return (
     <div>
       <Helmet>
@@ -63,7 +66,7 @@ const Physiotherapy = () => {
 
       {/* <PhysiotherapyDetails></PhysiotherapyDetails> */}
       <Review></Review>
-      <Team></Team>
+      <HomeTeam></HomeTeam>
       <Faq></Faq>
     </div>
   );
